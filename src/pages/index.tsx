@@ -1,7 +1,8 @@
-import { Flex, Heading, IconButton, Text, useColorMode } from '@chakra-ui/react'
+import { Box, Flex, Heading, IconButton, Text, useColorMode } from '@chakra-ui/react'
 import { SunIcon, MoonIcon } from '@chakra-ui/icons'
 import Head from 'next/head'
-import { ConnectButton } from '@rainbow-me/rainbowkit'
+import { Section, Matter, Matter2, Tags, Matter3 } from '@/components'
+
 
 export default function Home() {
   const { colorMode, toggleColorMode } = useColorMode()
@@ -9,36 +10,51 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>TITLE</title>
+        <title>The Open Machine</title>
         <meta name="description" content="DESCRIPTION" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
         <Flex
-          maxW="50ch"
-          direction="column"
-          mx="auto"
-          px="6"
-          py="8"
+          direction="row"
           textAlign="center"
-          gap={4}
           borderRadius="xl"
-          background="primary"
-          mt={8}
+          background="bg"
+          color="primary"
+          flexWrap="wrap"
         >
-          <Heading as="h1">Hello world</Heading>
-          <Text>This is a NextJS + Chakra-UI + RainbowKit app template</Text>
-          <IconButton
-            w="fit-content"
-            mx="auto"
-            icon={isDarkMode ? <SunIcon /> : <MoonIcon />}
-            onClick={toggleColorMode}
-            aria-label="Toggle color mode"
-          />
-          <ConnectButton />
+          <Flex direction="column" alignItems="center" justifyContent="center" w={[ '100%', null, '50%']} minH="100vh" bgColor="primary" bgImg={`url("/assets/${isDarkMode ? 'bg_pointDark.png' : 'bg_pointLight.png'}")`} bgSize="cover" bgPosition="center">
+            <Heading color="bg" fontWeight="100" lineHeight="0.9em" fontSize={["4xl", null, "6xl"]}>The<br />Open<br />Machine</Heading>
+            <IconButton
+              w="fit-content"
+              mx="auto"
+              icon={isDarkMode ? <SunIcon /> : <MoonIcon />}
+              onClick={toggleColorMode}
+              aria-label="Toggle color mode"
+              bg="bg"
+              mt={6}
+              _hover={{
+                background: "bg",
+              }}
+            />
+          </Flex>
+          <Box w={[ '100%', null, '50%']} p={12}> 
+            <Text textStyle="tag">In our efforts to ontologically situate the distributed ledger, we discovered a minimal viable order - a just-enough ground from which we can sit back, light a joint, and witness the daybreak of indeterminacy.</Text>
+            <Text textStyle="tag">A savage patience in the sirocco wind, a pact of mathematical stoicism.</Text>
+            <Text textStyle="tag">We dowsed the soil for voids and Bouly radiations, and retired to our hammocks, expecting everything.</Text>
+            <Text textStyle="tag">On the fourth night we heard a blowpipe, an energy combustion polyphonic with lichen and transistors,</Text>
+            <Text textStyle="tag">the loud setan backs of sea mice and the kenotic drones of quasiparticles. Light in the darkling plain.</Text>
+            <Text textStyle="tag">Authority had been deafed, and a new backdrop was hanging in cybernetic relief, peopled with divinities.</Text>
+            <Text textStyle="tag">Tremor, point, and wave: Guess their thoughts.</Text>
+          </Box>
         </Flex>
       </main>
+      <Section />
+      <Tags />
+      <Matter />
+      <Matter2 />
+      <Matter3 />
     </>
   )
 }

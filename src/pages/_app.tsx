@@ -26,6 +26,7 @@ import {
 } from 'wagmi/chains';
 import { alchemyProvider } from 'wagmi/providers/alchemy';
 import { publicProvider } from 'wagmi/providers/public';
+import { Fonts } from '@/components';
 
 const { chains, provider } = configureChains(
   [
@@ -63,6 +64,7 @@ export default function App({ Component, pageProps }: AppProps) {
     <WagmiConfig client={wagmiClient}>
       <RainbowKitProvider chains={chains}>
         <ChakraProvider theme={theme} colorModeManager={localStorageManager}>
+          <Fonts />
           <Component {...pageProps} />
         </ChakraProvider>
       </RainbowKitProvider>
