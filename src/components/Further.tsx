@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box, Link, Text } from '@chakra-ui/react'
+import { Box, Flex, Link } from '@chakra-ui/react'
 import { Rule } from '@/components'
 
 export const Further = () => (
@@ -8,10 +8,11 @@ export const Further = () => (
         <Rule />
         <Box>
           <Link>Link</Link>
+        </Box>
         <Box>
-            <Link>Link</Link>
+          <Link>Link</Link>
         </Box> 
         <Rule />
-    </Box>
+    </Flex>
   </Box>
 )
