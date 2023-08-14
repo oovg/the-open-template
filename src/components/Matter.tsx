@@ -3,7 +3,7 @@ import { Box, Button, Flex, Image, Link, Text } from '@chakra-ui/react'
 
 
 export const Matter = () => (
-  <Box w="100%" p={12}>
+  <Box w="100%" p={12} id="matters">
     <Flex maxW="720px" mx="auto" my={12}><Text as="h2" textStyle="h2">Matters</Text></Flex>
     <Flex maxW="720px" mx="auto" border="1px solid" borderColor="primary" flexWrap="wrap">
         <Flex direction="column" w={['100%', null, '55%']} p={12}>
