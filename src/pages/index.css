@@ -1,0 +1,18 @@
+.border { 
+  /* border: 1px solid #282828;
+  padding: 50px; */
+  width: max-content;
+  background: linear-gradient(90deg, var(--chakra-colors-bg) 50%, transparent 50%), linear-gradient(90deg, var(--chakra-colors-bg) 50%, transparent 50%), linear-gradient(0deg, var(--chakra-colors-bg) 50%, transparent 50%), linear-gradient(0deg, var(--chakra-colors-bg) 50%, transparent 50%);
+  background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+  background-size: 15px 1px, 15px 1px, 1px 15px, 1px 15px;
+  padding: 50px;
+  animation: border-dance 8s infinite linear;
+}
+@keyframes border-dance {
+  0% {
+    background-position: 0 0, 100% 100%, 0 100%, 100% 0;
+  }
+  100% {
+    background-position: 100% 0, 0 100%, 0 0, 100% 100%;
+  }
+}

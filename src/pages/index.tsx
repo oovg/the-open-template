@@ -1,8 +1,7 @@
 import { Box, Flex, Heading, IconButton, Link, Text, useColorMode } from '@chakra-ui/react'
 import { SunIcon, MoonIcon } from '@chakra-ui/icons'
 import Head from 'next/head'
-import { Section, Matter, Matter2, Tags, Matter3 } from '@/components'
-
+import { Further, Section, Matter, Matter2, Tags, Matter3 } from '@/components'
 
 export default function Home() {
   const { colorMode, toggleColorMode } = useColorMode()
@@ -25,6 +24,7 @@ export default function Home() {
           flexWrap="wrap"
         >
           <Flex direction="column" alignItems="center" justifyContent="center" w={[ '100%', null, '50%']} minH="100vh" bgColor="primary" bgImg={`url("/assets/${isDarkMode ? 'bg_pointDark.png' : 'bg_pointLight.png'}")`} bgSize="cover" bgPosition="center">
+            <Flex className="border" direction="column" alignItems="center" justifyContent="center" borderColor="bg" p={20}>
             <Heading color="bg" fontWeight="100" lineHeight="0.9em" fontSize={["4xl", null, "6xl"]}>The<br />Open<br />Machine</Heading>
             <Link href="#matters" color="bg" my={6} fontSize="2xl">Jump to the Matters</Link>
             <IconButton
@@ -34,11 +34,12 @@ export default function Home() {
               onClick={toggleColorMode}
               aria-label="Toggle color mode"
               bg="bg"
-              mt={6}
+              mt={3}
               _hover={{
                 background: "bg",
               }}
             />
+            </Flex>
           </Flex>
           <Flex direction="column" alignItems="center" justifyContent="center" p={12} w={[ '100%', null, '50%']}> 
             <Text textStyle="tag">In our efforts to ontologically situate the distributed ledger, we discovered a minimal viable order - a just-enough ground from which we can sit back, light a joint, and witness the daybreak of indeterminacy.</Text>
@@ -56,6 +57,7 @@ export default function Home() {
       <Matter />
       <Matter2 />
       <Matter3 />
+      <Further />
     </>
   )
 }
