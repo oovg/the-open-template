@@ -3,7 +3,7 @@ import { Box, Text } from '@chakra-ui/react'
 
 export const Tags = () => (
   <Box w="100%">
-    <Box maxW="720px" mx="auto" px={12} py={36}>
+    <Box maxW="720px" mx="auto" px={12} py={12}>
       <Text textStyle="tag">The open machine is (the earth), understood as a cybernetic phenomenon.</Text>
       <Text textStyle="tag">The open machine is a pagan divination.</Text>
       <Text textStyle="tag">The open machine is an ethos of encounter over ownership.</Text>
