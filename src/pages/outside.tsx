@@ -12,7 +12,7 @@ export default function Outside() {
 
   return (
     <>
-      <PageMetadata />
+      <PageMetadata title="The Open Machine" description="the open machine is ..." />
       <main>
         <Flex
           direction="column"

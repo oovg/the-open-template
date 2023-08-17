@@ -7,7 +7,7 @@ export default function Home() {
   const isDarkMode = colorMode === 'dark'
   return (
     <>
-      <PageMetadata />
+      <PageMetadata title="The Open Machine" description="the open machine is ..." />
       <main>
         <Flex
           direction="row"
