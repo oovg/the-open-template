@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box, Flex, Link, Text } from '@chakra-ui/react'
+import { Box, Code, Flex, Link, Text } from '@chakra-ui/react'
 import { Rule } from '@/components'
 
 export const Further = () => (
@@ -10,11 +10,20 @@ export const Further = () => (
     <Flex alignItems="start">
         <Box w={['100%', null, '50%']}>
           <Rule />
-          <Link href="/">Link</Link>
+          <Code>further-reading/
+├─ Ontological Stakes of Moloch
+├─ Friends of the Outside
+contributors/
+├─ exeunt
+├─ vengi
+├─ journals/
+│  ├─ Black Sky Network
+│  ├─ Blockchain Socialist
+</Code>
         </Box>
         <Box w={['100%', null, '50%']}>
           <Rule />
-          <Link href="/">Link</Link>
+          
         </Box> 
     </Flex>
   </Box>

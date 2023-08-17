@@ -1,19 +1,13 @@
 import { Box, Flex, Heading, IconButton, Link, Text, useColorMode } from '@chakra-ui/react'
 import { SunIcon, MoonIcon } from '@chakra-ui/icons'
-import Head from 'next/head'
-import { Further, Section, Matter, Matter2, Tags, Matter3 } from '@/components'
+import { Further, Section, Matter, Matter2, Secret, Tags, Matter3, PageMetadata } from '@/components'
 
 export default function Home() {
   const { colorMode, toggleColorMode } = useColorMode()
   const isDarkMode = colorMode === 'dark'
   return (
     <>
-      <Head>
-        <title>The Open Machine</title>
-        <meta name="description" content="DESCRIPTION" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <PageMetadata />
       <main>
         <Flex
           direction="row"
@@ -40,6 +34,7 @@ export default function Home() {
               }}
             />
             </Flex>
+            <Secret />
           </Flex>
           <Flex direction="column" alignItems="center" justifyContent="center" p={12} w={[ '100%', null, '50%']}> 
             <Text textStyle="tag">In our efforts to ontologically situate the distributed ledger, we discovered a minimal viable order - a just-enough ground from which we can sit back, light a joint, and witness the daybreak of indeterminacy.</Text>
