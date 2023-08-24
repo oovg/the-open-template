@@ -55,7 +55,7 @@ export default function Outside() {
         { option == "outside" && (
           <Flex>
             <Flex direction="column" alignItems="center" justifyContent="center" p={12} w={[ '100%', null, '50%']} mx="auto"> 
-              <Text>You've found a secret text.</Text>
+              <Text>You have found a secret text.</Text>
               <Text textStyle="tag">In our efforts to ontologically situate the distributed ledger, we discovered a minimal viable order - a just-enough ground from which we can sit back, light a joint, and witness the daybreak of indeterminacy.</Text>
               <Text textStyle="tag">A savage patience in the sirocco wind, a pact of mathematical stoicism.</Text>
               <Text textStyle="tag">We dowsed the soil for voids and Bouly radiations, and retired to our hammocks, expecting everything.</Text>
