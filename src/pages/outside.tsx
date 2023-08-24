@@ -1,4 +1,4 @@
-import { Flex, Heading, Button, IconButton, Link, Text, useColorMode } from '@chakra-ui/react'
+import { Flex, Heading, Button, IconButton, Image, Link, Text, useColorMode } from '@chakra-ui/react'
 import { SunIcon, MoonIcon } from '@chakra-ui/icons'
 import { PageMetadata } from '@/components'
 import { useState } from "react"
@@ -21,7 +21,7 @@ export default function Outside() {
           background="bg"
           color="primary"
           flexWrap="wrap"
-          maxW="720px" mx="auto" 
+          w="100%"
           mb={12}
         >
           <Flex direction="column" alignItems="center" justifyContent="center" w={[ '100%', null, '100%']} minH="20vh" bgColor="primary" bgImg={`url("/assets/${isDarkMode ? 'bg_pointDark.png' : 'bg_pointLight.png'}")`} bgSize="cover" bgPosition="center">
@@ -53,20 +53,31 @@ export default function Outside() {
           </Flex>
         )}
         { option == "outside" && (
-          <Flex direction="column" alignItems="center" justifyContent="center" p={12} w={[ '100%', null, '50%']} mx="auto"> 
-            <Text textStyle="tag">In our efforts to ontologically situate the distributed ledger, we discovered a minimal viable order - a just-enough ground from which we can sit back, light a joint, and witness the daybreak of indeterminacy.</Text>
-            <Text textStyle="tag">A savage patience in the sirocco wind, a pact of mathematical stoicism.</Text>
-            <Text textStyle="tag">We dowsed the soil for voids and Bouly radiations, and retired to our hammocks, expecting everything.</Text>
-            <Text textStyle="tag">On the fourth night we heard a blowpipe, an energy combustion polyphonic with lichen and transistors,</Text>
-            <Text textStyle="tag">the loud setan backs of sea mice and the kenotic drones of quasiparticles. Light in the darkling plain.</Text>
-            <Text textStyle="tag">Authority had been deafed, and a new backdrop was hanging in cybernetic relief, peopled with divinities.</Text>
-            <Text textStyle="tag">Tremor, point, and wave: Guess their thoughts.</Text>
+          <Flex>
+            <Flex direction="column" alignItems="center" justifyContent="center" p={12} w={[ '100%', null, '50%']} mx="auto"> 
+              <Text>You've found a secret text.</Text>
+              <Text textStyle="tag">In our efforts to ontologically situate the distributed ledger, we discovered a minimal viable order - a just-enough ground from which we can sit back, light a joint, and witness the daybreak of indeterminacy.</Text>
+              <Text textStyle="tag">A savage patience in the sirocco wind, a pact of mathematical stoicism.</Text>
+              <Text textStyle="tag">We dowsed the soil for voids and Bouly radiations, and retired to our hammocks, expecting everything.</Text>
+              <Text textStyle="tag">On the fourth night we heard a blowpipe, an energy combustion polyphonic with lichen and transistors,</Text>
+              <Text textStyle="tag">the loud setan backs of sea mice and the kenotic drones of quasiparticles. Light in the darkling plain.</Text>
+              <Text textStyle="tag">Authority had been deafed, and a new backdrop was hanging in cybernetic relief, peopled with divinities.</Text>
+              <Text textStyle="tag">Tremor, point, and wave: Guess their thoughts.</Text>
+            </Flex>
+            <Flex direction="column" alignItems="center" justifyContent="center" p={12} w={[ '100%', null, '50%']} mx="auto" bg="primary">
+              <Text>{isDarkMode ? <Image src="../assets/TOM_ai-cosmic.png" alt="outside image" /> : <Image src="../assets/TOM_ai-cosmicDark.png" alt="outside image" />}</Text>
+            </Flex>
           </Flex>
         )}
         { option == "inside" && (
-          <Flex direction="column" alignItems="center" justifyContent="center" p={12} w={[ '100%', null, '50%']} mx="auto"> 
-            <Text textStyle="h3">YOU DIED</Text>
+          <Flex>
+          <Flex direction="column" alignItems="center" justifyContent="center" p={12} w={[ '100%', null, '50%']} mx="auto">
+            <Text textStyle="tag">YOU DIED</Text>
           </Flex>
+          <Flex direction="column" alignItems="center" justifyContent="center" p={12} w={[ '100%', null, '50%']} mx="auto" bg="primary">
+            <Text>{isDarkMode ? <Image src="../assets/TOM_ai-death.png" alt="outside image" /> : <Image src="../assets/TOM_ai-deathDark.png" alt="outside image" />}</Text>
+          </Flex>
+        </Flex>
         )}
         
         
