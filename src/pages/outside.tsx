@@ -43,7 +43,7 @@ export default function Outside() {
           <Flex direction="column" alignItems="center" justifyContent="center" p={12} w={[ '100%', null, '100%']} mx="auto"> 
             <Text textStyle="tag">The cave is filled with great beats and a dance of technicolor imagery plays on the far wall.</Text>
             <Text as='button' onClick={() => setOption("inside")}>1. Join the party at the far wall.</Text>
-            <Text as='button' onClick={() => setOption("outside")}>2. Go Outside</Text>
+            <Text as='button' onClick={() => setOption("outside")} mt={6}>2. Go Outside</Text>
           </Flex>
           )}
           </Flex>
@@ -53,9 +53,9 @@ export default function Outside() {
           </Flex>
         )}
         { option == "outside" && (
-          <Flex>
+          <Flex flexWrap="wrap">
             <Flex direction="column" alignItems="center" justifyContent="center" p={12} w={[ '100%', null, '50%']} mx="auto"> 
-              <Text>You have found a secret text.</Text>
+              <Text mb={12}><i>You find a secret text.</i></Text>
               <Text textStyle="tag">In our efforts to ontologically situate the distributed ledger, we discovered a minimal viable order - a just-enough ground from which we can sit back, light a joint, and witness the daybreak of indeterminacy.</Text>
               <Text textStyle="tag">A savage patience in the sirocco wind, a pact of mathematical stoicism.</Text>
               <Text textStyle="tag">We dowsed the soil for voids and Bouly radiations, and retired to our hammocks, expecting everything.</Text>
@@ -70,7 +70,7 @@ export default function Outside() {
           </Flex>
         )}
         { option == "inside" && (
-          <Flex>
+          <Flex flexWrap="wrap">
           <Flex direction="column" alignItems="center" justifyContent="center" p={12} w={[ '100%', null, '50%']} mx="auto">
             <Text textStyle="tag">YOU DIED</Text>
           </Flex>
