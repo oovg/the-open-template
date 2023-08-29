@@ -1,7 +1,7 @@
 ---
-title: Forth of July in Network Space
-slug: fourth
-matter: surveys
+title: 'Forth of July in Network Space'
+slug: 'fourth'
+matter: 'surveys'
 ---
 
 [grab images from https://mirror.xyz/exeunt.eth/jvQRFygngKb-GQ9SzubSl7jFoat6xU2bdNpO2U8w-yw]
