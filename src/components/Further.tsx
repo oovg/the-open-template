@@ -7,7 +7,7 @@ export const Further = () => (
     <Flex>
       <Text textStyle="h3">Further Reading</Text>
     </Flex>
-      <Flex direction="column" align="start" w={['100%', null, '100%']} gep={12}>
+      <Flex direction="column" align="start" w={['100%', null, '100%']} gap={12}>
         <Link isExternal href="https://agorist.xyz/">Agorist</Link>
         <Link isExternal href="https://www.blacksky.network/">Black Sky Nexus</Link>
         <Link isExternal href="https://theblockchainsocialist.com/">The Blockchain Socialist</Link>

@@ -1,9 +1,14 @@
 import { Box, Flex, Heading, IconButton, Link, Text, useColorMode } from '@chakra-ui/react'
 import { SunIcon, MoonIcon } from '@chakra-ui/icons'
-import { Further, Section, Matter, Matter2, Secret, Tags, Matter3, PageMetadata } from '@/components'
-import { Transmissions } from '@/components/Transmissions'
+import { Further, Section, Matter, Matter2, Secret, Tags, Matter3, PageMetadata, TransmissionsPost } from '@/components'
+import Post from '../interfaces/post'
+import { getAllPosts } from '../lib/api'
 
-export default function Home() {
+type Props = {
+  allPosts: Post[]
+}
+
+export default function Home ({ allPosts }: Props) {
   const { colorMode, toggleColorMode } = useColorMode()
   const isDarkMode = colorMode === 'dark'
   return (
@@ -35,20 +40,39 @@ export default function Home() {
             />
             <Heading mb={12}>Table of Contents</Heading>
             <Link href="#matters" color="primary" my={6} fontSize="2xl">The Matters</Link>
-            <Link href="#transmissions" color="primary" my={6} fontSize="2xl">Open Transmissions</Link>
+            <Link href="/transmissions" color="primary" my={6} fontSize="2xl">Open Transmissions</Link>
             <Link href="/surveys" color="primary" my={6} fontSize="2xl">Surveys of Futurepast</Link>
             <Link href="#further" color="primary" my={6} fontSize="2xl">Further Reading</Link>
-            <Link href="/outside" color="primary" my={6} fontSize="2xl">Go Outside</Link>
           </Flex>
         </Flex>
       </main>
       <Section />
       <Tags />
+      <Flex maxW="720px" mx="auto" direction="column">
+        {allPosts.map((post) => (
+          post.matter === 'transmissions' &&
+          <TransmissionsPost author={post.author} title={post.title} key={post.slug} slug={post.slug} />
+        ))}
+      </Flex>
       <Matter />
       <Matter2 />
       <Matter3 />
-      <Transmissions />
       <Further />
     </>
   )
+}
+
+export async function getStaticProps() {
+  const allPosts = getAllPosts([
+    'title',
+    'matter',
+    'author',
+    'slug',
+  ])
+  
+  return {
+    props: {
+      allPosts,
+    },
+  }
 }
