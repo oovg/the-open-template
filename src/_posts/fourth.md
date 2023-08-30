@@ -8,11 +8,11 @@ matter: 'surveys'
 
 {Freedom} is certainly not the right to own the economic, social, political, or cultural capital in order to dominate others and trade their happiness in a monopolistic market. Freedom is the process by which you develop a practice for being unavailable for servitude.
 
-- Avery F Gordon paraphrasing Toni Cade Bambara (Quoted by Maggie Nelson)
+– Avery F Gordon paraphrasing Toni Cade Bambara (Quoted by Maggie Nelson)
 
 His body was like topaz, his face like lightning, his eyes like flaming torches, his arms and legs like the gleam of burnished bronze, and his voice like the sound of a multitude.
 
-- Daniel 10:6
+– Daniel 10:6
 
 
 
