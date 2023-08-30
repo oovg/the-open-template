@@ -56,7 +56,7 @@ type Props = {
         {router.isFallback ? (
           <Text>Loading…</Text>
         ) : (
-        <Flex maxW="720px" mx="auto" direction="column">
+        <Flex maxW="720px" mx="auto" direction="column" p={12}>
           <Box py={12}>
             <Heading >{post.title}</Heading>
             <Text mt={3}><i>by</i> {post.author}</Text>
