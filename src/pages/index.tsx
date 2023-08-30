@@ -48,7 +48,8 @@ export default function Home ({ allPosts }: Props) {
       </main>
       <Section />
       <Tags />
-      <Flex maxW="720px" mx="auto" direction="column">
+      <Flex maxW="720px" mx="auto" p={12} gap={6}><Text textStyle="h2" as="h2">Open Transmisssions</Text></Flex>
+      <Flex maxW="720px" mx="auto" direction="column" p={12} gap={6}>
         {allPosts.map((post) => (
           post.matter === 'transmissions' &&
           <TransmissionsPost author={post.author} title={post.title} key={post.slug} slug={post.slug} />
