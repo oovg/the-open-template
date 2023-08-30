@@ -1,7 +1,7 @@
 import React from 'react'
 import { Box, Heading } from '@chakra-ui/react'
 import ReactMarkdown from 'react-markdown'
-import style from './markdown-styles.module.css';
+import style from './markdown-styles.module.css'
 
 type Props = {
   content: string

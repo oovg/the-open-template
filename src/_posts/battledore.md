@@ -1,7 +1,8 @@
 ---
 title: 'battledore & shuttlecock'
-slug: 'battldore'
+slug: 'battledore'
 matter: 'surveys'
+author: 'Exeunt'
 ---
 
 The strange story of what was known in periods past as the battledore is either a casual piece of historical trivia or a heavy metaphor for control, depending on who is doing the reading, who is as it were “captive.” (One might think of it as the story of how a blunt instrument of violence came to be seen as a tabula rasa, a blank screen of significance where fables of representation might be projected, and how those circuitous tricks of idle self-reference became games for elucidating and transforming the world, for they contained the world…). 
