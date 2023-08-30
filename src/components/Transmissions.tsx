@@ -4,7 +4,7 @@ import { Box, Flex, Heading, Link, Text } from '@chakra-ui/react'
 export const Transmissions = () => (
   <Box w="100%" p={12} id="transmissions">
     <Heading mb={12}>Open Transmissions</Heading>
-    <Flex direction="column">
+    <Flex direction="column" maxW="720px" w="100%" mx="auto">
     <Box as={Link} w="100%" href="" p={12} border="1px" borderColor="primary">
       <Text>Ontological Stakes of Moloch</Text>
     </Box>

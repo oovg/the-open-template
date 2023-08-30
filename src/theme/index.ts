@@ -24,9 +24,12 @@ const overrides = {
         transition: 'background 200ms linear !important',
         color: 'primary',
         backgroundColor: 'bg',
-        fontSize: '21px',
+        fontSize: '18px',
         margin: 0,
         padding: '0px',
+      },
+      a: {
+        textDecoration: 'underline',
       },
     }),
   },
