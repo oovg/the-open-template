@@ -50,6 +50,7 @@ export default function Surveys ({ allPosts }: Props) {
       </main>
       <Flex maxW="720px" mx="auto" direction="column">
         {allPosts.map((post) => (
+          post.matter === 'surveys' &&
           <SurveysPost content={post.content} title={post.title} key={post.slug} slug={post.slug} />
         ))}
       </Flex>
