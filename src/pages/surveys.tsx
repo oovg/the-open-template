@@ -10,7 +10,7 @@ import { getAllPosts } from '../lib/api'
 type Props = {
   allPosts: Post[],
   letter: string,
-  uniqueLetters: string,
+  uniqueLetters: Array<string>,
 }
 
 
@@ -51,20 +51,20 @@ export default function Surveys ({ allPosts, uniqueLetters }: Props) {
         </Flex>    
       </main>
       <Flex maxW="720px" mx="auto" direction="column" p={12} align="start" w="100%">
-        <ReactMarkdown className={style.markdown} skipHtml="false">
-          >“It is as if we were inside a giant octopus.” – Timothy Morton</ReactMarkdown>
+        <ReactMarkdown className={style.markdown}>
+        &gt;“It is as if we were inside a giant octopus.” – Timothy Morton</ReactMarkdown>
       </Flex>
       <Flex maxW="720px" mx="auto" direction="column" p={12} align="start" w="100%">
         {uniqueLetters.map((character) => (
-          <Box>
+          <Box key={character}>
             <Heading>
                   {character}
                 </Heading>
-            { allPosts.map((post) => (
-            post.matter === 'surveys' && post.slug.charAt(0) === character &&
-              <Box>
-                <SurveysItem title={post.title} slug={post.slug} key={post.slug} />
-              </Box>
+            { allPosts.filter(post => post.matter.includes('surveys')).map((post) => (
+              character === post.slug.charAt(0) &&
+                <Box key={post.slug} my={3}>
+                  <SurveysItem title={post.title} slug={post.slug} />
+                </Box>
               ))} 
               </Box>
         ))}
