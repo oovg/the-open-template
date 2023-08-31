@@ -7,6 +7,7 @@ import type PostType from '../../interfaces/post'
 import { getPostBySlug, getAllPosts } from '../../lib/api'
 import ReactMarkdown from 'react-markdown'
 import style from '../../components/markdown-styles.module.css';
+import remarkGfm from 'remark-gfm'
 
 type Props = {
     post: PostType
@@ -62,7 +63,7 @@ type Props = {
             <Text mt={3}><i>by</i> {post.author}</Text>
           </Box>
           <Rule />
-          <ReactMarkdown className={style.markdown}>
+          <ReactMarkdown className={style.markdown} remarkPlugins={[remarkGfm]}>
               {post.content}
           </ReactMarkdown>
         </Flex>
