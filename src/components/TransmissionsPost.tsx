@@ -17,7 +17,7 @@ export const TransmissionsPost = ({ title, author, slug }: Props) => (
         as={`/transmissions/${slug}`}
         href="/transmissions/[slug]"
       >
-        <ReactMarkdown className={style.markdown} mb={6}>{title}</ReactMarkdown>
+        <ReactMarkdown className={style.markdown}>{title}</ReactMarkdown>
         <Text><i>by</i> {author}</Text>
       </Link>
     </Box>

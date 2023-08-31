@@ -11,7 +11,7 @@ export const Matter2 = () => (
             <Text as="h3" textStyle="h3">Found glossary of terms from the non-present.</Text>
             <Text mt={6}>Conceived by</Text>
             <Text>Exeunt</Text>
-            <Flex gap={6} mt={12}><Button as={Link} href="/surveys" target="_blank" rel="noopener noreferrer">Compiling Here -></Button></Flex>
+            <Flex gap={6} mt={12}><Button as={Link} href="/surveys" target="_blank" rel="noopener noreferrer">Compiling Here -&gt;</Button></Flex>
         </Flex>
     </Flex>
   </Box>
