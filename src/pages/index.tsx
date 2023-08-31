@@ -1,6 +1,6 @@
 import { Box, Flex, Heading, IconButton, Link, Text, useColorMode } from '@chakra-ui/react'
 import { SunIcon, MoonIcon } from '@chakra-ui/icons'
-import { Further, Section, Matter, Matter2, Secret, Tags, Matter3, PageMetadata, TransmissionsPost } from '@/components'
+import { Further, Rule, Section, Matter, Matter2, Secret, Tags, Matter3, PageMetadata, TransmissionsPost } from '@/components'
 import Post from '../interfaces/post'
 import { getAllPosts } from '../lib/api'
 
@@ -38,11 +38,13 @@ export default function Home ({ allPosts }: Props) {
               aria-label="Toggle color mode"
               mb={3}
             />
-            <Heading mb={12}>Table of Contents</Heading>
+            <Heading my={9}>Table of Contents</Heading>
+            <Rule />
             <Link href="#matters" color="primary" my={6} fontSize="2xl">Matters</Link>
             <Link href="/transmissions" color="primary" my={6} fontSize="2xl">Open Transmissions</Link>
-            <Link href="/surveys" color="primary" my={6} fontSize="2xl">Surveys of Futurepast</Link>
+            <Link href="/surveys" color="primary" my={6} fontSize="2xl">Surveys of 2068</Link>
             <Link href="#further" color="primary" my={6} fontSize="2xl">Further Reading</Link>
+            <Rule />
           </Flex>
         </Flex>
       </main>
