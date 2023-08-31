@@ -1,18 +1,20 @@
-import { Box, Flex, Heading, IconButton, Link, useColorMode } from '@chakra-ui/react'
+import { Box, Flex, Heading, IconButton, Link, Text, useColorMode } from '@chakra-ui/react'
 import { SunIcon, MoonIcon } from '@chakra-ui/icons'
-import { PageMetadata, SurveysPost } from '@/components'
-import markdownToHtml from '../lib/markdownToHtml'
+import { PageMetadata, SurveysItem, SurveysPost } from '@/components'
+import ReactMarkdown from 'react-markdown'
+import style from '../components/markdown-styles.module.css';
 import Post from '../interfaces/post'
 import { getAllPosts } from '../lib/api'
 
 
 type Props = {
-  allPosts: Post[]
-  postContent: string
+  allPosts: Post[],
+  letter: string,
+  uniqueLetters: string,
 }
 
 
-export default function Surveys ({ allPosts }: Props) {
+export default function Surveys ({ allPosts, uniqueLetters }: Props) {
   const { colorMode, toggleColorMode } = useColorMode()
   const isDarkMode = colorMode === 'dark'
 
@@ -48,7 +50,26 @@ export default function Surveys ({ allPosts }: Props) {
           </Flex>    
         </Flex>    
       </main>
-      <Flex maxW="720px" mx="auto" direction="column">
+      <Flex maxW="720px" mx="auto" direction="column" p={12} align="start" w="100%">
+        <ReactMarkdown className={style.markdown} skipHtml="false">
+          >“It is as if we were inside a giant octopus.” – Timothy Morton</ReactMarkdown>
+      </Flex>
+      <Flex maxW="720px" mx="auto" direction="column" p={12} align="start" w="100%">
+        {uniqueLetters.map((character) => (
+          <Box>
+            <Heading>
+                  {character}
+                </Heading>
+            { allPosts.map((post) => (
+            post.matter === 'surveys' && post.slug.charAt(0) === character &&
+              <Box>
+                <SurveysItem title={post.title} slug={post.slug} key={post.slug} />
+              </Box>
+              ))} 
+              </Box>
+        ))}
+      </Flex>
+      <Flex maxW="720px" mx="auto" direction="column" p={12}>
         {allPosts.map((post) => (
           post.matter === 'surveys' &&
           <SurveysPost content={post.content} title={post.title} key={post.slug} slug={post.slug} />
@@ -58,6 +79,7 @@ export default function Surveys ({ allPosts }: Props) {
   )
 }
 
+
 export async function getStaticProps() {
   const allPosts = getAllPosts([
     'title',
@@ -66,11 +88,15 @@ export async function getStaticProps() {
     'content',
   ])
   
-  const postContent = allPosts.map((post) => markdownToHtml(post.content))
+  const letter = allPosts.filter(post => post.matter.includes('surveys')).map((filteredPost) => filteredPost.slug.charAt(0))
+  const uniqueLetters = Array.from(new Set(letter));
   
   return {
     props: {
       allPosts,
+      letter,
+      uniqueLetters,
     },
   }
 }
+

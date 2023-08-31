@@ -58,7 +58,7 @@ type Props = {
         ) : (
         <Flex maxW="720px" mx="auto" direction="column" p={12}>
           <Box py={12}>
-            <Heading >{post.title}</Heading>
+            <ReactMarkdown className={style.markdown}>{post.title}</ReactMarkdown>
             <Text mt={3}><i>by</i> {post.author}</Text>
           </Box>
           <Rule />

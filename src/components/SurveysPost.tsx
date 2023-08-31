@@ -13,8 +13,8 @@ type Props = {
 
 export const SurveysPost = ({ content, title, slug }: Props) => (
 
-    <Box maxW="2xl" mx="auto" mb={12}>
-      <Heading mb={6}>{title}</Heading>
+    <Box maxW="2xl" mx="auto" mb={12} id={slug}>
+      <Heading fontSize="3xl" mb={6}>{title}</Heading>
       <Box>
         <ReactMarkdown className={style.markdown}>
           {content}

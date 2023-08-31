@@ -39,7 +39,7 @@ export default function Home ({ allPosts }: Props) {
               mb={3}
             />
             <Heading mb={12}>Table of Contents</Heading>
-            <Link href="#matters" color="primary" my={6} fontSize="2xl">The Matters</Link>
+            <Link href="#matters" color="primary" my={6} fontSize="2xl">Matters</Link>
             <Link href="/transmissions" color="primary" my={6} fontSize="2xl">Open Transmissions</Link>
             <Link href="/surveys" color="primary" my={6} fontSize="2xl">Surveys of Futurepast</Link>
             <Link href="#further" color="primary" my={6} fontSize="2xl">Further Reading</Link>
@@ -48,16 +48,18 @@ export default function Home ({ allPosts }: Props) {
       </main>
       <Section />
       <Tags />
-      <Flex maxW="720px" mx="auto" p={12} gap={6}><Text textStyle="h2" as="h2">Open Transmisssions</Text></Flex>
-      <Flex maxW="720px" mx="auto" direction="column" p={12} gap={6}>
-        {allPosts.map((post) => (
-          post.matter === 'transmissions' &&
-          <TransmissionsPost author={post.author} title={post.title} key={post.slug} slug={post.slug} />
-        ))}
-      </Flex>
+      <Box p={12}>
+        <Flex maxW="720px" mx="auto" gap={6}><Text textStyle="h2" as="h2">Open Transmisssions</Text></Flex>
+        <Flex maxW="720px" mx="auto" direction="column" gap={6}>
+          {allPosts.map((post) => (
+            post.matter === 'transmissions' &&
+            <TransmissionsPost author={post.author} title={post.title} key={post.slug} slug={post.slug} />
+          ))}
+        </Flex>
+      </Box>
       <Matter />
       <Matter2 />
-      <Matter3 />
+      {/* <Matter3 /> */}
       <Further />
     </>
   )

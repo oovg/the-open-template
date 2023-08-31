@@ -16,6 +16,10 @@
   quotes: "\201C""\201D""\2018""\2019";
 }
 
+.markdown h1 {
+  font-size: 32px;
+}
+
 .markdown h2 {
   @apply text-3xl mt-12 mb-4 leading-snug;
 }

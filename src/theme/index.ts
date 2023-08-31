@@ -30,6 +30,7 @@ const overrides = {
       },
       a: {
         textDecoration: 'underline',
+        _hover: { textDecoration: 'none',}
       },
     }),
   },
@@ -42,7 +43,6 @@ const overrides = {
       fontSize: ["xl", null, "3xl"],
     },
     paragraph: {
-      fontSize: "xl",
       marginBottom: 12,
     },
     tag: {
