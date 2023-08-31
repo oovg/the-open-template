@@ -1,5 +1,5 @@
 .markdown {
-  @apply text-lg leading-relaxed;
+  font-size: 18px;
 }
 
 .markdown p,
@@ -18,12 +18,28 @@
 
 .markdown h1 {
   font-size: 32px;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
 }
-
 .markdown h2 {
-  @apply text-3xl mt-12 mb-4 leading-snug;
+  font-size: 32px;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
 }
 
 .markdown h3 {
-  @apply text-2xl mt-8 mb-4 leading-snug;
+  font-size: 32px;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
 }
+
+.markdown table {
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.markdown table :is(.markdown td, .markdown th) {
+  border: 1px solid var(--chakra-colors-primary);
+  padding: 1em;
+}
+

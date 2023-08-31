@@ -20,47 +20,47 @@ Performed by _The Zombies_
 
 Lyrics:
 
-> Should I try to hide
-The way I feel inside
-My heart for you?
+> Should I try to hide  
+The way I feel inside  
+My heart for you?  
 
-> Would you say that you
-Would try to love me too?
+> Would you say that you  
+Would try to love me too?  
 
-> In your mind
-Could you ever be
-Really close to me?
+> In your mind  
+Could you ever be  
+Really close to me?  
 
-> I can tell the way you smile
-If I feel that I
-Could be certain then
-I would say the things I want to say tonight
+> I can tell the way you smile  
+If I feel that I  
+Could be certain then  
+I would say the things I want to say tonight  
 
-> But 'til I can see
-That you'd really care for me
-I will dream
-That someday you'll be
-Really close to me
+> But 'til I can see  
+That you'd really care for me  
+I will dream  
+That someday you'll be  
+Really close to me  
 
-> I can tell the way you smile
-If I feel that I
-Could be certain then
-I would say the things I want to say tonight
+> I can tell the way you smile  
+If I feel that I  
+Could be certain then  
+I would say the things I want to say tonight  
 
-> But 'til I can see
-That you'd really care for me
-I'll keep trying to hide
-The way I feel inside
+> But 'til I can see  
+That you'd really care for me  
+I'll keep trying to hide  
+The way I feel inside  
 
 It's a sad song of an unshared love, an unseen love with no chance of reciprocity. An impossible love. Going around and around hoping for someone else to open up first, so that you may _finally_ be able to reveal the _way I feel inside_.
 
 ### Lovers' Dilemma
 
-I presume songwriter (and keyboardist!) Rod Argent surely wasn't thinking in game theoretical terms, but it's a rather elegant and romantic portrayal of the Prisoners' Dilemma, the lovers imprisoned by their own fear of vulnerability in being the first to reveal their feelings, aka 'cooperate'. 
+It's safe to assume songwriter (and keyboardist!) Rod Argent wasn't thinking in game theoretical terms, but it's a rather elegant and romantic portrayal of the Prisoners' Dilemma, the lovers imprisoned by their own fear of vulnerability in being the first to reveal their feelings, aka 'cooperate'. 
 
 Game Theory, and more specifically Axelrod's Cooperation Theory, elucidates many possible enhancements to cooperative probabilities. If we know the rules of the game and strategies of the players, we can both predict the probabilistic outcome of future interactions as well as derive alternative strategies to improve outcomes. By quantifying subjective incentives, we are able to simulate games and strategies over time. We can even look at the game itself, to design better paths to emergent cooperative behavior. So let us fork the Prisoner's Dilemma to define and play through a new game, The Lovers' Dilemma.
 
-Proposition: 
+*Proposition:* 
 
 Can we use game theory to derive a strategy to help the protagonist increase probability that they will find mutual love? 
 
@@ -256,21 +256,21 @@ Now we're talking. By attempting to share feelings, the prospective lovers are a
 
 _At Last_ performed by Etta James, written by Mack Gordon and Harry Warren
 
-> I found a dream, that I could speak to
-A dream that I can call my own
-I found a thrill to press my cheek to
-A thrill that I have never known
+> I found a dream, that I could speak to  
+A dream that I can call my own  
+I found a thrill to press my cheek to  
+A thrill that I have never known  
 
 Benji Hughes also advocates strongly for a COOPERATE-first strategy in _Waiting for an Invitation_ 
 
 [Youtube Link](https://www.youtube.com/watch?v=GuQfxO_5PFs)
 
->If you're waiting for an invitation
-You're gonna wait a long time
-Wait a long time, wait a long time
-If you're looking for an invitation
-It's never gonna come, it's never gonna come
-You're never gonna get one
+>If you're waiting for an invitation  
+You're gonna wait a long time  
+Wait a long time, wait a long time  
+If you're looking for an invitation  
+It's never gonna come, it's never gonna come  
+You're never gonna get one  
 
 Here, Hughes also hits on how complexity can thwart cooperation. 
 
