@@ -1,6 +1,8 @@
 import React from 'react'
 import { Box, Heading, Text } from '@chakra-ui/react'
 import Link from 'next/link'
+import ReactMarkdown from 'react-markdown'
+import style from './markdown-styles.module.css'
 
 type Props = {
   title: string
@@ -10,12 +12,12 @@ type Props = {
 
 export const TransmissionsPost = ({ title, author, slug }: Props) => (
 
-    <Box maxW="2xl" mx="auto" border="1px" borderColor="primary" p={8}>
+    <Box mx="auto" w="100%" border="1px" borderColor="primary" p={8} mt={6}>
       <Link
         as={`/transmissions/${slug}`}
         href="/transmissions/[slug]"
       >
-        <Heading mb={6}>{title}</Heading>
+        <ReactMarkdown className={style.markdown} mb={6}>{title}</ReactMarkdown>
         <Text><i>by</i> {author}</Text>
       </Link>
     </Box>

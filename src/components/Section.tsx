@@ -4,7 +4,7 @@ import { Rule } from '@/components'
 
 export const Section = () => (
   <Box w="100%">
-    <Box maxW="720px" mx="auto" px={12} py={36}>
+    <Box maxW="720px" mx="auto" px={12} py={12}>
         <Rule />
         <Box>
             <Text textStyle="paragraph">It’s a bit of folk knowledge, well known in the exterior, that the ones who seek totalizing systems are the ones most excluded from the touch of completion. A preliminary definition of truth for the modern age might be: that which an institution cannot see. Because the project of administration, the distance of the template, has to be blind to the singularities - the traces of difference and happenstance which contain in their roughness the strange wholeness of the world. The secrets of the outside.</Text>

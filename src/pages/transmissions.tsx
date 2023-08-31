@@ -1,4 +1,4 @@
-import { Box, Flex, Heading, IconButton, Link, useColorMode } from '@chakra-ui/react'
+import { Flex, Heading, IconButton, Link, useColorMode } from '@chakra-ui/react'
 import { SunIcon, MoonIcon } from '@chakra-ui/icons'
 import { PageMetadata, TransmissionsPost } from '@/components'
 import Post from '../interfaces/post'
