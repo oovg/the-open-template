@@ -1,8 +1,7 @@
 import { useRouter } from 'next/router'
 import ErrorPage from 'next/error'
 import { Box, Flex, Heading, Text, Link, IconButton, useColorMode } from '@chakra-ui/react'
-import { SunIcon, MoonIcon } from '@chakra-ui/icons'
-import { DateFormatter, PageMetadata, Rule } from '@/components'
+import { DateFormatter, Header, PageMetadata, Rule } from '@/components'
 import type PostType from '../../interfaces/post'
 import { getPostBySlug, getAllPosts } from '../../lib/api'
 import ReactMarkdown from 'react-markdown'
@@ -26,38 +25,13 @@ type Props = {
       <>
         <PageMetadata title="The Open Machine" description="the open machine is ..." />
         <main>
-        <Flex
-          direction="column"
-          textAlign="center"
-          borderRadius="xl"
-          background="bg"
-          color="primary"
-          flexWrap="wrap"
-          w="100%"
-          mb={12}
-        >
-          <Flex direction="column" alignItems="center" justifyContent="center" w={'100%'} minH="25vh" p={25} bgColor="primary" bgImg={`url("/assets/${isDarkMode ? 'bg_pointDark.png' : 'bg_pointLight.png'}")`} bgSize="cover" bgPosition="center">
-            <IconButton
-              w="fit-content"
-              mx="auto"
-              icon={isDarkMode ? <SunIcon /> : <MoonIcon />}
-              onClick={toggleColorMode}
-              aria-label="Toggle color mode"
-              bg="bg"
-              mb={3}
-              _hover={{
-                background: "bg",
-              }}
-            />
-            <Heading color="bg">Open Transmissions</Heading>
-            <Link href="/transmissions" color="bg" my={6} fontSize="2xl">Back</Link>
-          </Flex>  
-        </Flex>  
+          <Header /> 
         </main> 
         {router.isFallback ? (
           <Text>Loading…</Text>
         ) : (
         <Flex maxW="720px" mx="auto" direction="column" p={12}>
+          <Flex maxW="720px" mx="auto" gap={6} align="start"><Link href="/transmissions"><Text textStyle="h2" as="h2" mb={6}>Open Transmissions</Text></Link></Flex>
           <Box py={12}>
             <Text><DateFormatter dateString={post.date}/></Text>
             <ReactMarkdown className={style.markdown}>{post.title}</ReactMarkdown>

@@ -5,9 +5,10 @@ import { Rule } from '@/components'
 export const Further = () => (
   <Box w="100%" px={12} py={6} maxW="720px" mx="auto" id="further">
     <Flex>
-      <Text textStyle="h3" mb={6}>From the Reading Room</Text>
+      <Text textStyle="h3" mb={6}>Further Reading</Text>
     </Flex>
-      <Flex direction="column" align="start" w={['100%', null, '100%']} gap={6}>
+    <Flex flexWrap="wrap" w="100%">
+      <Flex direction="column" align="start" w={['100%', null, '50%']} gap={6}>
         <Link isExternal href="https://agorist.xyz/">Agorist</Link>
         <Link isExternal href="https://www.blacksky.network/">Black Sky Nexus</Link>
         <Link isExternal href="https://theblockchainsocialist.com/">The Blockchain Socialist</Link>
@@ -17,6 +18,8 @@ export const Further = () => (
         <Link isExternal href="https://antikythera.org">Antikythera</Link>
         <Link isExternal href="https://www.semiotexte.com">Semiotext(e)</Link>
         <Link isExternal href="http://www.ccru.net/swarm3/3_amph.htm">CCRU.net</Link>
+      </Flex>
+      <Flex direction="column" align="start" w={['100%', null, '50%']} mt={[6, null, 0]}gap={6}>
         <Link isExternal href="http://strangeattractor.co.uk">Strange Attractor Press</Link>
         <Link isExternal href="https://deleuze.cla.purdue.edu/seminars.html">The Deleuze Seminars</Link>
         <Link isExternal href="https://johncage.org/library.cfm">Random book generator from John Cage’s Home Library</Link>
@@ -26,5 +29,6 @@ export const Further = () => (
         <Link isExternal href="https://shanghai-nyu.academia.edu/BognaMKonior">Bogna Konior Selected Writings</Link>
         <Link isExternal href="https://esoteric.codes/blog/100-rabbits">Esoteric.codes</Link>
       </Flex>
+    </Flex>
   </Box>
 )
