@@ -3,7 +3,8 @@ title: 'PIECE Initiative'
 slug: 'piece'
 matter: 'surveys'
 author: 'Exuent'
-
+excerpt: ''
+date: "2023-09-01T16:20:04.000Z"
 ---
 
 Insights from this period eventually forked into a decentralized collective interested in outward or extensive applications of the Nirvanic Host Tech (later known simply as Host). Their activities became known as the PIECE Initiative. (PIECE: Posthuman Institute for Embodied Cognitive Exclosures, elsewhere seen as Pacific or Pagan Initiative for Embodied Cognitive Ecology)). 

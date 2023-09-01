@@ -4,6 +4,8 @@ type PostType = {
   content: string
   slug: string
   author: string
+  excerpt: string
+  date: string
 }
 
 export default PostType

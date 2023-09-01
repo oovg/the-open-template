@@ -47,9 +47,8 @@ export default function Surveys ({ allPosts }: Props) {
         </Flex>    
       </main>
       <Flex maxW="720px" mx="auto" direction="column">
-        {allPosts.map((post) => (
-          post.matter === 'transmissions' &&
-          <TransmissionsPost title={post.title} key={post.slug} slug={post.slug} author={post.author} />
+        {allPosts.filter(post => post.matter.includes('transmissions')).map((post) => (
+          <TransmissionsPost title={post.title} key={post.slug} slug={post.slug} author={post.author} excerpt={post.excerpt} date={post.date} />
         ))}
       </Flex>
     </>
@@ -62,6 +61,8 @@ export async function getStaticProps() {
     'matter',
     'slug',
     'author',
+    'excerpt',
+    'date',
   ])
   
   return {

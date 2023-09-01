@@ -3,6 +3,10 @@ title: "# Fourth of July in Network Space"
 slug: 'fourth'
 matter: 'transmissions'
 author: 'Exeunt'
+excerpt: "{Freedom} is certainly not the right to own the economic, social, political, or cultural capital in order to dominate others and trade their happiness in a monopolistic market. Freedom is the process by which you develop a practice for being unavailable for servitude.
+
+– Avery F Gordon paraphrasing Toni Cade Bambara (Quoted by Maggie Nelson)"
+date: "2023-09-01T16:20:04.000Z"
 ---
 
 ![](https://hackmd.io/_uploads/H19917yAn.jpg)
