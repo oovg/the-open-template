@@ -5,6 +5,7 @@ import ReactMarkdown from 'react-markdown'
 import style from '../components/markdown-styles.module.css';
 import Post from '../interfaces/post'
 import { getAllPosts } from '../lib/api'
+import remarkGfm from 'remark-gfm'
 
 
 type Props = {
@@ -33,8 +34,6 @@ export default function Surveys ({ allPosts, uniqueLetters }: Props) {
           mb={12}
         >
           <Flex direction="column" alignItems="center" justifyContent="center" w={[ '100%', null, '100%']} minH="25vh" p={25} bgColor="primary" bgImg={`url("/assets/${isDarkMode ? 'bg_pointDark.png' : 'bg_pointLight.png'}")`} bgSize="cover" bgPosition="center">
-            <Heading color="bg">Surveys, 2068</Heading>
-            <Link href="/" color="bg" my={6} fontSize="2xl">Back Home</Link>
             <IconButton
               w="fit-content"
               mx="auto"
@@ -42,21 +41,28 @@ export default function Surveys ({ allPosts, uniqueLetters }: Props) {
               onClick={toggleColorMode}
               aria-label="Toggle color mode"
               bg="bg"
-              mt={3}
+              mb={3}
               _hover={{
                 background: "bg",
               }}
             />
+            <Heading color="bg">Surveys, 2068</Heading>
+            <Link href="/" color="bg" my={6} fontSize="2xl">Back Home</Link>
+            
           </Flex>    
         </Flex>    
       </main>
       <Flex maxW="720px" mx="auto" direction="column" p={12} align="start" w="100%">
-        <ReactMarkdown className={style.markdown}>
-        &gt;“It is as if we were inside a giant octopus.” – Timothy Morton  
-    In the year 2068, a memetic and conceptual cartography is established, lore from the post-web and the fall out of the cryptographic coups presented in a polyphonic “mingle-mangle”*. By means unknown - perhaps magickal, perhaps technological - passages from the future appeared in inboxes of minor DAO contributors of the present day. Below are those compiled passages.
-    If discovered, please send found entries to theopenmachine@protonmail.com.
-    *The sender&apos;s term, not ours.
- </ReactMarkdown>
+        <ReactMarkdown className={style.markdown} remarkPlugins={[remarkGfm]}>
+        &gt;“It is as if we were inside a giant octopus.”  
+        – Timothy Morton  
+        </ReactMarkdown>
+        <Text>
+          In the year 2068, a memetic and conceptual cartography is established, lore from the post-web and the fall out of the cryptographic coups presented in a polyphonic “mingle-mangle”*. By means unknown - perhaps magickal, perhaps technological - passages from the future appeared in inboxes of minor DAO contributors of the present day. Below are those compiled passages.
+          If discovered, please send found entries to <Link isExternal href="theopenmachine@protonmail.com">theopenmachine@protonmail.com</Link>.  
+          <br />
+          <strong>The sender&apos;s term, not ours.</strong>
+        </Text>
       </Flex>
       <Flex maxW="720px" mx="auto" direction="column" p={12} align="start" w="100%">
         {uniqueLetters.map((character) => (
