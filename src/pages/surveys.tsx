@@ -52,8 +52,8 @@ export default function Surveys ({ allPosts, uniqueLetters }: Props) {
       </main>
       <Flex maxW="720px" mx="auto" direction="column" p={12} align="start" w="100%">
         <ReactMarkdown className={style.markdown}>
-        &gt;“It is as if we were inside a giant octopus.” – Timothy Morton  \n  \nIn the year 2068, a memetic and conceptual cartography is established, lore from the post-web and the fall out of the cryptographic coups presented in a polyphonic “mingle-mangle”*. By means unknown - perhaps magickal, perhaps technological - passages from the future appeared in inboxes of minor DAO contributors of the present day. Below are those compiled passages.
-  \nIf discovered, please send found entries to theopenmachine@protonmail.com.  \n*The senders term, not ours.</ReactMarkdown>
+        &gt;“It is as if we were inside a giant octopus.” – Timothy Morton    In the year 2068, a memetic and conceptual cartography is established, lore from the post-web and the fall out of the cryptographic coups presented in a polyphonic “mingle-mangle”*. By means unknown - perhaps magickal, perhaps technological - passages from the future appeared in inboxes of minor DAO contributors of the present day. Below are those compiled passages.
+    If discovered, please send found entries to theopenmachine@protonmail.com.    *The senders term, not ours.</ReactMarkdown>
       </Flex>
       <Flex maxW="720px" mx="auto" direction="column" p={12} align="start" w="100%">
         {uniqueLetters.map((character) => (
