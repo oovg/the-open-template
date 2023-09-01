@@ -29,8 +29,6 @@ export default function Surveys ({ allPosts }: Props) {
           mb={12}
         >
           <Flex direction="column" alignItems="center" justifyContent="center" w={'100%'} minH="25vh" p={25} bgColor="primary" bgImg={`url("/assets/${isDarkMode ? 'bg_pointDark.png' : 'bg_pointLight.png'}")`} bgSize="cover" bgPosition="center">
-            <Heading color="bg">Open Transmissions</Heading>
-            <Link href="/" color="bg" my={6} fontSize="2xl">Back Home</Link>
             <IconButton
               w="fit-content"
               mx="auto"
@@ -38,11 +36,13 @@ export default function Surveys ({ allPosts }: Props) {
               onClick={toggleColorMode}
               aria-label="Toggle color mode"
               bg="bg"
-              mt={3}
+              mb={3}
               _hover={{
                 background: "bg",
               }}
             />
+            <Heading color="bg">Open Transmissions</Heading>
+            <Link href="/" color="bg" my={6} fontSize="2xl">Back Home</Link>
           </Flex>    
         </Flex>    
       </main>

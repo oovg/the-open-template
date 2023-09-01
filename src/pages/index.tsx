@@ -42,7 +42,7 @@ export default function Home ({ allPosts }: Props) {
             <Rule />
             <Link href="#matters" color="primary" my={6} fontSize="2xl">Matters</Link>
             <Link href="/transmissions" color="primary" my={6} fontSize="2xl">Open Transmissions</Link>
-            <Link href="/surveys" color="primary" my={6} fontSize="2xl">Surveys of 2068</Link>
+            <Link href="/surveys" color="primary" my={6} fontSize="2xl">Surveys, 2068</Link>
             <Link href="#further" color="primary" my={6} fontSize="2xl">Further Reading</Link>
             <Rule />
           </Flex>

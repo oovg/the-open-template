@@ -25,7 +25,6 @@ export default function Outside() {
           mb={12}
         >
           <Flex direction="column" alignItems="center" justifyContent="center" w={[ '100%', null, '100%']} minH="20vh" bgColor="primary" bgImg={`url("/assets/${isDarkMode ? 'bg_pointDark.png' : 'bg_pointLight.png'}")`} bgSize="cover" bgPosition="center">
-            <Link href="/" color="bg" my={6} fontSize="2xl">Back Home</Link>
             <IconButton
               w="fit-content"
               mx="auto"
@@ -33,11 +32,13 @@ export default function Outside() {
               onClick={toggleColorMode}
               aria-label="Toggle color mode"
               bg="bg"
-              mt={3}
+              mb={3}
               _hover={{
                 background: "bg",
               }}
             />
+            <Heading color="bg">The Cave</Heading>
+            <Link href="/" color="bg" my={6} fontSize="2xl">Back Home</Link>
           </Flex>
           { option == "start" && (
           <Flex direction="column" alignItems="center" justifyContent="center" p={12} w={[ '100%', null, '100%']} mx="auto"> 
