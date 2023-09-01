@@ -3,6 +3,8 @@ title: 'coryphaeus'
 slug: 'coryphaeus'
 matter: 'surveys'
 author: 'Exeunt'
+excerpt: ''
+date: "2023-09-01T16:20:04.000Z"
 ---
 
 The penultimate sentences of Mikhail Bakhtin’s great study, *Rabelais and His World* are as follows: *We repeat, every act of world history was accompanied by a laughing chorus. But not every period of history had Rabelais for coryphaeus.*

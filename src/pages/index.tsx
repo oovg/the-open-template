@@ -53,9 +53,8 @@ export default function Home ({ allPosts }: Props) {
       <Box p={12}>
         <Flex maxW="720px" mx="auto" gap={6}><Text textStyle="h2" as="h2">Open Transmisssions</Text></Flex>
         <Flex maxW="720px" mx="auto" direction="column" gap={6}>
-          {allPosts.map((post) => (
-            post.matter === 'transmissions' &&
-            <TransmissionsPost author={post.author} title={post.title} key={post.slug} slug={post.slug} />
+          {allPosts.filter(post => post.matter.includes('transmissions')).map((post) => (
+            <TransmissionsPost author={post.author} excerpt={post.excerpt} date={post.date} title={post.title} key={post.slug} slug={post.slug} />
           ))}
         </Flex>
       </Box>
@@ -73,6 +72,8 @@ export async function getStaticProps() {
     'matter',
     'author',
     'slug',
+    'excerpt',
+    'date',
   ])
   
   return {

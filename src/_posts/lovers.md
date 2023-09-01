@@ -3,6 +3,8 @@ title: "# On Love Songs, Cooperation Theory, and an Iterated Game of Lovers, or 
 slug: 'lovers'
 matter: 'transmissions'
 author: 'Vengi'
+excerpt: "One day I was laying in the grass with a book and listening to psychedelic pop songs, as one does on an improbably sunny spring day in the Pacific North West. A song came on that I had heard many times before, each time imagining these hidden feelings between individuals, prospective lovers. Certainly because I was reading The Evolution of Cooperation (Axelrod, 1984) and daydreaming about Great Filters at the time, I imagined this unseen love existing between all individuals, a love lost across the entire human population, turning a sad song into an epic tragedy of Molochian discoordination."
+date: "2023-09-01T16:20:04.000Z"
 ---
 
 ![](https://hackmd.io/_uploads/ryhBmARN3.png)

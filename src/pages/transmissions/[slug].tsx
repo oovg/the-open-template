@@ -2,7 +2,7 @@ import { useRouter } from 'next/router'
 import ErrorPage from 'next/error'
 import { Box, Flex, Heading, Text, Link, IconButton, useColorMode } from '@chakra-ui/react'
 import { SunIcon, MoonIcon } from '@chakra-ui/icons'
-import { PageMetadata, Rule } from '@/components'
+import { DateFormatter, PageMetadata, Rule } from '@/components'
 import type PostType from '../../interfaces/post'
 import { getPostBySlug, getAllPosts } from '../../lib/api'
 import ReactMarkdown from 'react-markdown'
@@ -59,6 +59,7 @@ type Props = {
         ) : (
         <Flex maxW="720px" mx="auto" direction="column" p={12}>
           <Box py={12}>
+            <Text><DateFormatter dateString={post.date}/></Text>
             <ReactMarkdown className={style.markdown}>{post.title}</ReactMarkdown>
             <Text mt={3}><i>by</i> {post.author}</Text>
           </Box>

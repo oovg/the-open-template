@@ -45,3 +45,12 @@ export function getAllPosts(fields: string[] = []) {
     .sort((post1, post2) => (post1.slug > post2.slug ? 1 : -1))
   return posts
 }
+
+export function getAllTransmissions(fields: string[] = []) {
+  const slugs = getPostSlugs()
+  const posts = slugs
+    .map((slug) => getPostBySlug(slug, fields))
+    // sort posts by date in descending order
+    .sort((post1, post2) => (post1.slug > post2.slug ? 1 : -1))
+  return posts
+}

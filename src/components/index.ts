@@ -1,3 +1,4 @@
+export * from './DateFormatter'
 export * from './Fonts'
 export * from './Further'
 export * from './Matter'
