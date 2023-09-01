@@ -1,6 +1,6 @@
 import { Box, Flex, Heading, IconButton, Link, Text, useColorMode } from '@chakra-ui/react'
 import { SunIcon, MoonIcon } from '@chakra-ui/icons'
-import { PageMetadata, SurveysItem, SurveysPost } from '@/components'
+import { Header, PageMetadata, SurveysItem, SurveysPost } from '@/components'
 import ReactMarkdown from 'react-markdown'
 import style from '../components/markdown-styles.module.css';
 import Post from '../interfaces/post'
@@ -22,34 +22,7 @@ export default function Surveys ({ filteredPosts, uniqueLetters }: Props) {
     <>
       <PageMetadata title="The Open Machine" description="the open machine is ..." />
       <main>
-        <Flex
-          direction="column"
-          textAlign="center"
-          borderRadius="xl"
-          background="bg"
-          color="primary"
-          flexWrap="wrap"
-          w="100%"
-          mb={12}
-        >
-          <Flex direction="column" alignItems="center" justifyContent="center" w={[ '100%', null, '100%']} minH="25vh" p={25} bgColor="primary" bgImg={`url("/assets/${isDarkMode ? 'bg_pointDark.png' : 'bg_pointLight.png'}")`} bgSize="cover" bgPosition="center">
-            <IconButton
-              w="fit-content"
-              mx="auto"
-              icon={isDarkMode ? <SunIcon /> : <MoonIcon />}
-              onClick={toggleColorMode}
-              aria-label="Toggle color mode"
-              bg="bg"
-              mb={3}
-              _hover={{
-                background: "bg",
-              }}
-            />
-            <Heading color="bg">Surveys, 2068</Heading>
-            <Link href="/" color="bg" my={6} fontSize="2xl">Back Home</Link>
-            
-          </Flex>    
-        </Flex>    
+        <Header />   
       </main>
       <Flex maxW="720px" mx="auto" direction="column" p={12} align="start" w="100%">
         <ReactMarkdown className={style.markdown} remarkPlugins={[remarkGfm]}>

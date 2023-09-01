@@ -37,7 +37,7 @@ export default function Outside() {
                 background: "bg",
               }}
             />
-            <Heading color="bg">The Cave</Heading>
+            <Heading color="bg">The Open Machine</Heading>
             <Link href="/" color="bg" my={6} fontSize="2xl">Back Home</Link>
           </Flex>
           { option == "start" && (
