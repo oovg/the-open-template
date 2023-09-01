@@ -7,7 +7,7 @@ excerpt: "One day I was laying in the grass with a book and listening to psyched
 date: "2023-09-01T16:20:04.000Z"
 ---
 
-![](../assets/lovers/loversSkeletons.png)
+![](../assets/lovers/loversGrid.png)
 
 One day I was laying in the grass with a book and listening to psychedelic pop songs, as one does on an improbably sunny spring day in the Pacific North West. A song came on that I had heard many times before, each time imagining these hidden feelings between individuals, prospective lovers. Certainly because I was reading _The Evolution of Cooperation_ (Axelrod, 1984) and daydreaming about Great Filters at the time, I imagined this unseen love existing between all individuals, a love lost across the entire human population, turning a sad song into an epic tragedy of societal discoordination.
 
@@ -54,6 +54,8 @@ I'll keep trying to hide
 The way I feel inside  
 
 It's a sad song of an unshared love, an unseen love with no chance of reciprocity. An impossible love. Going around and around hoping for someone else to open up first, so that they may _finally_ be able to reveal the way they _feel inside_.
+
+![](../assets/lovers/loversSkeletons.png)
 
 ### Lovers' Dilemma
 
@@ -319,8 +321,6 @@ Clarity on what constitutes a cooperation and/or defection raises ability for re
 - raise weight (_w_), or importance, of future interactions
 
 The probability and perceived value of repeat interactions in the future raises the importance of one's interactions today, which can elicit more cooperative behavior. Likewise, the importance perceived in an interaction today can raise probability of repeat interactions in the future.
-
-![](../assets/lovers/loversGrid.png)
 
 
 ### From Game Theory to Cooperation Theory, into Complex Systems and Ecologies, into Cooperative Network Ecologies
