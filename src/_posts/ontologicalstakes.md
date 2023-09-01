@@ -1,3 +1,9 @@
+---
+title: "# On the Ontological Stakes of the Moloch Meme"
+slug: 'ontologicalstakes'
+matter: 'transmissions'
+author: 'Exeunt'
+---
 
 
 To all those who would seek to build, enshrine, and defend moats in our shared virtual machine, to build systems incapable of composition, incapable of componentization, incapable of being permissionlessly replaced by some alternative: We say this is a pattern of the past, an antipattern in web3. It's a pattern enabled by permissioned access to, and control of, data. This pattern will be made redundant in our version of the internet, made redundant by our shared virtual machine.
@@ -94,3 +100,6 @@ Notes
 [9] Moten’s passage in the epigraph is [calling back to Donne](https://www.poetryfoundation.org/poems/44122/a-nocturnal-upon-st-lucys-day#:~:text=For%20I%20am%20every%20dead,whom%20Love%20wrought%20new%20alchemy.&text=Of%20absence%2C%20darkness%2C%20death%3A%20things%20which%20are%20not.&text=Withdrew%20our%20souls%2C%20and%20made%20us%20carcasses.), a reference he shares, to take it full circle, with Oppenheimer [as he named the Trinity test site](https://discover.lanl.gov/news/0714-oppenheimer-literature/). One might think of his alleged conjuring of the Bhagavad-Gita on the day of the test as a ghoulish kind of epochal bookend to Exodus - ‘I AM’ turns finally into ‘I AM BECOME DEATH’, there at the commencement of the cybernetic age.
 
 [10] A great place to start, and an inspiration for this piece and the Pluriverse project at large, is the "Outline for an Ontological Design" found in chapter 4 of Arturo Escobar's [Designs for the Pluriverse](https://www.academia.edu/38094580/Designs_for_the_Pluriverse_Radical_Interdependence_Autonomy_and_the_Making_of_Worlds_Arturo_Escobar), esp. 132–134.
+
+
+First published on the [Pluriverse Mirror](https://mirror.xyz/thepluriverse.eth/b0LgQMmuAu1Vpw-OL3LpKxo3hxOPWlVLrPkQF90g7Qw).
