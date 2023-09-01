@@ -7,13 +7,17 @@ author: 'Exeunt'
 
 
 To all those who would seek to build, enshrine, and defend moats in our shared virtual machine, to build systems incapable of composition, incapable of componentization, incapable of being permissionlessly replaced by some alternative: We say this is a pattern of the past, an antipattern in web3. It's a pattern enabled by permissioned access to, and control of, data. This pattern will be made redundant in our version of the internet, made redundant by our shared virtual machine.
+
 –Auryn Macmillan & Kevin Owocki, "Practical Pluralism"
 
 God said to Moses, "I am who I am." And he said, "Say this to the people of Israel: 'I AM has sent me to you.' "
+
 –Exodus 3:14
 
 But, of course, the problem, I think, with Fanon in Black Skin, is you can do this thing that looks crazy from the normative perspective, but of course in some complicated way there is no non-normative perspective. The non-normative is precisely the absence of a point of view, which is therefore why it can never be about preservation. Eventually, I believe, he comes to believe in the world, which is to say the other world, where we inhabit and maybe even cultivate this absence, this place which shows up here and now, in the sovereign's space and time, as absence, darkness, death, things which are not.
+
 –Fred Moten & Stefano Harney, *The Undercommons: Fugitive Planning and Black Study*
+
 
 It's not even worth saying aloud at this point, but it has long been a badge of credibility in the progressive crypto space to capably reference Scott Alexander (Slate Star Codex)'s basically seminal 2014 piece, [Meditations on Moloch](https://slatestarcodex.com/2014/07/30/meditations-on-moloch/), the source of the meme. The work is known and discussed in other [fields](https://www.youtube.com/watch?v=VcVfceTsD0A&t=7074s), but nowhere is its influence more pronounced, its worldview more internalized than in web3's do-good contingent. We count ourselves in this crowd, and would generally agree with the premise, often said, that *it's all coordination*. But it's the natural lifecycle of a meme to overextend itself, and, in the spirit of self-overcoming crucial to what is said below, the time is nigh for some reflexivity  -  especially now, as web3 readies itself to shed the rags of [parody](https://www.youtube.com/watch?v=zcyk8qpY9c8) and bounce back onto the scene as a serious design solution for the new economic realism. [1]
 
