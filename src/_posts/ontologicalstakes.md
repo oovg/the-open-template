@@ -5,6 +5,7 @@ matter: 'transmissions'
 author: 'Exeunt'
 ---
 
+_First published on the [Pluriverse Mirror](https://mirror.xyz/thepluriverse.eth/b0LgQMmuAu1Vpw-OL3LpKxo3hxOPWlVLrPkQF90g7Qw)._
 
 To all those who would seek to build, enshrine, and defend moats in our shared virtual machine, to build systems incapable of composition, incapable of componentization, incapable of being permissionlessly replaced by some alternative: We say this is a pattern of the past, an antipattern in web3. It's a pattern enabled by permissioned access to, and control of, data. This pattern will be made redundant in our version of the internet, made redundant by our shared virtual machine.
 
@@ -105,5 +106,3 @@ Notes
 
 [10] A great place to start, and an inspiration for this piece and the Pluriverse project at large, is the "Outline for an Ontological Design" found in chapter 4 of Arturo Escobar's [Designs for the Pluriverse](https://www.academia.edu/38094580/Designs_for_the_Pluriverse_Radical_Interdependence_Autonomy_and_the_Making_of_Worlds_Arturo_Escobar), esp. 132–134.
 
-
-First published on the [Pluriverse Mirror](https://mirror.xyz/thepluriverse.eth/b0LgQMmuAu1Vpw-OL3LpKxo3hxOPWlVLrPkQF90g7Qw).
