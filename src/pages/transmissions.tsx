@@ -2,7 +2,7 @@ import { Flex, Heading, IconButton, Link, useColorMode } from '@chakra-ui/react'
 import { SunIcon, MoonIcon } from '@chakra-ui/icons'
 import { PageMetadata, TransmissionsPost } from '@/components'
 import Post from '../interfaces/post'
-import { getAllPosts } from '../lib/api'
+import { getAllTransmissions } from '../lib/api'
 
 
 type Props = {
@@ -56,7 +56,7 @@ export default function Surveys ({ allPosts }: Props) {
 }
 
 export async function getStaticProps() {
-  const allPosts = getAllPosts([
+  const allPosts = getAllTransmissions([
     'title',
     'matter',
     'slug',

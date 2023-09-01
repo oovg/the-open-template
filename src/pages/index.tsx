@@ -2,7 +2,7 @@ import { Box, Flex, Heading, IconButton, Link, Text, useColorMode } from '@chakr
 import { SunIcon, MoonIcon } from '@chakra-ui/icons'
 import { Further, Rule, Section, Matter, Matter2, Secret, Tags, Matter3, PageMetadata, TransmissionsPost } from '@/components'
 import Post from '../interfaces/post'
-import { getAllPosts } from '../lib/api'
+import { getAllTransmissions } from '../lib/api'
 
 type Props = {
   allPosts: Post[]
@@ -67,7 +67,7 @@ export default function Home ({ allPosts }: Props) {
 }
 
 export async function getStaticProps() {
-  const allPosts = getAllPosts([
+  const allPosts = getAllTransmissions([
     'title',
     'matter',
     'author',
