@@ -2,13 +2,13 @@ import { Box, Flex, Heading, IconButton, Link, Text, useColorMode } from '@chakr
 import { SunIcon, MoonIcon } from '@chakra-ui/icons'
 import { Further, Rule, Section, Matter, Matter2, Secret, Tags, Matter3, PageMetadata, TransmissionsPost } from '@/components'
 import Post from '../interfaces/post'
-import { getAllPosts } from '../lib/api'
+import { getAllTransmissions } from '../lib/api'
 
 type Props = {
-  allPosts: Post[]
+  filteredPosts: Post[]
 }
 
-export default function Home ({ allPosts }: Props) {
+export default function Home ({ filteredPosts }: Props) {
   const { colorMode, toggleColorMode } = useColorMode()
   const isDarkMode = colorMode === 'dark'
   return (
@@ -53,7 +53,7 @@ export default function Home ({ allPosts }: Props) {
       <Box p={12}>
         <Flex maxW="720px" mx="auto" gap={6}><Text textStyle="h2" as="h2">Open Transmisssions</Text></Flex>
         <Flex maxW="720px" mx="auto" direction="column" gap={6}>
-          {allPosts.filter(post => post.matter.includes('transmissions')).map((post) => (
+          {filteredPosts.map((post) => (
             <TransmissionsPost author={post.author} excerpt={post.excerpt} date={post.date} title={post.title} key={post.slug} slug={post.slug} />
           ))}
         </Flex>
@@ -67,18 +67,20 @@ export default function Home ({ allPosts }: Props) {
 }
 
 export async function getStaticProps() {
-  const allPosts = getAllPosts([
+  const allPosts = getAllTransmissions([
     'title',
     'matter',
-    'author',
     'slug',
+    'author',
     'excerpt',
     'date',
   ])
+
+  const filteredPosts = allPosts.filter(post => post.matter.includes('transmissions'))
   
   return {
     props: {
-      allPosts,
+      filteredPosts,
     },
   }
 }

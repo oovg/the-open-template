@@ -9,13 +9,12 @@ import remarkGfm from 'remark-gfm'
 
 
 type Props = {
-  allPosts: Post[],
-  letter: string,
+  filteredPosts: Post[],
   uniqueLetters: Array<string>,
 }
 
 
-export default function Surveys ({ allPosts, uniqueLetters }: Props) {
+export default function Surveys ({ filteredPosts, uniqueLetters }: Props) {
   const { colorMode, toggleColorMode } = useColorMode()
   const isDarkMode = colorMode === 'dark'
 
@@ -70,7 +69,7 @@ export default function Surveys ({ allPosts, uniqueLetters }: Props) {
             <Heading>
                   {character}
                 </Heading>
-            { allPosts.filter(post => post.matter.includes('surveys')).map((post) => (
+            { filteredPosts.filter(post => post.matter.includes('surveys')).map((post) => (
               character === post.slug.charAt(0) &&
                 <Box key={post.slug} my={3}>
                   <SurveysItem title={post.title} slug={post.slug} />
@@ -80,8 +79,7 @@ export default function Surveys ({ allPosts, uniqueLetters }: Props) {
         ))}
       </Flex>
       <Flex maxW="720px" mx="auto" direction="column" p={12}>
-        {allPosts.map((post) => (
-          post.matter === 'surveys' &&
+        {filteredPosts.map((post) => (
           <SurveysPost content={post.content} title={post.title} key={post.slug} slug={post.slug} />
         ))}
       </Flex>
@@ -100,11 +98,11 @@ export async function getStaticProps() {
   
   const letter = allPosts.filter(post => post.matter.includes('surveys')).map((filteredPost) => filteredPost.slug.charAt(0))
   const uniqueLetters = Array.from(new Set(letter));
+  const filteredPosts = allPosts.filter(post => post.matter.includes('surveys'))
   
   return {
     props: {
-      allPosts,
-      letter,
+      filteredPosts,
       uniqueLetters,
     },
   }

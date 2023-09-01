@@ -2,15 +2,15 @@ import { Flex, Heading, IconButton, Link, useColorMode } from '@chakra-ui/react'
 import { SunIcon, MoonIcon } from '@chakra-ui/icons'
 import { PageMetadata, TransmissionsPost } from '@/components'
 import Post from '../interfaces/post'
-import { getAllPosts } from '../lib/api'
+import { getAllTransmissions } from '../lib/api'
 
 
 type Props = {
-  allPosts: Post[]
+  filteredPosts: Post[]
 }
 
 
-export default function Surveys ({ allPosts }: Props) {
+export default function Surveys ({ filteredPosts }: Props) {
   const { colorMode, toggleColorMode } = useColorMode()
   const isDarkMode = colorMode === 'dark'
 
@@ -47,7 +47,7 @@ export default function Surveys ({ allPosts }: Props) {
         </Flex>    
       </main>
       <Flex maxW="720px" mx="auto" direction="column">
-        {allPosts.filter(post => post.matter.includes('transmissions')).map((post) => (
+        {filteredPosts.map((post) => (
           <TransmissionsPost title={post.title} key={post.slug} slug={post.slug} author={post.author} excerpt={post.excerpt} date={post.date} />
         ))}
       </Flex>
@@ -56,7 +56,7 @@ export default function Surveys ({ allPosts }: Props) {
 }
 
 export async function getStaticProps() {
-  const allPosts = getAllPosts([
+  const allPosts = getAllTransmissions([
     'title',
     'matter',
     'slug',
@@ -64,10 +64,12 @@ export async function getStaticProps() {
     'excerpt',
     'date',
   ])
+
+  const filteredPosts = allPosts.filter(post => post.matter.includes('transmissions'))
   
   return {
     props: {
-      allPosts,
+      filteredPosts,
     },
   }
 }
