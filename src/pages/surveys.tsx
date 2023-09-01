@@ -33,7 +33,7 @@ export default function Surveys ({ allPosts, uniqueLetters }: Props) {
           mb={12}
         >
           <Flex direction="column" alignItems="center" justifyContent="center" w={[ '100%', null, '100%']} minH="25vh" p={25} bgColor="primary" bgImg={`url("/assets/${isDarkMode ? 'bg_pointDark.png' : 'bg_pointLight.png'}")`} bgSize="cover" bgPosition="center">
-            <Heading color="bg">Surveys of 2068</Heading>
+            <Heading color="bg">Surveys, 2068</Heading>
             <Link href="/" color="bg" my={6} fontSize="2xl">Back Home</Link>
             <IconButton
               w="fit-content"
