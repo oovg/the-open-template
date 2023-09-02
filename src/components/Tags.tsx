@@ -8,8 +8,8 @@ export const Tags = () => (
       <Text textStyle="tag">The open machine is a pagan divination.</Text>
       <Text textStyle="tag">The open machine is an ethos of encounter over ownership.</Text>
       <Text textStyle="tag">The open machine is a machinic negotiation between intention and indeterminacy.</Text>
-      <Text textStyle="tag">The open machine is a cryptographic gate against the tyranny of the wall.</Text>
-      <Text textStyle="tag">The open machine is a stochastic vehicle of emergence.</Text>
+      <Text textStyle="tag">The open machine is a cryptographic gate against the tyranny of the the present.</Text>
+      <Text textStyle="tag">The open machine is a stochastic vehicle of emergenct and fugitive time.</Text>
       <Text textStyle="tag">The open machine is a pirate chemistry.</Text>
       <Text textStyle="tag">The open machine is an archive apophenia.</Text>
       <Text textStyle="tag">The open machine is a network incantation.</Text>
