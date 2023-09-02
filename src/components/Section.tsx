@@ -19,7 +19,7 @@ export const Section = () => (
             <Text textStyle="paragraph">Borrowing from the ethos of the builders, we announce The Open Machine, a publication press for the advancement of concepts adequate to the network. We forego authority and professionalism for nonlinearity and free association. We call to task interdisciplinary and transhistorical inputs for the sake of conceptual pandemonium. We study the rhythms and arrows of meme propagation so as to venture farther out onto limbs of recursion and emergence. We work through the abandonment issues of those that have forsaken the lords of enclosure and find new idols, machine elves and mathematical witches of the long and open past.</Text>
             <Text textStyle="paragraph">We create in an atmosphere of savageness and generosity. We view the expanse with the disturbed eye of reality.
               <img
-        src="https://hackmd.io/_uploads/Ske-rvg02.pn"
+        src="../assets/cathedral void.png"
       />
 </Text>
         </Box> 
