@@ -9,6 +9,8 @@ excerpt: "To all those who would seek to build, enshrine, and defend moats in ou
 date: "2023-05-02T16:20:04.000Z"
 ---
 
+![Uploading skull.png…]()
+
 _First published on the [Pluriverse Mirror](https://mirror.xyz/thepluriverse.eth/b0LgQMmuAu1Vpw-OL3LpKxo3hxOPWlVLrPkQF90g7Qw)._
 
 To all those who would seek to build, enshrine, and defend moats in our shared virtual machine, to build systems incapable of composition, incapable of componentization, incapable of being permissionlessly replaced by some alternative: We say this is a pattern of the past, an antipattern in web3. It's a pattern enabled by permissioned access to, and control of, data. This pattern will be made redundant in our version of the internet, made redundant by our shared virtual machine.
