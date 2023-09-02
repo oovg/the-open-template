@@ -9,7 +9,7 @@ excerpt: "{Freedom} is certainly not the right to own the economic, social, poli
 date: "2023-07-04T16:20:00.000Z"
 ---
 
-![Uploading lichfieldcut.png…]()
+![lichfieldcut](https://github.com/oovg/the-open-template/assets/90937997/3818f7cc-0d4d-4487-9d86-d9a28ba3c6be)
 
 {Freedom} is certainly not the right to own the economic, social, political, or cultural capital in order to dominate others and trade their happiness in a monopolistic market. Freedom is the process by which you develop a practice for being unavailable for servitude.
 
@@ -25,7 +25,7 @@ I seem to have a strange, recurring tie with the ancient parish city of Lichfiel
 
 My first exposure was by way of a footnote on the life of Lady Eleanor Davies, the poet and mystic - a millenarian radical who, in 1625, after taking into her care a deaf-mute orphan with prophetic inclinations, went on a decades long crusade, foretelling in dozens of pamphlets the coming of the end times and a period of retribution that would mirror the events of the biblical Book of Daniel. The relational spark of the whole tale always compelled me. She was 35 before she ever met the child, and was apparently transformed: the Lady’s life as an outlaw was no loner’s, but rich with encounters, friendships, interpersonal *ekstasis* and the *lectio divina* of her relationship with others’ words. Famously, if honoring these tangled and chance-laden affections, she anagrammed out of a slightly distorted version of her name the injunction: REVEALE O DANIEL!
 
-![Uploading reveal.png…]()
+![reveal](https://github.com/oovg/the-open-template/assets/90937997/c97a9973-9342-4526-96a8-21d115f704bb)
 
 You might be surprised - history is strange this way - that she had a real, historically documented penchant for prophecy, correctly and very publicly predicting the death of the Duke of Buckingham, and then her husband. By 1936 she was a widow and ex-prisoner, having been confined for smuggling her manuscripts across the border to England from Amsterdam. Apparently attempting to settle down, she moved in with a friend named Susan Walker in Lichfield. Even then, she couldn’t help but sow seeds of dissent. After a series of protests about the class and status-based seating arrangements at Lichfield Cathedral, on December 18 of that year she performed what the parish called “insufferable profanations”: dousing the Cathedral altar in tar and taking the bishops throne to declare herself ‘primate and [metropolitan](https://lichfieldlore.co.uk/2016/03/21/womens-writes/).’ She was quickly imprisoned. Seven years later, during the English Civil War, the Cathedral was set fire and nearly destroyed in a siege.
 
