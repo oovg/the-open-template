@@ -17,4 +17,4 @@ The lichen latch to exposed boulder and stone, footpaths and clearings that host
 
 On top of this hill is a hundred year old, decommissioned analogue television tower and it is swimming with cixiids. Three of our engineers have climbed to the top, and the wind is raucous against them. An electric pall comes over me, for here we stand nearly witness to the advent of a superorganism with ancient depth. A count begins, 60, 59, 58, but it’s too late, the charge has propagated in a brief bioluminsecent shimmer, and a green explosion in the dark of our skulls. Then gone. We stand there in silence and darkness and the wind has stopped. Our feet are on the ground and we are swimming through phase space. 
 
-![lisagora](https://github.com/oovg/the-open-template/assets/90937997/a67d8f3b-6452-48d0-acac-0aa8eabce6e4)
+![lisagora](https://github.com/oovg/the-open-template/assets/90937997/57a3f4d3-ca07-4363-a12f-19a32c4ff544)
