@@ -19,4 +19,4 @@ Weiner had become a literal face of the radical DAO scene in the early 2030's, w
 
 In this way Weiner became legend in decentralized communities the world over, her work understood (consciously or not) to represent a potential for solidarity in mysterious new configurations that exhausted the formalizations of the previous age and put up into open sight the very mechanism of domination. The infrared mist of legitimacy, pact, the contract made visible. My name is Hannah Weiner and I SEE WORDS.
 
-![hannah](https://github.com/oovg/the-open-template/assets/90937997/1687758a-0fd6-40c3-bfe5-98250ac3123f)
+![hologram](https://github.com/oovg/the-open-template/assets/90937997/c1091f07-7846-412b-a6c5-80df3e2ebeaf)
