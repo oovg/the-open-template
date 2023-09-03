@@ -30,9 +30,10 @@ export default function Surveys ({ filteredPosts, uniqueLetters }: Props) {
         – Timothy Morton  
         </ReactMarkdown>
         <Text>
-          In the year 2068, a memetic and conceptual cartography is established, lore from the post-web and the fall out of the cryptographic coups presented in a polyphonic “mingle-mangle”*. By means unknown - perhaps magickal, perhaps technological - passages from the future appeared in inboxes of minor DAO contributors of the present day. Below are those compiled passages.
+          In the year 2068, a memetic and conceptual cartography is established, lore from the post-web and the fall out of the cryptographic coups presented in a polyphonic “mingle-mangle”*. By means unknown - perhaps magickal, perhaps technological - passages from the future appeared in inboxes of lowly net beings of the present day. Below are those compiled passages.
+          <br /><br />
           If discovered, please send found entries to <Link isExternal href="theopenmachine@protonmail.com">theopenmachine@protonmail.com</Link>.  
-          <br />
+          <br /><br />
           *The sender&apos;s term, not ours.
         </Text>
       </Flex>
