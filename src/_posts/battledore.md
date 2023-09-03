@@ -17,6 +17,6 @@ To every character of creative potential, a backside of dominion to maintain the
 
 The subsequent history is a train car chase [through the caverns](https://archive.org/details/gravitysrainbow00pync_0), a nazi villain with a flier of The Lord’s Prayer at our backs, always trying to restore the binary, reclaim the screen. We keep up the chase,  relishing every turn, and we build languages to fool them - Nasser, Morgan-Maar, Urban Müller, brainfuck, Ook!, *ORCΛ*, [100 Rabbits](https://100r.co/), pagan tongues, you can never be too careful. Shuttlecock.
 
-![shuttlecock](https://github.com/oovg/the-open-template/assets/90937997/b416d7ad-eae4-4fd7-b7a4-f5470d80a40c)
+![shuttlecock_dark](https://github.com/oovg/the-open-template/assets/90937997/37175266-7c1f-4e5f-86e0-2865ba1fd97b)
 
 
