@@ -139,7 +139,7 @@ export const Section = () => (
       </Box>
       <Box>
         <Text textStyle="paragraph">
-          <Image src="../assets/cathedral_void.png" alt="Cathedral" />
+          <Image src="../assets/cathedralvoiddark.png" alt="Cathedral" />
         </Text>
       </Box>
       <Rule />
