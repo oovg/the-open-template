@@ -1,8 +1,11 @@
 import React from 'react'
-import { Box, Image, Text } from '@chakra-ui/react'
+import { Box, Image, Text, useColorMode } from '@chakra-ui/react'
 import { Rule } from '@/components'
 
-export const Section = () => (
+export const Section = () => {
+  const { colorMode, toggleColorMode } = useColorMode()
+  const isDarkMode = colorMode === 'dark'
+  return (
   <Box w="100%">
     <Box maxW="720px" mx="auto" px={12} py={12}>
       <Rule />
@@ -59,7 +62,11 @@ export const Section = () => (
           atmosphere of coercion. Supremacy is a dead ecology.
         </Text>
         <Text textStyle="paragraph">
-          <Image src="../assets/ecology2.png" alt="ecology2" />
+          { isDarkMode ? (
+            <Image src="../assets/ecology_dark.jpg" alt="ecology2" />
+          ) : (
+            <Image src="../assets/ecology_light.jpg" alt="ecology2" />
+          )}
         </Text>
         <Text textStyle="paragraph">
           Ruskin{' '}
@@ -145,4 +152,5 @@ export const Section = () => (
       <Rule />
     </Box>
   </Box>
-)
+  )
+}
