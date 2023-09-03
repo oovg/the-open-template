@@ -59,7 +59,7 @@ export const Section = () => (
           atmosphere of coercion. Supremacy is a dead ecology.
         </Text>
         <Text textStyle="paragraph">
-          <Image src="../assets/ecology.png" alt="ecology" />
+          <Image src="../assets/ecology.jpg" alt="ecology" />
         </Text>
         <Text textStyle="paragraph">
           Ruskin{' '}
@@ -139,7 +139,7 @@ export const Section = () => (
       </Box>
       <Box>
         <Text textStyle="paragraph">
-          <Image src="../assets/cathedralvoiddark.png" alt="Cathedral" />
+          <Image src="../assets/cathedralvoiddark.jpg" alt="CathedralDark" />
         </Text>
       </Box>
       <Rule />
