@@ -5,7 +5,7 @@ matter: 'surveys'
 author: 'Exeunt'
 excerpt: ''
 date: "2023-09-01T16:20:04.000Z"
-image: ''
+imagePath: ''
 ---
 
 12 December 2019, in vol. 10 of *Frontiers in Psychology*, the lauded developmental biologist Michael Levin ends a rather dry 17 pages on his ‘cognitive light cone’ framework with an unhinged comment, likely written as an afterthought and under the influence of strong psychedelics:

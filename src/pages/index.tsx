@@ -54,7 +54,7 @@ export default function Home ({ filteredPosts }: Props) {
         <Flex maxW="720px" mx="auto" gap={6}><Text textStyle="h2" as="h2">Open Transmissions</Text></Flex>
         <Flex maxW="720px" mx="auto" direction="column" gap={6}>
           {filteredPosts.map((post) => (
-            <TransmissionsPost author={post.author} excerpt={post.excerpt} date={post.date} title={post.title} key={post.slug} slug={post.slug} image={post.image} />
+            <TransmissionsPost author={post.author} excerpt={post.excerpt} date={post.date} title={post.title} key={post.slug} slug={post.slug} imagePath={post.imagePath} />
           ))}
         </Flex>
       </Box>
@@ -74,7 +74,7 @@ export async function getStaticProps() {
     'author',
     'excerpt',
     'date',
-    'image',
+    'imagePath',
   ])
 
   const filteredPosts = allPosts.filter(post => post.matter.includes('transmissions'))
