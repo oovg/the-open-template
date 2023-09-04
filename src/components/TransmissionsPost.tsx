@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box, Button, Text } from '@chakra-ui/react'
+import { Box, Image, Text } from '@chakra-ui/react'
 import Link from 'next/link'
 import ReactMarkdown from 'react-markdown'
 import style from './markdown-styles.module.css'
@@ -18,7 +18,8 @@ export const TransmissionsPost = ({ title, author, slug, excerpt, date, image }:
 
     <Box mx="auto" w="100%" border="1px" borderColor="primary" p={8} mt={6}>
       
-        <Text><i><DateFormatter dateString={date} /></i></Text>
+        <Text mb={6}><i><DateFormatter dateString={date} /></i></Text>
+        <Image src={image} />
         <Link
           as={`/transmissions/${slug}`}
           href="/transmissions/[slug]"

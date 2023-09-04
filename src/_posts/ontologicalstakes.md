@@ -7,7 +7,7 @@ excerpt: "To all those who would seek to build, enshrine, and defend moats in ou
 
 –Auryn Macmillan & Kevin Owocki, 'Practical Pluralism'"
 date: "2023-05-02T16:20:04.000Z"
-image: "/assets/90937997/b0f74b57-f0a2-4c2f-ba10-76e1cc19e89c"
+image: "/assets/transmissions/ontologicalstakes.jpg"
 ---
 
 ![skull](https://github.com/oovg/the-open-template/assets/90937997/b0f74b57-f0a2-4c2f-ba10-76e1cc19e89c)
