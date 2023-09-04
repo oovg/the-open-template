@@ -37,8 +37,6 @@ export default function Surveys ({ filteredPosts, uniqueLetters }: Props) {
           *The sender&apos;s term, not ours.
           <br /><br />
         </Text>
-        </Box>
-      <Box>
         <Text textStyle="paragraph">
           <Image src="../assets/octopus.jpg" alt="Octopus" />
         </Text>
