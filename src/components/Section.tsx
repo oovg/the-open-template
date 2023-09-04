@@ -11,7 +11,7 @@ export const Section = () => {
       <Rule />
       <Box>
         <Text textStyle="paragraph">
-          It&apos;s an open secret, a scandalous bit of folk knowledge known
+          It's an open secret, a scandalous bit of folk knowledge known
           among realists and parriahs alike, that the ones who seek totalizing
           systems are the ones most excluded from the touch of wholeness. A
           preliminary definition of truth for the modern age could be: that which an
@@ -27,9 +27,9 @@ export const Section = () => {
           and ownership in little mercenary episodes, but they
           are always slipping toward free encounter and discovery, the trickster
           germ of the untimely. When Von Neumann and Wiener developed the field
-          of cybernetics, they couldn&apos;t know that they were opening up a
+          of cybernetics, they couldn't know that they were opening up a
           line of inquiry that would expose them, in their bids at control, to
-          the fly by night agency of the concept. Bateson&apos;s information ecology:
+          the fly by night agency of the concept. Bateson's information ecology:
           everywhere you find entanglement, recursion, the categorically
           unstable reflexivity of network systems, there is the concept: burrowing 
           unstable paths that revive the dead, deliver the unborn, open machines for 
@@ -79,34 +79,34 @@ export const Section = () => {
           </a>{' '}
           in 1853 of the tradition of the gothic masons, journeyman
           practitioners whose art contained the generic traits of the net-being,
-          the free agent who strives at all points toward ecology (&ldquo;in gothic
-          work,&rdquo; he says, &ldquo;the workman must have been altogether set
-          free&rdquo;). The traits are as follows:{' '}
+          the free agent who strives at all points toward ecology ("in gothic
+          work," he says, "the workman must have been altogether set
+          free"). The traits are as follows:{' '}
           <b>
             Savageness or Rudeness, Love of Change, Love of Nature, Disturbed
             Imagination, Obstinacy
           </b>
           , and <b>Generosity</b>. The brash artistry had no time for ceremony
-          and manicured likenesses, generating &quot;creations of ungainly shape and
-          rigid limb, but full of wolfish life.&quot; (<i>Sub specie aeterni</i>, all
+          and manicured likenesses, generating "creations of ungainly shape and
+          rigid limb, but full of wolfish life." (<i>Sub specie aeterni</i>, all
           attempts at brutalism inevitably become flambouant and grotesque.)The 
           successive builds made for patchwork styles that embraced changed; the 
-          spires and buttresses charged with an obstinance and rigidity &quot;not merely stable, but active
+          spires and buttresses charged with an obstinance and rigidity "not merely stable, but active
           … the peculiar energy which gives tension to movement, and stiffness
           to resistance, which makes the fiercest lightning forked rather than
-          curved.&quot;
+          curved."
         </Text>
       </Box>
       <Box>
         <Text textStyle="paragraph">
-          The suggestion of Ruskin&apos;s gothic treatise is that free work is 
+          The suggestion of Ruskin's gothic treatise is that free work is 
           a negotiation, a pact, a machinic point where the audacity and speed
           of liberty is checked by the patience of emergence. The gothic labors 
-          are distinct for this naturalism, this realism and &quot;love of change&quot; 
-          built out of &quot;a profound sympathy with the fulness and wealth of the
-          material universe.&quot; But the point allows the journeyman to make acuaintance
-          with beings across scales, divining frokm &quot;the forest leaves ... the
-          wandering of the tendril, and the budding of the flower&quot; a rude and weird
+          are distinct for this naturalism, this realism and "love of change
+          built out of "a profound sympathy with the fulness and wealth of the
+          material universe." But the point allows the journeyman to make acuaintance
+          with beings across scales, divining from "the forest leaves ... the
+          wandering of the tendril, and the budding of the flower" a rude and weird
           platonism, gargole archetypes of the natural rhythms. Attention and patience
           that leads to eccentric freedom, and speed.
         </Text>
@@ -115,10 +115,10 @@ export const Section = () => {
           web, we find these same attributes. We find the savage grasp of
           materiality - yes, even the materiality of transistor charges and
           logic gates - loved and embraced for all its robustness. When the
-          relationship to the elements isn&apos;t alienated by the distracted
+          relationship to the elements isn't alienated by the distracted
           and antireal metaphysics of hierarchy, that abundance unfolds, so that
           the intention of the producer is fused with the intrigue and chance of
-          the material instance. And from that instance, rude forms. That&apos;s the 
+          the material instance. And from that instance, rude forms. That's the 
           question- how to bring the material instance to bear in building, conceptualizing, and
           manifesting the flamboyantly fractal and utterly irreverent scale
           invariance of the network, the (anti)thing that touches and ignites
