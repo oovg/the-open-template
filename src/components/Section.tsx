@@ -1,8 +1,11 @@
 import React from 'react'
-import { Box, Image, Text } from '@chakra-ui/react'
+import { Box, Image, Text, useColorMode } from '@chakra-ui/react'
 import { Rule } from '@/components'
 
-export const Section = () => (
+export const Section = () => {
+  const { colorMode, toggleColorMode } = useColorMode()
+  const isDarkMode = colorMode === 'dark'
+  return (
   <Box w="100%">
     <Box maxW="720px" mx="auto" px={12} py={12}>
       <Rule />
@@ -59,7 +62,11 @@ export const Section = () => (
           atmosphere of coercion. Supremacy is a dead ecology.
         </Text>
         <Text textStyle="paragraph">
-          <Image src="../assets/ecology.jpg" alt="ecology" />
+          { isDarkMode ? (
+            <Image src="../assets/ecology_dark.jpg" alt="ecology2" />
+          ) : (
+            <Image src="../assets/ecology_light.jpg" alt="ecology2" />
+          )}
         </Text>
         <Text textStyle="paragraph">
           Ruskin{' '}
@@ -80,14 +87,14 @@ export const Section = () => (
             Imagination, Obstinacy
           </b>
           , and <b>Generosity</b>. The brash artistry had no time for ceremony
-          and manicured likenesses, generating “creations of ungainly shape and
-          rigid limb, but full of wolfish life.” (<i>Sub specie aeterni</i>, all
+          and manicured likenesses, generating &quot;creations of ungainly shape and
+          rigid limb, but full of wolfish life.&quot; (<i>Sub specie aeterni</i>, all
           attempts at brutalism inevitably become flambouant and grotesque.)The 
           successive builds made for patchwork styles that embraced changed; the 
-          spires and buttresses charged with an obstinance and rigidity “not merely stable, but active
+          spires and buttresses charged with an obstinance and rigidity &quot;not merely stable, but active
           … the peculiar energy which gives tension to movement, and stiffness
           to resistance, which makes the fiercest lightning forked rather than
-          curved.”
+          curved.&quot;
         </Text>
       </Box>
       <Box>
@@ -95,11 +102,11 @@ export const Section = () => (
           The suggestion of Ruskin&apos;s gothic treatise is that free work is 
           a negotiation, a pact, a machinic point where the audacity and speed
           of liberty is checked by the patience of emergence. The gothic labors 
-          are distinct for this naturalism, this realism and "love of change" 
-          built out of "a profound sympathy with the fulness and wealth of the
-          material universe." But the point allows the journeyman to make acuaintance
-          with beings across scales, divining frokm "the forest leaves ... the
-          wandering of the tendril, and the budding of the flower" a rude and weird
+          are distinct for this naturalism, this realism and &quot;love of change&quot; 
+          built out of &quot;a profound sympathy with the fulness and wealth of the
+          material universe.&quot; But the point allows the journeyman to make acuaintance
+          with beings across scales, divining frokm &quot;the forest leaves ... the
+          wandering of the tendril, and the budding of the flower&quot; a rude and weird
           platonism, gargole archetypes of the natural rhythms. Attention and patience
           that leads to eccentric freedom, and speed.
         </Text>
@@ -142,4 +149,5 @@ export const Section = () => (
       <Rule />
     </Box>
   </Box>
-)
+  )
+}

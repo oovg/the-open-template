@@ -1,5 +1,4 @@
-import { Box, Flex, Heading, IconButton, Link, Text, useColorMode } from '@chakra-ui/react'
-import { SunIcon, MoonIcon } from '@chakra-ui/icons'
+import { Box, Flex, Heading, Image, Link, Text, useColorMode } from '@chakra-ui/react'
 import { Header, PageMetadata, SurveysItem, SurveysPost } from '@/components'
 import ReactMarkdown from 'react-markdown'
 import style from '../components/markdown-styles.module.css';
