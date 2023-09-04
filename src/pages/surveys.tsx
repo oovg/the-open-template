@@ -36,8 +36,8 @@ export default function Surveys ({ filteredPosts, uniqueLetters }: Props) {
           <br /><br />
           *The sender&apos;s term, not ours.
           <br /><br />
-          <Image src="/assets/octopus.jpg" alt="Octopus" />
         </Text>
+        <Image src="../assets/octopus.jpg" alt="Octopus" />
       </Flex>
       <Flex maxW="720px" mx="auto" direction="column" p={12} align="start" w="100%">
         {uniqueLetters.map((character) => (
