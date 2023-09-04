@@ -1,5 +1,5 @@
 ---
-title: "# Fourth of July in Network Space"
+title: "Fourth of July in Network Space"
 slug: 'fourth'
 matter: 'transmissions'
 author: 'Exeunt'

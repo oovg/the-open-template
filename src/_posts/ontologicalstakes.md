@@ -1,5 +1,5 @@
 ---
-title: "# On the Ontological Stakes of the Moloch Meme"
+title: "On the Ontological Stakes of the Moloch Meme"
 slug: 'ontologicalstakes'
 matter: 'transmissions'
 author: 'Exeunt'
