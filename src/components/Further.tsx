@@ -27,6 +27,7 @@ export const Further = () => (
         <Link isExternal href="http://c4ss.org">C4SS</Link>
         <Link isExternal href="https://www.plurality.net">Plurality</Link>
         <Link isExternal href="https://shanghai-nyu.academia.edu/BognaMKonior">Bogna Konior Selected Writings</Link>
+        <Link isExternal href="https://www.urbanomic.com/book/">Urbanomic</Link>
         <Link isExternal href="https://esoteric.codes/blog/100-rabbits">Esoteric.codes</Link>
       </Flex>
     </Flex>
