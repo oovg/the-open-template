@@ -19,7 +19,7 @@ export default function Surveys ({ filteredPosts, uniqueLetters }: Props) {
 
   return (
     <>
-      <PageMetadata title="tOM | Surveys, 2068" description="It is as if we were inside a giant octopus." image="../assets/tOM_unfurl.jpg" />
+      <PageMetadata title="Surveys, 2068" description="It is as if we were inside a giant octopus." image="https://theopenmachine.net/assets/tOM_unfurl.jpg" />
       <main>
         <Header />   
       </main>
