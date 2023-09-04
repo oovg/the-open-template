@@ -1,6 +1,6 @@
 import { useRouter } from 'next/router'
 import ErrorPage from 'next/error'
-import { Box, Flex, Heading, Text, Link, IconButton, useColorMode } from '@chakra-ui/react'
+import { Box, Flex, Text, Link, Image, useColorMode } from '@chakra-ui/react'
 import { DateFormatter, Header, PageMetadata, Rule } from '@/components'
 import type PostType from '../../interfaces/post'
 import { getPostBySlug, getAllPosts } from '../../lib/api'
@@ -23,7 +23,7 @@ type Props = {
 
     return (
       <>
-        <PageMetadata title={post.title} description={post.excerpt} image={ post.image !== '' ? post.image : '../assets/tOM_unfurl.jpg' } />
+        <PageMetadata title={post.title} description={post.excerpt} image={ post.image !== '' ? post.image : '/assets/tOM_unfurl.jpg' } />
         <main>
           <Header /> 
         </main> 
