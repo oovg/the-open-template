@@ -15,7 +15,7 @@ export default function Surveys ({ filteredPosts }: Props) {
 
   return (
     <>
-      <PageMetadata title="tOM | Transmissions" description="the open machine is ..." image="../assets/tOM_unfurl.jpg" />
+      <PageMetadata title="Open Transmissions" description="the open machine is ..." image="https://theopenmachine.net/assets/tOM_unfurl.jpg" />
       <main>
         <Header />    
       </main>
