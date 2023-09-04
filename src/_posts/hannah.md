@@ -5,7 +5,7 @@ matter: 'surveys'
 author: 'Exeunt'
 excerpt: ''
 date: "2023-09-01T16:20:04.000Z"
-image: ''
+imagePath: ''
 ---
 
 Automatic writer and alleged feminist language poet Hannah Weiner  (1928- Sept 11, 1997) was known in her time for championing a kind of avant garde word art, accentuated with a collaborative performance protocol that turned private pain into collective catharsis. They were deeply private scenes putting her severe schizophrenic symptoms on full display (ultrareal alphabetic hallucinations, a kind of direct visual manifestation exceedingly rare in the archives). 

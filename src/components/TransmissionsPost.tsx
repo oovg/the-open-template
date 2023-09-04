@@ -11,10 +11,10 @@ type Props = {
   slug: string
   excerpt: string
   date: string
-  image: string
+  imagePath: string
 }
 
-export const TransmissionsPost = ({ title, author, slug, excerpt, date, image }: Props) => (
+export const TransmissionsPost = ({ title, author, slug, excerpt, date, imagePath }: Props) => (
 
     <Box mx="auto" w="100%" border="1px" borderColor="primary" p={8} mt={6}>
       
@@ -23,7 +23,7 @@ export const TransmissionsPost = ({ title, author, slug, excerpt, date, image }:
           as={`/transmissions/${slug}`}
           href="/transmissions/[slug]"
         >
-          <Image src={image} alt="transmissions image" />
+          <Image src={imagePath} alt="transmissions image" />
           <ReactMarkdown className={style.markdown}>{'# ' + title}</ReactMarkdown>
         </Link>
         <Text mb={6}><i>by</i> {author}</Text>

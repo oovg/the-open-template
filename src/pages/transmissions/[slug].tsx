@@ -23,7 +23,7 @@ type Props = {
 
     return (
       <>
-        <PageMetadata title={post.title} description={post.excerpt} image={ post.image !== '' ? post.image : '/assets/tOM_unfurl.jpg' } />
+        <PageMetadata title={post.title} description={post.excerpt} image={ post.imagePath !== '' ? post.imagePath : '/assets/tOM_unfurl.jpg' } />
         <main>
           <Header /> 
         </main> 
@@ -60,6 +60,7 @@ type Props = {
       'slug',
       'author',
       'content',
+      'imagePath',
     ])
   
     return {

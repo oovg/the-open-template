@@ -7,7 +7,7 @@ excerpt: "{Freedom} is certainly not the right to own the economic, social, poli
 
 – Avery F Gordon paraphrasing Toni Cade Bambara (Quoted by Maggie Nelson)"
 date: "2023-07-04T16:20:00.000Z"
-image: "/assets/transmissions/fourth.jpg"
+imagePath: "/assets/transmissions/fourth.jpg"
 ---
 
 ![lichfielddark](https://github.com/oovg/the-open-template/assets/90937997/aec0ec1a-5c6e-485f-b5ac-1fabda5877fc)
