@@ -9,7 +9,7 @@ excerpt: "{Freedom} is certainly not the right to own the economic, social, poli
 date: "2023-07-04T16:20:00.000Z"
 ---
 
-![lichfieldcut](https://github.com/oovg/the-open-template/assets/90937997/3818f7cc-0d4d-4487-9d86-d9a28ba3c6be)
+![lichfielddark](https://github.com/oovg/the-open-template/assets/90937997/aec0ec1a-5c6e-485f-b5ac-1fabda5877fc)
 
 {Freedom} is certainly not the right to own the economic, social, political, or cultural capital in order to dominate others and trade their happiness in a monopolistic market. Freedom is the process by which you develop a practice for being unavailable for servitude.
 
