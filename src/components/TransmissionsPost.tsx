@@ -11,9 +11,10 @@ type Props = {
   slug: string
   excerpt: string
   date: string
+  image: string
 }
 
-export const TransmissionsPost = ({ title, author, slug, excerpt, date }: Props) => (
+export const TransmissionsPost = ({ title, author, slug, excerpt, date, image }: Props) => (
 
     <Box mx="auto" w="100%" border="1px" borderColor="primary" p={8} mt={6}>
       
