@@ -7,6 +7,8 @@ excerpt: "One day I was laying in the grass with a book and listening to psyched
 date: "2023-09-01T16:20:04.000Z"
 ---
 
+_Collect this piece on_ [Mirror](https://mirror.xyz/vengist.eth/0aeIp4jDheRXectGJXKGM31GlsZaZugVPA8Sq_HY6lY)
+
 ![](../assets/lovers/loversSkeletons.png)
 
 One day I was laying in the grass with a book and listening to psychedelic pop songs, as one does on an improbably sunny spring day in the Pacific North West. A song came on that I had heard many times before, each time imagining these hidden feelings between individuals, prospective lovers. Certainly because I was reading _The Evolution of Cooperation_ (Axelrod, 1984) and daydreaming about Great Filters at the time, I imagined this unseen love existing between all individuals, a love lost across the entire human population, turning a sad song into an epic tragedy of societal discoordination.
@@ -57,7 +59,7 @@ It's a sad song of an unshared love, an unseen love with no chance of reciprocit
 
 ### Lovers' Dilemma
 
-It's safe to assume songwriter (and keyboardist!) Rod Argent wasn't thinking in game theoretical terms, but it's a rather elegant and romantic portrayal of the Prisoners' Dilemma, the lovers imprisoned by their own fear of vulnerability in being the first to reveal their feelings, aka 'cooperate'.
+It's clear songwriter (and keyboardist!) Rod Argent wasn't thinking in game theoretical terms, but it's a rather elegant and romantic portrayal of the Prisoners' Dilemma, the lovers imprisoned by their own fear of vulnerability in being the first to reveal their feelings, aka 'cooperate'.
 
 Game Theory, and more specifically Axelrod's Cooperation Theory, elucidates many possible enhancements to cooperative probabilities. If we know the rules of the game and strategies of the players, we can both predict the probabilistic outcome of future interactions as well as derive alternative strategies to improve outcomes. By quantifying subjective incentives, we are able to simulate games and strategies over time. We can even look at the game itself, to design better paths to emergent cooperative behavior. So let us fork the Prisoner's Dilemma to define and play through a new game, The Lovers' Dilemma.
 
@@ -78,16 +80,16 @@ The way I feel inside
 
 The protagonist admits 'But 'til I can see', 'I'll keep trying to hide', so we can assume they plan on hiding their feelings upon first meeting someone new, and repeating that unless the other shares their feelings, in which case they'd cooperate and share their feelings too. In theory, but will we ever actually see this reciprocity of love?
 
-The protagonist's strategy can be simplified to DEFECT-FIRST by hiding their feelings, then RECIPROCATE, or copying the other's moves from then on.
+The protagonist's strategy can be simplified to DEFECT-FIRST by hiding their feelings, then RECIPROCATE, copying the other's moves from then on.
 
 - 1: DEFECT FIRST: _hide feelings_
-- 2: RECIPROCATE: copy move
+- 2: RECIPROCATE: copy last move
     IF the other shares feelings: 
     THEN share feelings
     ELSE hide feelings 
 - 3: ...
     
-For sake of repetition let's label the strategy 'DOPYCAT', like 'copycat' but Defect-first. Defect-first strategies are oft referred to as 'mean'. As players unaware of our _opponent's_ strategy, we tend to project our own strategies on others to simplify the computation of our strategy. So extra discoordination emerges in the likelihood that both players are using DEFECT-first ('mean') strategies (hiding their feelings).
+For sake of repetition let's label the strategy 'DOPYCAT', like 'copycat' but Defect-first. Defect-first strategies are oft referred to as 'mean'.
 
 ### Payoff Matrix
 
@@ -134,7 +136,7 @@ Mutual Love => Supermodularity => Positive Sum Value
 
 The preferred outcome here is obviously to get both lovers to open up, despite the threat of punishment and reward for staying closed off. Let's connect many interactions together into an iterated game in order to simulate and see how strategies can play out over time. We can also pull some strategies out of other songs for advice. We can use this info to surface ways to encourage higher probabilities of cooperation, and ultimately more positive sum value creation, aka Mutual Love in our Lovers' Dilemma.
 
-As players unaware of our opponent's strategy, we tend to project our own strategies on others to simplify the computation of our own strategy. So extra discoordination emerges in the likelihood/perception that both players are using DEFECT-first ('mean') strategies (hiding their feelings). This means that even if they **both plan** to reciprocate feelings, there is actually **no possibility** of this ever happening.
+As players unaware of our opponent's strategy, we tend to project our own strategies on others to simplify the computation of our own strategy. So extra discoordination emerges in the likelihood/perception that both players are using DEFECT-first ('mean') strategies (hiding their feelings). This means that even if they **both plan** to reciprocate feelings, there is actually **zero probability** of this ever happening, as we’ll see in the following Game #1.
 
 ### Lovers' Dilemma Game #1: DOPYCAT v DOPYCAT
 
@@ -282,22 +284,24 @@ Here, Hughes also hits on how complexity can thwart cooperation.
 Careful, don't you pull too hard  
 Don't want to knock the planets out of alignment  
 
-Complex strategies can raise the probability of miscommunication through the sheer increase in possible behaviours to decipher, requiring more computation. This also feeds back into the other's behavior, creating two lost souls in a fishbowl once again. 
+Complex strategies can raise the probability of miscommunication through the sheer increase in possible behaviors to decipher, requiring more computation. This also feeds back into the other's behavior, creating two lost souls in a fishbowl once again. 
 
 ### Applicable Conclusions
 
 **1. Be Nice! (COOPERATE-first)**
 
+Mean (Defect-First) strategies carry the potential of a zero probability of cooperation.
+
 Nice (Cooperate-first) always enables cooperators the ability to mutually recognize one another. Thus, Nice strategies are shown to greatly increase the likelihood of emergent incentives that support continuous cooperation.
 
-Reciprocated cooperation is the main driver of positive sum value creation, aka Mutual Love in the Lovers’ Dilemma
+Reciprocated cooperation is the main driver of positive sum value creation, aka Mutual Love in the Lovers’ Dilemma.
 
 ![](../assets/lovers/loversChart.png)
 *Players in Games 1 & 2 are likely to exit after 2 defections. Meanwhile, cooperators continue their supermodularity toward mutual love.*
 
 **2. Forgive, but don't Forget (RECIPROCATE!)**
 
-The ability to sense and reciprocate both cooperation and defection is key.
+The ability to sense and reciprocate _both_ cooperation and defection is key.
 
 As shown in Lovers' Dilemma #2, not forgiving at all and endlessly reciprocating ends in a standoff of defecting. At times, it could just be miscommunications and misunderstandings, and a little forgiveness could be used to reset one's strategy to Cooperate-first again when caught in a loop of defections. If they indeed update their strategy to cooperation as well, we can sense and reciprocate that cooperation. Games involving continuous defections, however, should be exited entirely, in order to find, or build, a more suitably cooperative environment.
 
@@ -325,6 +329,7 @@ Though perhaps a whimsical take on game theory, this piece has been but a tiny q
 > A game is said to have rules and thus a structure, only if players are actively choosing to play the game. The playing of the game is the approval of the game's bounds.  
 >– James P Carse _Finite and Infinite Games_ 
 
+– Vengi
 
 ---  
 
