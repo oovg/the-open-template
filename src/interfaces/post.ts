@@ -6,6 +6,7 @@ type PostType = {
   author: string
   excerpt: string
   date: string
+  image: string
 }
 
 export default PostType

@@ -5,6 +5,7 @@ matter: 'surveys'
 author: 'Exeunt'
 excerpt: ''
 date: "2023-09-01T16:20:04.000Z"
+image: ''
 ---
 
 There's no certain record, but some form of the process was being practiced by at least three different communities by 2026. Common early use cases were recurrent organizational meetings and research forums. The former, searching for a language to give name to the "winds of disposition" that seemed to enact such agency over squads, were perhaps more inspired, but the forums were more rigorous in their creation of protocols to value, engage with and begin to build around ‘the greater forces.’ The common thread: social affects with cryptographic wallets.
