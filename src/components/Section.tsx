@@ -39,7 +39,7 @@ export const Section = () => {
           Programming culture tells the same story, though perhaps on a
           different axis - the earthen silica of the computer leaping out of the
           bound to give emergence its voice. The open source movement
-          discovered - in following the unruly apertures of Turing completion, the{' '}
+          discovered, in following the unruly apertures of Turing completion, the{' '}
           <i>bazaar</i>, a terrain too vast to contain (or to own). The democracy
           of bugs and the holey morphospace of code, a flat ontology where networks 
           move faster than hierarchies and nothing is sacred. It was a wisdom gained by work, 
@@ -51,13 +51,13 @@ export const Section = () => {
           infrastructure. What are the local minima of institutional constructs?
           What anarchistic stop-gaps across time and space might nonetheless
           enable legibility in what Moten and Turing both called{' '}
-          <i>The Universal Machine</i>? The builders were a recursive
-          public: the product of their work embodied the protocols of their own
-          development. They built in nomadic guilds of free association, an
+          <i>The Universal Machine</i>? The builders of web3 are a recursive
+          public: the product of their work embodies the protocols of their own
+          development. They build in nomadic guilds of free association, an
           ethic of encounter developed solely to expose each node to the
           machine - the non-institutional charge, emergence, the rough
           wholeness. In the infrastructure of the cryptographic ledger is the
-          promise of a society of friends - free encounter among ambulant entities 
+          promise of a society of friends, free encounter among ambulant entities 
           under non-coercive conditions, for the earth is magnetically repelled by the
           atmosphere of coercion. Supremacy is a dead ecology.
         </Text>
@@ -89,7 +89,7 @@ export const Section = () => {
           , and <b>Generosity</b>. The brash artistry had no time for ceremony
           and manicured likenesses, generating "creations of ungainly shape and
           rigid limb, but full of wolfish life." (<i>Sub specie aeterni</i>, all
-          attempts at brutalism inevitably become flambouant and grotesque.)The 
+          attempts at brutalism inevitably become flamboyant and grotesque.)The 
           successive builds made for patchwork styles that embraced changed; the 
           spires and buttresses charged with an obstinance and rigidity "not merely stable, but active
           … the peculiar energy which gives tension to movement, and stiffness
@@ -101,13 +101,13 @@ export const Section = () => {
         <Text textStyle="paragraph">
           The suggestion of Ruskin's gothic treatise is that free work is 
           a negotiation, a pact, a machinic point where the audacity and speed
-          of liberty is checked by the patience of emergence. The gothic labors 
-          are distinct for this naturalism, this realism and "love of change
+          of liberty is checked by the patience of emergence. The gothic laborers 
+          are distinct for this naturalism, this realism and love of change
           built out of "a profound sympathy with the fulness and wealth of the
-          material universe." But the point allows the journeyman to make acuaintance
+          material universe." But the point allows the journeyman to make acquaintance
           with beings across scales, divining from "the forest leaves ... the
           wandering of the tendril, and the budding of the flower" a rude and weird
-          platonism, gargole archetypes of the natural rhythms. Attention and patience
+          platonism, gargoyle archetypes of the natural rhythms. Attention and patience
           that leads to eccentric freedom, and speed.
         </Text>
         <Text textStyle="paragraph">
