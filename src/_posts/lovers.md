@@ -1,5 +1,5 @@
 ---
-title: "# _Lovers' Dilemma Part I_. Or an Essay on Cooperation Theory in Love Songs and an Iterated Game of Lovers as Great Filter"
+title: "Lovers' Dilemma Part I. Or an Essay on Cooperation Theory in Love Songs and an Iterated Game of Lovers as Great Filter"
 slug: 'lovers'
 matter: 'transmissions'
 author: 'Vengi'

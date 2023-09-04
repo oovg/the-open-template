@@ -23,7 +23,7 @@ type Props = {
 
     return (
       <>
-        <PageMetadata title="The Open Machine" description="the open machine is ..." />
+        <PageMetadata title={'tOM | ' + post.title} description={post.excerpt} image="../../assets/tOM_unfurl.jpg"/>
         <main>
           <Header /> 
         </main> 
@@ -34,7 +34,7 @@ type Props = {
           <Flex maxW="720px" mx="auto" gap={6} align="start"><Link href="/transmissions"><Text textStyle="h2" as="h2" mb={6}>Open Transmissions</Text></Link></Flex>
           <Box py={12}>
             <Text><DateFormatter dateString={post.date}/></Text>
-            <ReactMarkdown className={style.markdown}>{post.title}</ReactMarkdown>
+            <ReactMarkdown className={style.markdown}>{'# ' + post.title}</ReactMarkdown>
             <Text mt={3}><i>by</i> {post.author}</Text>
           </Box>
           <Rule />

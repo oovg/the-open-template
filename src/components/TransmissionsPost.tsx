@@ -22,7 +22,7 @@ export const TransmissionsPost = ({ title, author, slug, excerpt, date }: Props)
           as={`/transmissions/${slug}`}
           href="/transmissions/[slug]"
         >
-          <ReactMarkdown className={style.markdown}>{title}</ReactMarkdown>
+          <ReactMarkdown className={style.markdown}>{'# ' + title}</ReactMarkdown>
         </Link>
         <Text mb={6}><i>by</i> {author}</Text>
         <ReactMarkdown className={style.markdown}>{excerpt}</ReactMarkdown>
