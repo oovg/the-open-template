@@ -1,6 +1,5 @@
 import React from 'react'
 import { Box, Code, Flex, Link, Text } from '@chakra-ui/react'
-import { Rule } from '@/components'
 
 export const Further = () => (
   <Box w="100%" px={12} py={6} maxW="720px" mx="auto" id="further">
