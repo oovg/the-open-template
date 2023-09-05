@@ -1,5 +1,6 @@
 export * from './DateFormatter'
 export * from './Fonts'
+export * from './Footer'
 export * from './Further'
 export * from './Header'
 export * from './Matter'
