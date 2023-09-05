@@ -23,7 +23,7 @@ export const Section = () => {
         </Text>
         <Text textStyle="paragraph">
           Concepts are a different story, negotiating the distance by means of 
-          enclosure <i>pro temmpore</i>. They may appear to serve administration 
+          enclosure <i>pro tempore</i>. They may appear to serve administration 
           and ownership in little mercenary episodes, but they
           are always slipping toward free encounter and discovery, the trickster
           germ of the untimely. When Von Neumann and Wiener developed the field
