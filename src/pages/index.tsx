@@ -13,7 +13,7 @@ export default function Home ({ filteredPosts }: Props) {
   const isDarkMode = colorMode === 'dark'
   return (
     <>
-      <PageMetadata title="Home" description="the open machine is ..." image="https://theopenmachine.net/assets/tOM_unfurl.jpg" />
+      <PageMetadata title="The Open Machine" description="The open machine is ((the earth)), understood as a cybernetic phenomenon." image="https://theopenmachine.net/assets/tOM_unfurl.jpg" />
       <main>
         <Flex
           direction="row"
