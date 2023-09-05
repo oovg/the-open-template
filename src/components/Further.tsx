@@ -22,6 +22,7 @@ export const Further = () => (
       <Flex direction="column" align="start" w={['100%', null, '50%']} mt={[6, null, 0]}gap={6}>
         <Link isExternal href="https://deleuze.cla.purdue.edu/seminars.html">The Deleuze Seminars</Link>
         <Link isExternal href="https://esoteric.codes/blog/100-rabbits">Esoteric.codes</Link>
+        <Link isExternal href="https://otherinter.net/">Other Internet</Link>
         <Link isExternal href="https://johncage.org/library.cfm">Random book generator from John Cage’s Home Library</Link>
         <Link isExternal href="https://lab.cccb.org/en/?_gl=119e6ui7_ga_6PE54HGENN*MTY5MjkzMDE3Ny4xLjEuMTY5MjkzMDIyMC4xNy4wLjA.">CCCLab</Link>
         <Link isExternal href="https://www.plurality.net">Plurality</Link>
