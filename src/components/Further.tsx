@@ -29,6 +29,7 @@ export const Further = () => (
         <Link isExternal href="https://pluriverse.world">Pluriverse</Link>
         <Link isExternal href="https://www.semiotexte.com">Semiotext(e)</Link>
         <Link isExternal href="http://strangeattractor.co.uk">Strange Attractor Press</Link>
+        <Link isExternal href="https://www.urbanomic.com/book/">Urbanomic</Link>
       </Flex>
     </Flex>
   </Box>
