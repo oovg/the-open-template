@@ -1,6 +1,6 @@
 import { Box, Flex, Heading, IconButton, Link, Text, useColorMode } from '@chakra-ui/react'
 import { SunIcon, MoonIcon } from '@chakra-ui/icons'
-import { Further, Rule, Section, Matter, Matter2, Secret, Tags, Matter3, PageMetadata, TransmissionsPost } from '@/components'
+import { Further, Rule, Section, Matter, Matter2, Secret, Tags, PageMetadata, TransmissionsPost } from '@/components'
 import Post from '../interfaces/post'
 import { getAllTransmissions } from '../lib/api'
 
@@ -40,7 +40,7 @@ export default function Home ({ filteredPosts }: Props) {
             />
             <Heading my={9}>Table of Contents</Heading>
             <Rule />
-            <Link href="#matters" color="primary" my={6} fontSize="2xl">Matters</Link>
+            <Link href="/matters" color="primary" my={6} fontSize="2xl">Matters</Link>
             <Link href="/transmissions" color="primary" my={6} fontSize="2xl">Open Transmissions</Link>
             <Link href="/surveys" color="primary" my={6} fontSize="2xl">Surveys, 2068</Link>
             <Link href="#further" color="primary" my={6} fontSize="2xl">Further Reading</Link>
@@ -51,7 +51,10 @@ export default function Home ({ filteredPosts }: Props) {
       <Section />
       <Tags />
       <Box p={12}>
-        <Flex maxW="720px" mx="auto" gap={6}><Text textStyle="h2" as="h2">Open Transmissions</Text></Flex>
+        <Flex maxW="720px" mx="auto" gap={6} align="center" justify="space-between">
+          <Text textStyle="h2" as="h2">Open Transmissions</Text>
+          <Link href="/transmissions">View All</Link>
+        </Flex>
         <Flex maxW="720px" mx="auto" direction="column" gap={6}>
           {filteredPosts.map((post) => (
             <TransmissionsPost author={post.author} excerpt={post.excerpt} date={post.date} title={post.title} key={post.slug} slug={post.slug} imagePath={post.imagePath} />
@@ -60,7 +63,6 @@ export default function Home ({ filteredPosts }: Props) {
       </Box>
       <Matter />
       <Matter2 />
-      {/* <Matter3 /> */}
       <Further />
     </>
   )
@@ -77,7 +79,7 @@ export async function getStaticProps() {
     'imagePath',
   ])
 
-  const filteredPosts = allPosts.filter(post => post.matter.includes('transmissions'))
+  const filteredPosts = allPosts.filter(post => post.matter.includes('transmissions')).slice(0, 3)
   
   return {
     props: {

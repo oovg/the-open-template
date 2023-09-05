@@ -19,7 +19,9 @@ export default function Surveys ({ filteredPosts }: Props) {
       <main>
         <Header />    
       </main>
-      <Flex maxW="720px" mx="auto" gap={6}><Text textStyle="h2" as="h2" mb={6}>Open Transmissions</Text></Flex>
+      <Flex maxW="720px" mx="auto" gap={6}>
+        <Text textStyle="h2" as="h2" mb={6}>Open Transmissions</Text>
+      </Flex>
       <Flex maxW="720px" mx="auto" direction="column">
         {filteredPosts.map((post) => (
           <TransmissionsPost title={post.title} key={post.slug} slug={post.slug} author={post.author} excerpt={post.excerpt} date={post.date} imagePath={post.imagePath} />
