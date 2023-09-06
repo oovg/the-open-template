@@ -11,6 +11,16 @@ export const Section = () => {
       <Rule />
       <Box>
         <Text textStyle="paragraph">
+          <b>The Open Machine</b> is an online media publication for imaginative cultural &
+          conceptual compliments to the decentralized web. Our work draws on
+          diverse inputs - from the historical archive, from remote disciplines, 
+          from myths and memes of the past and the future in order to construct an
+          image of free association adequate to a post-coercion society.
+        </Text>
+      </Box>
+      <Rule />
+      <Box>
+        <Text textStyle="paragraph">  
           It's an open secret, a scandalous bit of folk knowledge known
           among realists and parriahs alike, that the ones who seek totalizing
           systems are the ones most excluded from the touch of wholeness. A
@@ -122,7 +132,7 @@ export const Section = () => {
           question- how to bring the material instance to bear in building, conceptualizing, and
           manifesting the flamboyantly fractal and utterly irreverent scale
           invariance of the network, the (anti)thing that touches and ignites
-          the rough whole? Gleaned the ordeal of stone, the metastable spark.
+          the rough whole? Gleaned in the ordeal of stone, the metastable spark.
         </Text>
         <Text textStyle="paragraph">
           Borrowing from the ethos of the builders, we announce The Open
