@@ -15,7 +15,7 @@ export const Section = () => {
           of experimental cultural & conceptual compliments to the decentralized web. 
           Our work draws upon diverse inputs - from the historical archive, from remote disciplines, 
           from myths and memes of the past and the future - in order to construct images of 
-          free association and the network improvisation adequate to a post-coercion society.</i>
+          free association and network improvisation adequate to a post-coercion society.</i>
         </Text>
       </Box>
       <Rule />
