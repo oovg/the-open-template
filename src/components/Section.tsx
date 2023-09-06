@@ -33,7 +33,7 @@ export const Section = () => {
           everywhere you find entanglement, recursion, the categorically
           unstable reflexivity of network systems, there is the concept: burrowing 
           unstable paths that revive the dead, deliver the unborn, open machines for 
-          the production of new temporalities.
+          the production of new spatial alliances, new temporalities.
         </Text>
         <Text textStyle="paragraph">
           Programming culture tells the same story, though perhaps on a
