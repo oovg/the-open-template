@@ -21,7 +21,7 @@ export const Section = () => {
       <Rule />
       <Box>
         <Text textStyle="paragraph">  
-          <b>Per Auxiliam Reticulum </b> 
+          <b>Per Auxiliam Reticuli </b> 
           It's an open secret, a scandalous bit of folk knowledge known
           among realists and parriahs alike, that the ones who seek totalizing
           systems are the ones most excluded from the touch of wholeness. A
