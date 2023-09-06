@@ -15,13 +15,16 @@ export const Section = () => {
           of experimental cultural & conceptual compliments to the decentralized web. 
           Our work draws upon diverse inputs - from the historical archive, from remote disciplines, 
           from myths and memes of the past and the future - in order to construct images of 
-          free association and network improvisation adequate to a post-coercion society.</i>
+          free association and the network improvisation adequate to a post-coercion society.</i>
         </Text>
       </Box>
       <Rule />
       <Box>
         <Text textStyle="paragraph">  
-          <b>Per Auxiliam Reticulum</b> It's an open secret, a scandalous bit of folk knowledge known
+          <b>Per Auxiliam Reticulum</b> 
+        </Text>
+        <Text textStyle="paragraph">
+          It's an open secret, a scandalous bit of folk knowledge known
           among realists and parriahs alike, that the ones who seek totalizing
           systems are the ones most excluded from the touch of wholeness. A
           preliminary definition of truth for the modern age could be: that which an
