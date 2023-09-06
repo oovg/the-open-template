@@ -104,11 +104,11 @@ export const Section = () => {
           of liberty is checked by the patience of emergence. The gothic laborers 
           are distinct for this naturalism, this realism and love of change
           built out of "a profound sympathy with the fulness and wealth of the
-          material universe." But the point allows the journeyman to make acquaintance
-          with beings across scales, divining from "the forest leaves ... the
-          wandering of the tendril, and the budding of the flower" a rude and weird
-          platonism, gargoyle archetypes of the natural rhythms. Attention and patience
-          that leads to eccentric freedom, and speed.
+          material universe." But its the confluence that leaps out, allowing the 
+          journeyman to make acquaintance with beings across scales, divining from 
+          "the forest leaves ... the wandering of the tendril, and the budding of 
+          the flower" a rude and weird platonism, gargoyle archetypes of the natural
+          rhythms. The eccentric vision, intuitive animism of the quick and the patient.
         </Text>
         <Text textStyle="paragraph">
           In the memelore and production of the builders of the decentralized
@@ -122,7 +122,7 @@ export const Section = () => {
           question- how to bring the material instance to bear in building, conceptualizing, and
           manifesting the flamboyantly fractal and utterly irreverent scale
           invariance of the network, the (anti)thing that touches and ignites
-          the rough whole? From the ordeal of work comes a sober and imaginative play.
+          the rough whole? Gleaned the ordeal of stone, the metastable spark.
         </Text>
         <Text textStyle="paragraph">
           Borrowing from the ethos of the builders, we announce The Open
