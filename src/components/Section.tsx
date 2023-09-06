@@ -11,11 +11,11 @@ export const Section = () => {
       <Rule />
       <Box>
         <Text textStyle="paragraph">
-          <b>The Open Machine</b> is an online media publication for imaginative cultural &
+          <i> <b>The Open Machine</b> is an online media publication for imaginative cultural &
           conceptual compliments to the decentralized web. Our work draws on
           diverse inputs - from the historical archive, from remote disciplines, 
           from myths and memes of the past and the future in order to construct an
-          image of free association adequate to a post-coercion society.
+          image of free association adequate to a post-coercion society.</i>
         </Text>
       </Box>
       <Rule />
