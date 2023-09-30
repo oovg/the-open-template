@@ -1,6 +1,6 @@
 ---
 title: 'anonymized mutual aid'
-slug: 'anonymizedmutualaid'
+slug: 'anonymized'
 matter: 'surveys'
 author: 'Exeunt'
 excerpt: ''
