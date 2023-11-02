@@ -4,8 +4,8 @@ import { Box, Button, Flex, Image, Link, Text } from '@chakra-ui/react'
 
 export const Matter = () => (
   <Box w="100%" p={12} id="matters">
-    <Flex maxW="720px" mx="auto" my={12}><Text as="h2" textStyle="h2">Matters</Text></Flex>
-    <Flex maxW="720px" mx="auto" border="1px solid" borderColor="primary" flexWrap="wrap">
+    <Flex maxW="800px" mx="auto" my={12}><Text as="h2" textStyle="h2">Matters</Text></Flex>
+    <Flex maxW="800px" mx="auto" border="1px solid" borderColor="primary" flexWrap="wrap">
         <Flex direction="column" w={['100%', null, '55%']} p={12}>
             <Text textStyle="h6" mb={6}>The Open Machine #1</Text>
             <Text as="h2" textStyle="h2">FRIENDS OF THE OUTSIDE</Text>
@@ -19,7 +19,7 @@ export const Matter = () => (
             </Flex>
         </Flex>
         <Flex direction="column" alignItems="center" justifyContent="center" w={['100%', null, '45%']} p={12}>
-            <Image src="/assets/FriendsOfTheOutside_thumb-cover.jpg" alt="friends cover" />
+            <Image src="/assets/FotO_physical-outside.jpg" alt="friends cover" />
         </Flex> 
     </Flex>
   </Box>
