@@ -1,6 +1,6 @@
 import { Box, Flex, Heading, IconButton, Link, Text, useColorMode } from '@chakra-ui/react'
 import { SunIcon, MoonIcon } from '@chakra-ui/icons'
-import { Further, Rule, Section, Matter, Matter2, Secret, Tags, PageMetadata, TransmissionsPost } from '@/components'
+import { Further, Rule, Section, Matter, Matter2, Secret, PageMetadata, TransmissionsPost } from '@/components'
 import Post from '../interfaces/post'
 import { getAllTransmissions } from '../lib/api'
 
@@ -49,7 +49,6 @@ export default function Home ({ filteredPosts }: Props) {
         </Flex>
       </main>
       <Section />
-      <Tags />
       <Box p={12}>
         <Flex maxW="720px" mx="auto" gap={6} align="center" justify="space-between">
           <Text textStyle="h2" as="h2">Open Transmissions</Text>
