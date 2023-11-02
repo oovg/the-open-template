@@ -50,11 +50,11 @@ export default function Home ({ filteredPosts }: Props) {
       </main>
       <Section />
       <Box p={12}>
-        <Flex maxW="720px" mx="auto" gap={6} align="center" justify="space-between">
+        <Flex maxW="800px" mx="auto" gap={6} align="center" justify="space-between">
           <Text textStyle="h2" as="h2">Open Transmissions</Text>
           <Link href="/transmissions">View All</Link>
         </Flex>
-        <Flex maxW="720px" mx="auto" direction="column" gap={6}>
+        <Flex maxW="800px" mx="auto" direction="column" gap={6}>
           {filteredPosts.map((post) => (
             <TransmissionsPost author={post.author} excerpt={post.excerpt} date={post.date} title={post.title} key={post.slug} slug={post.slug} imagePath={post.imagePath} />
           ))}
