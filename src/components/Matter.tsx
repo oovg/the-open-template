@@ -13,7 +13,10 @@ export const Matter = () => (
             <Text mt={6}>A Network Incantation</Text>
             <Text>Written & Conceived by</Text>
             <Text textStyle="h4">Exeunt & Vengi</Text>
-            <Flex gap={6} mt={12}><Button as={Link} href="https://zora.co/collect/oeth:0x2d17e1c913a616e30ff267afda30a69d9ad25343" target="_blank" rel="noopener noreferrer">Collect</Button></Flex>
+            <Flex gap={6} mt={12}>
+              <Button as={Link} href="https://zora.co/collect/oeth:0x2d17e1c913a616e30ff267afda30a69d9ad25343" target="_blank" rel="noopener noreferrer">Collect</Button>
+              <Button as={Link} href="https://theopenmachine.myshopify.com/products/friends-of-the-outside-control-substrates-the-afterlife-of-daos" target="_blank" rel="noopener noreferrer">Redeem</Button>
+            </Flex>
         </Flex>
         <Flex direction="column" alignItems="center" justifyContent="center" w={['100%', null, '45%']} p={12}>
             <Image src="/assets/FriendsOfTheOutside_thumb-cover.jpg" alt="friends cover" />
