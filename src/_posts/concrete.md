@@ -1,10 +1,11 @@
 ---
-title: Concrete Pluralism
-slug: concrete
-matter: transmissions
-author: Exeunt
-date: 2024-03-25T16:20:04.000Z
-tags:
+title: 'Concrete Pluralism'
+slug: 'concrete'
+matter: 'transmissions'
+author: 'Exeunt'
+excerpt: ''
+date: '2024-03-25T16:20:04.000Z'
+imagePath: ''
 ---
 ![](https://images.mirror-media.xyz/publication-images/zcmT-YWMW3S-3BIQ9XNzi.png?height=555&width=1110)
 

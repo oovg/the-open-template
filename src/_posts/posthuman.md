@@ -1,9 +1,11 @@
 ---
-title: Ethereum is Posthuman
-slug: posthuman
-matter: transmissions
-author: Exeunt
-date: 2024-11-30T16:20:04.000Z
+title: 'Ethereum is Posthuman'
+slug: 'posthuman'
+matter: 'transmissions'
+author: ;Exeunt'
+excerpt: ''
+date: '2024-11-30T16:20:04.000Z'
+imagePath: ''
 ---
 ## Notes for a Marketing Aesthetic
 
