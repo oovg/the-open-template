@@ -19,9 +19,9 @@ export default function Matters() {
         <Header />
       </main>
       <Flex maxW="720px" mx="auto" direction="column">
-        <MatterSubstrates />
-        <MatterInvertedCity />
         <MatterEthLocalism />
+        <MatterInvertedCity />
+        <MatterSubstrates />
         <MatterSurveys />
       </Flex>
     </>

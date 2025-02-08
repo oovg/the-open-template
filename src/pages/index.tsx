@@ -1,6 +1,24 @@
-import { Box, Flex, Heading, IconButton, Link, Text, useColorMode } from '@chakra-ui/react'
+import {
+  Box,
+  Flex,
+  Heading,
+  IconButton,
+  Link,
+  Text,
+  useColorMode,
+} from '@chakra-ui/react'
 import { SunIcon, MoonIcon } from '@chakra-ui/icons'
-import { Further, Rule, Section, Matter, Matter2, Secret, PageMetadata, TransmissionsPost } from '@/components'
+import {
+  Further,
+  Rule,
+  Section,
+  MatterSubstrates,
+  MatterInvertedCity,
+  MatterEthLocalism,
+  Secret,
+  PageMetadata,
+  TransmissionsPost,
+} from '@/components'
 import Post from '../interfaces/post'
 import { getAllTransmissions } from '../lib/api'
 
@@ -8,12 +26,16 @@ type Props = {
   filteredPosts: Post[]
 }
 
-export default function Home ({ filteredPosts }: Props) {
+export default function Home({ filteredPosts }: Props) {
   const { colorMode, toggleColorMode } = useColorMode()
   const isDarkMode = colorMode === 'dark'
   return (
     <>
-      <PageMetadata title="The Open Machine" description="The open machine is ((the earth)), understood as a cybernetic phenomenon." image="https://theopenmachine.net/assets/tOM_unfurl.jpg" />
+      <PageMetadata
+        title="The Open Machine"
+        description="The open machine is ((the earth)), understood as a cybernetic phenomenon."
+        image="https://theopenmachine.net/assets/tOM_unfurl.jpg"
+      />
       <main>
         <Flex
           direction="row"
@@ -23,13 +45,50 @@ export default function Home ({ filteredPosts }: Props) {
           color="primary"
           flexWrap="wrap"
         >
-          <Flex direction="column" alignItems="center" justifyContent="center" w={[ '100%', null, null, '50%']} minH="100vh" bgColor="primary" bgImg={`url("/assets/${isDarkMode ? 'bg_pointDark.png' : 'bg_pointLight.png'}")`} bgSize="cover" bgPosition="center">
-            <Flex className="border" direction="column" alignItems="center" justifyContent="center" borderColor="bg" p={20}>
-            <Heading color="bg" fontWeight="100" lineHeight="0.9em" fontSize={["4xl", null, "6xl"]}>The<br />Open<br />Machine</Heading>
+          <Flex
+            direction="column"
+            alignItems="center"
+            justifyContent="center"
+            w={['100%', null, null, '50%']}
+            minH="100vh"
+            bgColor="primary"
+            bgImg={`url("/assets/${
+              isDarkMode ? 'bg_pointDark.png' : 'bg_pointLight.png'
+            }")`}
+            bgSize="cover"
+            bgPosition="center"
+          >
+            <Flex
+              className="border"
+              direction="column"
+              alignItems="center"
+              justifyContent="center"
+              borderColor="bg"
+              p={20}
+            >
+              <Heading
+                color="bg"
+                fontWeight="100"
+                lineHeight="0.9em"
+                fontSize={['4xl', null, '6xl']}
+              >
+                The
+                <br />
+                Open
+                <br />
+                Machine
+              </Heading>
             </Flex>
             <Secret />
           </Flex>
-          <Flex direction="column" alignItems="center" justifyContent="center" p={12} w={[ '100%', null, null, '50%']} color="primary"> 
+          <Flex
+            direction="column"
+            alignItems="center"
+            justifyContent="center"
+            p={12}
+            w={['100%', null, null, '50%']}
+            color="primary"
+          >
             <IconButton
               w="fit-content"
               mx="auto"
@@ -40,29 +99,53 @@ export default function Home ({ filteredPosts }: Props) {
             />
             <Heading my={9}>Table of Contents</Heading>
             <Rule />
-            <Link href="/matters" color="primary" my={6} fontSize="2xl">Matters</Link>
-            <Link href="/transmissions" color="primary" my={6} fontSize="2xl">Open Transmissions</Link>
-            <Link href="/surveys" color="primary" my={6} fontSize="2xl">Surveys, 2068</Link>
-            <Link href="#further" color="primary" my={6} fontSize="2xl">Further Reading</Link>
+            <Link href="/matters" color="primary" my={6} fontSize="2xl">
+              Matters
+            </Link>
+            <Link href="/transmissions" color="primary" my={6} fontSize="2xl">
+              Open Transmissions
+            </Link>
+            <Link href="/surveys" color="primary" my={6} fontSize="2xl">
+              Surveys, 2068
+            </Link>
+            <Link href="#further" color="primary" my={6} fontSize="2xl">
+              Further Reading
+            </Link>
             <Rule />
           </Flex>
         </Flex>
       </main>
       <Section />
       <Box p={12}>
-        <Flex maxW="800px" mx="auto" gap={6} align="center" justify="space-between">
-          <Text textStyle="h2" as="h2">Open Transmissions</Text>
+        <Flex
+          maxW="800px"
+          mx="auto"
+          gap={6}
+          align="center"
+          justify="space-between"
+        >
+          <Text textStyle="h2" as="h2">
+            Open Transmissions
+          </Text>
           <Link href="/transmissions">View All</Link>
         </Flex>
         <Flex maxW="800px" mx="auto" direction="column" gap={6}>
           {filteredPosts.map((post) => (
-            <TransmissionsPost author={post.author} excerpt={post.excerpt} date={post.date} title={post.title} key={post.slug} slug={post.slug} imagePath={post.imagePath} />
+            <TransmissionsPost
+              author={post.author}
+              excerpt={post.excerpt}
+              date={post.date}
+              title={post.title}
+              key={post.slug}
+              slug={post.slug}
+              imagePath={post.imagePath}
+            />
           ))}
         </Flex>
       </Box>
-      <Matter />
-      <Matter2 />
-      <Further />
+      <MatterEthLocalism />
+      <MatterInvertedCity />
+      <MatterSubstrates />
     </>
   )
 }
@@ -78,8 +161,10 @@ export async function getStaticProps() {
     'imagePath',
   ])
 
-  const filteredPosts = allPosts.filter(post => post.matter.includes('transmissions')).slice(0, 3)
-  
+  const filteredPosts = allPosts
+    .filter((post) => post.matter.includes('transmissions'))
+    .slice(0, 3)
+
   return {
     props: {
       filteredPosts,
