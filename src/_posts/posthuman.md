@@ -1,6 +1,9 @@
 ---
-date: 2024-11-30
+title: Ethereum is Posthuman
+slug: posthuman
+matter: transmissions
 author: Exeunt
+date: 2024-11-30T16:20:04.000Z
 ---
 ## Notes for a Marketing Aesthetic
 

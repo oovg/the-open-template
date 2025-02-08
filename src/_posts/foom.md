@@ -1,14 +1,11 @@
 ---
+title: FOOM - the Organic Arrival
+slug: foom
+matter: transmissions
 author: Exeunt
-date: 2023-05-24
+date: 2023-05-24T16:20:04.000Z
 tags:
-  - speculative-fiction
-  - artificial-intelligence
-  - weird
-  - posthumanism
-  - pluriverse
-  - open-ended-intelligence
-  - michael-levin
+ 
 ---
 *The following is a speculative fiction project initiated in the early days of the rise of LLMs and Midjourney. It is an optimistic and naturalistic take on the threat of an artificial general intelligence (the sudden advent of which is known in technical circles as "FOOM").* 
 

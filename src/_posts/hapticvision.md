@@ -1,4 +1,7 @@
 ---
+title: Haptic Vision & Network State at ETH Denver
+slug: hapticvision
+matter: transmissions
 author: Exeunt
 date: 2024-03-26
 ---
