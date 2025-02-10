@@ -5,7 +5,7 @@ matter: 'transmissions'
 author: 'Exeunt'
 excerpt: ''
 date: '2024-03-25T16:20:04.000Z'
-imagePath: ''
+imagePath: 'public/assets/transmissions/concretepluralism.png'
 ---
 ![](https://images.mirror-media.xyz/publication-images/zcmT-YWMW3S-3BIQ9XNzi.png?height=555&width=1110)
 
