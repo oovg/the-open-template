@@ -3,8 +3,8 @@ title: 'About Exeunt'
 slug: 'about-exeunt'
 matter: 'transmissions'
 author: 'Exeunt'
-excerpt: ''
-date: '2024-12-01T16:20:04.000Z'
+excerpt: 'Exeunt is an underground researcher and design theorist. Their work uses archival research, field investigation and applied philosophy to explore the economic and organizational patterns of extitutional spaces, both in urban and digital settings.'
+date: '2022-12-01T16:20:04.000Z'
 imagePath: ''
 ---
 **Exeunt** is an underground researcher and design theorist. Their work uses archival research, field investigation and applied philosophy to explore the economic and organizational patterns of extitutional spaces, both in urban and digital settings. Their major concerns include posthuman social organization, mutualist economics, direct democracy and open protocolization as features of non-institutional life. Aside from writing produced alone and in collaboration with the **Open Protocol Research Group**, they have written copy and co-organized events with **Ethereal Forest**, including the *General Forum on Ethereum Localism* and [*Local DAO Summer*](https://www.youtube.com/watch?v=Z7ORtiFmcZQ&list=PLEBjOB3CDGW0sQ-zm1rFDo_0P1OpbFeB0).

@@ -3,9 +3,9 @@ title: 'Regenerative Design in the Many Worlds'
 slug: 'regenerative'
 matter: 'transmissions'
 author: 'Exeunt'
-excerpt: ''
+excerpt: 'The universe described by Everett’s Many Worlds Interpretation of QM is one profuse with realities, and beings through which those realities proliferate. The existential abundance MWI implies can be the philosophical ground for a post-extractive design ethics adequate to the problems of the twenty first century. Through Distributed Autonomous Technologies, we can build bioregional machines of life and difference production, where novelty and commonness are fused in a regenerative feedback loop.'
 date: '2022-10-01T16:20:04.000Z'
-imagePath: ''
+imagePath: 'public/assets/transmissions/manyworlds.png'
 ---
 
 ![](https://miro.medium.com/v2/resize:fit:4800/format:webp/1*dvDqphxKMvdsKkClLedOCw.jpeg)
