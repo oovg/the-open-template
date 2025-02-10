@@ -5,6 +5,9 @@ type Props = {
 }
 
 export const DateFormatter = ({ dateString }: Props) => {
-  const date = parseISO(dateString)
-  return <time dateTime={dateString}>{format(date, 'LLLL	d, yyyy')}</time>
+  new Date(dateString).toLocaleDateString('en', {
+    dateStyle: 'medium',
+  })
+  // const date = parseISO(dateString)
+  // return <time dateTime={dateString}>{format(date, 'LLLL	d, yyyy')}</time>
 }
