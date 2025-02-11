@@ -5,7 +5,7 @@ matter: 'transmissions'
 author: 'Exeunt'
 excerpt: 'Beyond the face lies an altogether different inhumanity: no longer that of the primitive head, but of "probe-heads"; here, cutting edges of deterritorialization become operative and lines of deterritorialization positive and absolute, forming strange new becomings, new polyvocalities...'
 date: '2024-03-26T16:20:04.000Z'
-imagePath: 'public/assets/transmissions/haptic.png'
+imagePath: '/assets/transmissions/haptic.png'
 ---
 
 ![haptic](https://theopenmachine.net/assets/transmissions/haptic.jpg)

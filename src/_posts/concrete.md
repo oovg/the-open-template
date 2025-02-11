@@ -5,7 +5,7 @@ matter: 'transmissions'
 author: 'Exeunt'
 excerpt: 'Math, brains, silica: what if you could construct a witch’s brew that embraced the multiscale chaos of being - of the city? That rode the forms even as they break out of their classes, delivering a dose of ontological flatness to those who can’t help but Assume, Subordinate? The primal battle of the computer age, Von Neumann versus Terence Mckenna...'
 date: '2024-03-25T16:20:04.000Z'
-imagePath: 'public/assets/transmissions/concretepluralism.png'
+imagePath: '/assets/transmissions/concretepluralism.png'
 ---
 ![](https://images.mirror-media.xyz/publication-images/zcmT-YWMW3S-3BIQ9XNzi.png?height=555&width=1110)
 
