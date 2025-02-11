@@ -3,10 +3,11 @@ title: 'Sketches Toward a Theory of the Protocol Underground'
 slug: 'sketches'
 matter: 'transmissions'
 author: 'Exeunt, Open Protocol Research Group'
-excerpt: ''
+excerpt: 'Here at the Open Protocol Research Group, we are most interested in how these zones of defiance, these _undergrounds_, have emergently protocolized, both as a response to legal or extreme cultural prohibition and as a strategy of avoiding institutionalization, with its tendency to dampen or outright restrict the aesthetic autonomy of its participants...'
 date: '2024-07-10T16:20:04.000Z'
-imagePath: ''
+imagePath: 'public/assets/transmissions/sketches.png'
 ---
+![sketches](https://theopenmachine.net/assets/transmissions/sketches.jpeg)
 
 *The movement Philip groans—­ the undercommons, the underlanguage, underground, underwater, which is the ­ people’s macrophone—­ wants to know/make the relationship between form and instability, when the informal becomes a form of life precisely insofar as it is where forms of life come from.­ There is an ecol­ogy of unaccountable self-­positing, unaccountable­ because what’s more and less than self, disposed and without position or deposition, makes this positing in refusing being bought and sold. The logistics—­ the analogistics, the ecologistics—of the unaccountable population is barely audible, given only in distortion, which is our plain of code.*
 	
