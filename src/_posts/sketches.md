@@ -5,7 +5,7 @@ matter: 'transmissions'
 author: 'Exeunt, Open Protocol Research Group'
 excerpt: 'Here at the Open Protocol Research Group, we are most interested in how these zones of defiance, these _undergrounds_, have emergently protocolized, both as a response to legal or extreme cultural prohibition and as a strategy of avoiding institutionalization, with its tendency to dampen or outright restrict the aesthetic autonomy of its participants...'
 date: '2024-07-10T16:20:04.000Z'
-imagePath: 'public/assets/transmissions/sketches.png'
+imagePath: '/assets/transmissions/sketches.png'
 ---
 ![sketches](https://theopenmachine.net/assets/transmissions/sketches.jpeg)
 

@@ -5,7 +5,7 @@ matter: 'transmissions'
 author: 'Exeunt, Open Protocol Research Group'
 excerpt: 'What becomes clear from the investigation into the underground, the realm of open protocols, is that it is the very process of relating to the virtual that makes the open protocol thesis work. Recall the definition: open protocols are “social and technical protocols woven together into a compound cultural protocol of improvisational, empirical imagination... '
 date: '2024-09-10T16:20:04.000Z'
-imagePath: 'public/assets/transmissions/undercapital.png'
+imagePath: '/assets/transmissions/undercapital.png'
 
 ---
 
