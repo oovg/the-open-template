@@ -7,10 +7,10 @@ excerpt: "{Freedom} is certainly not the right to own the economic, social, poli
 
 – Avery F Gordon paraphrasing Toni Cade Bambara (Quoted by Maggie Nelson)"
 date: "2023-07-04T16:20:00.000Z"
-imagePath: "/assets/transmissions/fourth.jpg"
+imagePath: "/assets/transmissions/lichfield.jpeg"
 ---
 
-![lichfielddark](https://github.com/oovg/the-open-template/assets/90937997/aec0ec1a-5c6e-485f-b5ac-1fabda5877fc)
+![lichfield](https://theopenmachine.net/assets/transmissions/lichfield.jpeg)
 
 {Freedom} is certainly not the right to own the economic, social, political, or cultural capital in order to dominate others and trade their happiness in a monopolistic market. Freedom is the process by which you develop a practice for being unavailable for servitude.
 

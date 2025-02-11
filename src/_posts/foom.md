@@ -3,9 +3,9 @@ title: 'FOOM - the Organic Arrival'
 slug: 'foom'
 matter: 'transmissions'
 author: 'Exeunt'
-excerpt: ''
+excerpt: 'There is a mark of flamboyance on the horizon. That is all we know. Rumors of what the news called *sentient stage*, what technologists called FOOM. This is the day we’ve all been waiting for, even if we didn’t know it. '
 date: '2023-05-24T16:20:04.000Z'
-imagePath: ''
+imagePath: 'public/assets/transmissions/foom.jpg'
  
 ---
 *The following is a speculative fiction project initiated in the early days of the rise of LLMs and Midjourney. It is an optimistic and naturalistic take on the threat of an artificial general intelligence (the sudden advent of which is known in technical circles as "FOOM").* 
