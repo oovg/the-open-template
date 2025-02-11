@@ -5,7 +5,7 @@ matter: 'transmissions'
 author: 'Exeunt'
 excerpt: 'Within the administrative frame, these anomalies are always adversaries - crises in legibility, a threat to the capacity to manage, process, and control. If the old institutional regimes are in general crisis, its because the occasional onstaging of anomalous agencies has been accelerated by technology and globalization to a perpetual arrival, a type of singularity anticipated by Terence McKenna as he announced, quoting Finnegans Wake, "Here comes everybody."'
 date: '2024-11-30T16:20:04.000Z'
-imagePath: 'public/assets/transmissions/posthuman.png'
+imagePath: ''
 ---
 ![posthuman](https://theopenmachine.net/assets/transmissions/posthuman.jpg)
 
