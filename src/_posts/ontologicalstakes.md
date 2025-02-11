@@ -5,7 +5,7 @@ matter: 'transmissions'
 author: 'Exeunt'
 excerpt: "To all those who would seek to build, enshrine, and defend moats in our shared virtual machine, to build systems incapable of composition, incapable of componentization, incapable of being permissionlessly replaced by some alternative: We say this is a pattern of the past, an antipattern in web3. It's a pattern enabled by permissioned access to, and control of, data. This pattern will be made redundant in our version of the internet, made redundant by our shared virtual machine. –Auryn Macmillan & Kevin Owocki, 'Practical Pluralism'"
 date: "2023-05-03T16:20:04.000Z"
-imagePath: "/assets/transmissions/skull.jpg"
+imagePath: "/assets/transmissions/skull.jpeg"
 ---
 
 ![skull](https://theopenmachine.net/assets/transmissions/skull.jpg)
