@@ -97,7 +97,6 @@ export default function Home({ filteredPosts }: Props) {
               aria-label="Toggle color mode"
               mb={3}
             />
-            <Heading my={9}>Table of Contents</Heading>
             <Rule />
             <Link href="/matters" color="primary" my={6} fontSize="2xl">
               Matters
