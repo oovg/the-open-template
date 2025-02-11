@@ -1,4 +1,3 @@
-
 ---
 title: 'Introducing The Open Machine'
 slug: 'openmachine'
