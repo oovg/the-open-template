@@ -8,17 +8,15 @@ export const Section = () => {
   return (
   <Box w="100%">
     <Box maxW="720px" mx="auto" px={12} py={12}>
-      <Rule />
       <Box>
         <Text textStyle="paragraph">
           <b>The Open Machine</b> is an online media publication for the generation
-          of experimental cultural & conceptual compliments to the decentralized web. 
+          of experimental cultural & conceptual compliments to the Ethereum network. 
           Our work draws upon diverse inputs - from the historical archive, from remote disciplines, 
           from myths and memes of the past and the future - in order to construct images of 
           free association and network improvisation adequate to a post-coercion society.
         </Text>
       </Box>
-      <Rule />
     </Box>
   </Box>
   )
