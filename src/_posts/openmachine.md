@@ -8,7 +8,7 @@ date: '2023-03-01T16:20:04.000Z'
 imagePath: ''
 ---
 
-***The Open Machine** is an online media publication for the generation of experimental cultural & conceptual compliments to the Ethereum Virtual Machine. Our work draws upon diverse inputs - from the historical archive, from remote disciplines, from myths and memes of the past and the future - in order to construct images of free association, capture resistance and network improvisation adequate to a post-coercion society.*
+**The Open Machine** is an online media publication for the generation of experimental cultural & conceptual compliments to the Ethereum Virtual Machine. Our work draws upon diverse inputs - from the historical archive, from remote disciplines, from myths and memes of the past and the future - in order to construct images of free association, capture resistance and network improvisation adequate to a post-coercion society.
 
 #### *Per Auxiliam Reticuli* 
 
