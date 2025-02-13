@@ -97,13 +97,13 @@ export default function Home({ filteredPosts }: Props) {
               aria-label="Toggle color mode"
               mb={3}
             />
-            <Link href="/matters" color="primary" my={6} fontSize="2xl">
+            <Link href="/matters" color="primary" my={6} fontSize="1.5xl">
               Matters
             </Link>
-            <Link href="/transmissions" color="primary" my={6} fontSize="2xl">
+            <Link href="/transmissions" color="primary" my={6} fontSize="1.5xl">
               Open Transmissions
             </Link>
-            <Link href="/surveys" color="primary" my={6} fontSize="2xl">
+            <Link href="/surveys" color="primary" my={6} fontSize="1.5xl">
               Surveys, 2068
             </Link>
           </Flex>
