@@ -33,7 +33,7 @@ export default function Home({ filteredPosts }: Props) {
     <>
       <PageMetadata
         title="The Open Machine"
-        description="The open machine is ((the earth)), understood as a cybernetic phenomenon."
+        description=""
         image="https://theopenmachine.net/assets/tOM_unfurl.jpg"
       />
       <main>
