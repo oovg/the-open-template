@@ -97,7 +97,6 @@ export default function Home({ filteredPosts }: Props) {
               aria-label="Toggle color mode"
               mb={3}
             />
-            <Rule />
             <Link href="/matters" color="primary" my={6} fontSize="2xl">
               Matters
             </Link>
@@ -107,10 +106,6 @@ export default function Home({ filteredPosts }: Props) {
             <Link href="/surveys" color="primary" my={6} fontSize="2xl">
               Surveys, 2068
             </Link>
-            <Link href="#further" color="primary" my={6} fontSize="2xl">
-              Further Reading
-            </Link>
-            <Rule />
           </Flex>
         </Flex>
       </main>
