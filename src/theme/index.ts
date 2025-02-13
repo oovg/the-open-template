@@ -51,8 +51,8 @@ const overrides = {
   },
   semanticTokens: {
     colors: {
-      primary: { _light: '#282828', _dark: '#d1fdb1' },
-      bg: { _light: '#d1fdb1', _dark: '#282828' },
+      primary: { _light: '#f4f4f5', _dark: '#d1fdb1' },
+      bg: { _light: '#d1fdb1', _dark: '#f4f4f5' },
     },
   },
 }
