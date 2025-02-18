@@ -96,6 +96,15 @@ export default function Home({ filteredPosts }: Props) {
               mb={3}
             />
             <Link
+              href="#intro"
+              color="primary"
+              my={6}
+              fontSize="2xl"
+              textStyle="h2"
+            >
+              Collaborations
+            </Link>
+            <Link
               href="/matters"
               color="primary"
               my={6}
@@ -125,7 +134,7 @@ export default function Home({ filteredPosts }: Props) {
           </Flex>
         </Flex>
       </main>
-      <Box pt={20}>
+      <Box pt={20} id="intro">
         <Section />
       </Box>
       <Box p={12}>
