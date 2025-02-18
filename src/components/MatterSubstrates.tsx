@@ -2,12 +2,7 @@ import React from 'react'
 import { Box, Button, Flex, Image, Link, Text } from '@chakra-ui/react'
 
 export const MatterSubstrates = () => (
-  <Box w="100%" p={12} id="matters">
-    <Flex maxW="800px" mx="auto" my={12}>
-      <Text as="h2" textStyle="h2">
-        Matters
-      </Text>
-    </Flex>
+  <Box w="100%" p={3} id="matters">
     <Flex
       maxW="800px"
       mx="auto"
@@ -15,7 +10,7 @@ export const MatterSubstrates = () => (
       borderColor="primary"
       flexWrap="wrap"
     >
-      <Flex direction="column" w={['100%', null, '55%']} p={12}>
+      <Flex direction="column" w={['100%', null, '55%']} p={[6, null, 12]}>
         <Text textStyle="h6" mb={6}>
           The Open Machine #1
         </Text>
