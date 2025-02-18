@@ -9,8 +9,6 @@ import {
 } from '@chakra-ui/react'
 import { SunIcon, MoonIcon } from '@chakra-ui/icons'
 import {
-  Further,
-  Rule,
   Section,
   MatterSubstrates,
   MatterInvertedCity,
@@ -97,19 +95,39 @@ export default function Home({ filteredPosts }: Props) {
               aria-label="Toggle color mode"
               mb={3}
             />
-            <Link href="/matters" color="primary" my={6} fontSize="2xl" textStyle="h2" as="h2">
+            <Link
+              href="/matters"
+              color="primary"
+              my={6}
+              fontSize="2xl"
+              textStyle="h2"
+            >
               Matters
             </Link>
-            <Link href="/transmissions" color="primary" my={6} fontSize="2xl" textStyle="h2" as="h2">
+            <Link
+              href="/transmissions"
+              color="primary"
+              my={6}
+              fontSize="2xl"
+              textStyle="h2"
+            >
               Open Transmissions
             </Link>
-            <Link href="/surveys" color="primary" my={6} fontSize="2xl" textStyle="h2" as="h2">
+            <Link
+              href="/surveys"
+              color="primary"
+              my={6}
+              fontSize="2xl"
+              textStyle="h2"
+            >
               Surveys, 2068
             </Link>
           </Flex>
         </Flex>
       </main>
-      <Section />
+      <Box pt={20}>
+        <Section />
+      </Box>
       <Box p={12}>
         <Flex
           maxW="800px"
@@ -118,7 +136,7 @@ export default function Home({ filteredPosts }: Props) {
           align="center"
           justify="space-between"
         >
-          <Text textStyle="h2" as="h2">
+          <Text textStyle="h2" as="h2" mb={6}>
             Open Transmissions
           </Text>
           <Link href="/transmissions">View All</Link>
@@ -136,10 +154,15 @@ export default function Home({ filteredPosts }: Props) {
             />
           ))}
         </Flex>
+        <Flex maxW="800px" mx="auto" my={12}>
+          <Text as="h2" textStyle="h2">
+            Matters
+          </Text>
+        </Flex>
+        <MatterEthLocalism />
+        <MatterInvertedCity />
+        <MatterSubstrates />
       </Box>
-      <MatterEthLocalism />
-      <MatterInvertedCity />
-      <MatterSubstrates />
     </>
   )
 }

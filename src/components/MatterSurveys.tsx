@@ -2,7 +2,7 @@ import React from 'react'
 import { Box, Button, Flex, Link, Text } from '@chakra-ui/react'
 
 export const MatterSurveys = () => (
-  <Box w="100%" p={12}>
+  <Box w="100%" p={3} id="surveys">
     <Flex
       maxW="720px"
       mx="auto"
@@ -10,7 +10,7 @@ export const MatterSurveys = () => (
       borderColor="primary"
       flexWrap="wrap"
     >
-      <Flex direction="column" w={['100%', null, '100%']} p={12}>
+      <Flex direction="column" w={['100%', null, '55%']} p={[6, null, 12]}>
         <Text textStyle="h6" mb={6}>
           Speculative Fiction
         </Text>
