@@ -13,9 +13,10 @@ export const Section = () => {
             <b>The Open Machine</b> is an online media publication for cultural
             & conceptual compliments to the Ethereum network. Our work takes the
             form of <b>alter-academic research, immersive narrative, speculative design,</b>
-            and other inputs from the ensemble underground which we take to be both 
-            the origin of the network and its fated destination. We take in feeds 
-            from <b>transhistorical</b> sources, from obscure disciplines, from the 
+             and other inputs from the ensemble underground which we take to be both 
+            the origin of the network and its fated destination. 
+          </Text>
+          <Text textStyle="paragraph">We take in feeds from <b>transhistorical</b> sources, from obscure disciplines, from the 
             <b>more-than-human</b> world and the <b>cutting edge of organization</b> in order 
             to construct images of free association and network improvisation adequate
             to a <b>post-coercion society</b>.
