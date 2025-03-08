@@ -30,15 +30,15 @@ export const MatterSubstrates = () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            Collect & Read
+            Collect
           </Button>
           <Button
             as={Link}
-            href="https://theopenmachine.myshopify.com/"
+            href="/transmissions/foto"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Redeem
+            Read
           </Button>
         </Flex>
       </Flex>

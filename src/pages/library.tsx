@@ -7,7 +7,7 @@ import {
   MatterEthLocalism,
 } from '@/components'
 
-export default function Matters() {
+export default function Library() {
   return (
     <Box>
       <PageMetadata
@@ -21,7 +21,7 @@ export default function Matters() {
       <Flex maxW="800px" mx="auto" direction="column">
         <Flex maxW="800px" mx="auto" my={12}>
           <Text as="h2" textStyle="h2">
-            Matters
+            Library
           </Text>
         </Flex>
         <MatterEthLocalism />
