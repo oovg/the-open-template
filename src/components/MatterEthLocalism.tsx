@@ -22,8 +22,21 @@ export const MatterEthLocalism = () => (
         </Text>
         <Text mt={6}>Collated by the Open Machine</Text>
         <Flex gap={6} mt={12}>
-          <Button as={Link} href="#" target="_blank" rel="noopener noreferrer">
-            Coming Soon
+          <Button
+            as={Link}
+            href="https://app.manifold.xyz/c/ethereum-localism"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Collect & Read
+          </Button>
+          <Button
+            as={Link}
+            href="https://qxvqdga4v2uhlcgh7bvl5m6rukrhmesy6uzingqov76jw5miy3ka.arweave.net/hesBmByuqHWIx_hqvrPRoqJ2Elj1MoaaDq_8m3WIxtQ"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View PDF
           </Button>
         </Flex>
       </Flex>

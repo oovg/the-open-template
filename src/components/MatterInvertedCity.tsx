@@ -28,7 +28,7 @@ export const MatterInvertedCity = () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            Read & Collect
+            Collect & Read
           </Button>
         </Flex>
       </Flex>

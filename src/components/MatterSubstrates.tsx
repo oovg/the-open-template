@@ -30,7 +30,7 @@ export const MatterSubstrates = () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            Read & Collect
+            Collect & Read
           </Button>
           <Button
             as={Link}
