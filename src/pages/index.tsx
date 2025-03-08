@@ -105,13 +105,13 @@ export default function Home({ filteredPosts }: Props) {
               Collaborations
             </Link>
             <Link
-              href="/matters"
+              href="/library"
               color="primary"
               my={6}
               fontSize="2xl"
               textStyle="h2"
             >
-              Matters
+              Library
             </Link>
             <Link
               href="/transmissions"
@@ -165,7 +165,7 @@ export default function Home({ filteredPosts }: Props) {
         </Flex>
         <Flex maxW="800px" mx="auto" my={12}>
           <Text as="h2" textStyle="h2">
-            Matters
+            Library
           </Text>
         </Flex>
         <MatterEthLocalism />
