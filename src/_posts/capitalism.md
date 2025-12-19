@@ -4,7 +4,7 @@ slug: capitalism
 matter: transmissions
 author: 'Exeunt'
 excerpt: 'Conversely, to those who would seek to suppress or culturally marginalize free, open source, opt-in mechanisms for mutual aid or resource sharing built to operate as a complement to a pluralistic and free economic space on the grounds that they "sound marxist," I have one message: *we are extitutionalists, we understand the key value proposition of Ethereum, and you dont speak for us*.'  
-date: 2025-03-09
+date: '2025-03-09T16:20:04.000Z'
 imagePath: '/assets/transmissions/capitalismcommunism.png'
 ---
 

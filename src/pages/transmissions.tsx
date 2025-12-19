@@ -42,7 +42,15 @@ export async function getStaticProps() {
     'imagePath',
   ])
 
-  const filteredPosts = allPosts.filter(post => post.matter.includes('transmissions'))
+  const filteredPosts = allPosts
+    .filter(post => post.matter.includes('transmissions'))
+    .map(post => {
+      const dateValue = post.date as string | Date
+      return {
+        ...post,
+        date: dateValue instanceof Date ? dateValue.toISOString() : String(dateValue),
+      }
+    })
   
   return {
     props: {
