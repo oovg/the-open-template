@@ -41,35 +41,35 @@ export default function Home() {
             </Flex>
         </Flex>
 
-        <Flex direction="row" alignItems="start" justifyContent="space-between" w="100%" p={10} flexWrap="wrap">
+        <Flex direction="row" alignItems="start" justifyContent="space-between" w="100%" p={10} flexWrap="wrap" borderTop="1px solid" borderColor="primary">
           <Flex direction="column" alignItems="start" w={['100%', null, '33%']} justifyContent="space-between" mr={10}>
               <Heading color="primary" fontWeight="100" fontSize={['xl', null, '2xl']} mb={5}>Media</Heading>
               <p>The Open Machine publishes artifacts from the frontier—zines, books, posters, booklets. We share information, transmit experience, and document protocol. Things that can be held, collected, and passed along. Ideas that circulate without capture.</p>
           </Flex>
           <Flex direction="row" alignItems="start" justifyContent="space-between" w={['100%', null, '60%']} flexWrap="wrap">
           <Flex direction="column" alignItems="start" w={['100%', null, '50%']} p={5}>
-            <Link href="/earth-computer">
+            <Link href="/earth-computer" border="1px solid" borderColor="primary" p={3}>
               <Heading fontSize={['md', null, 'lg']} mb={3}>Ethereum: The Earth Computer</Heading>
               <Text>Poster - <i>Research, Writing and Design</i></Text>
               <Image src="/assets/Assembly_mock-full.jpg" alt="Ethereum: The Earth Computer" width="100%" height="100%"/>
             </Link>
             </Flex>
             <Flex direction="column" alignItems="start" w={['100%', null, '50%']} p={5}>
-              <Link href="/ethereum-localism-book">
+              <Link href="/ethereum-localism-book" border="1px solid" borderColor="primary" p={3}>
                 <Heading fontSize={['md', null, 'lg']} mb={3}>Ethereum Localism: Grounding the Future of Coordination</Heading>
                 <Text>Book - <i>Editing, Design, and Publishing</i></Text>
                 <Image src="/assets/EL_Cover-front.jpg" alt="Ethereum Localism" width="100%" height="100%"/>  
               </Link>
             </Flex>
             <Flex direction="column" alignItems="start" w={['100%', null, '50%']} p={5}>
-              <Link href="/inverted-city">
+              <Link href="/inverted-city" border="1px solid" borderColor="primary" p={3}>
                 <Heading fontSize={['md', null, 'lg']} mb={3}>Inverted City</Heading>
                 <Text>Zine - <i>Writing, Editing, and Publishing</i></Text>
                 <Image src="/assets/invertedCity_cover.jpg" alt="Inverted City" width="100%" height="100%"/>
               </Link>
             </Flex>
             <Flex direction="column" alignItems="start" w={['100%', null, '50%']} p={5}>
-            <Link href="/friends-of-the-outside">
+            <Link href="/friends-of-the-outside" border="1px solid" borderColor="primary" p={3}>
                 <Heading fontSize={['md', null, 'lg']} mb={3}>Friends of the Outside</Heading>
                 <Text>Booklet - <i>Writing, Design, and Publishing</i></Text>
                 <Image src="/assets/FotO_physical-outside.jpg" alt="Friends of the Outside" width="100%" height="100%"/>
@@ -78,7 +78,7 @@ export default function Home() {
           </Flex>
         </Flex>
 
-        <Flex direction="row" alignItems="start" justifyContent="space-between" w="100%" p={10} flexWrap="wrap">
+        <Flex direction="row" alignItems="start" justifyContent="space-between" w="100%" p={10} flexWrap="wrap" borderTop="1px solid" borderColor="primary">
           <Flex direction="column" alignItems="start" w={['100%', null, '33%']} justifyContent="space-between" mr={10}>
               <Heading color="primary" fontWeight="100" fontSize={['xl', null, '2xl']} mb={5}>Events</Heading>
               <Text>The Open Machine convenes temporary assemblies where ideas meet bodies and something gets made. Salons, workshops, lecture series, unconferences, gatherings. Spaces for interstitial productivity. Events come first. Structures dissolve afterward.</Text>
@@ -104,7 +104,7 @@ export default function Home() {
           </Flex>
         </Flex>
 
-        <Flex direction="row" alignItems="start" justifyContent="space-between" w="100%" p={10} flexWrap="wrap">
+        <Flex direction="row" alignItems="start" justifyContent="space-between" w="100%" p={10} flexWrap="wrap" borderTop="1px solid" borderColor="primary">
           <Flex direction="column" alignItems="start" w={['100%', null, '33%']} justifyContent="space-between" mr={10}>
               <Heading color="primary" fontWeight="100" fontSize={['xl', null, '2xl']} mb={5}>Research</Heading>
               <p>The Open Machine conducts research on the characteristics of extitutional space - the spontaneous orders, open protocols, and plural ontologies of the space outside of administrative institutions. We take in feeds from transchistorical sources, from diverse disciplines, from the more-than-human world and the cutting edge of organization in order to construct images of free association and network improvisation adequate to a post-coercion society.</p>
@@ -129,7 +129,7 @@ export default function Home() {
           </Flex>
         </Flex>
 
-        <Flex direction="row" alignItems="start" justifyContent="space-between" w="100%" p={10} flexWrap="wrap">
+        <Flex direction="row" alignItems="start" justifyContent="space-between" w="100%" p={10} flexWrap="wrap" borderTop="1px solid" borderColor="primary">
           <Flex direction="column" alignItems="start" w={['100%', null, '33%']} justifyContent="space-between" mr={10}>
               <Heading color="primary" fontWeight="100" fontSize={['xl', null, '2xl']} mb={5}>Network</Heading>
               <p>The Open Machine convenes temporary assemblies where ideas meet bodies and something gets made. Salons, workshops, lecture series, unconferences, gatherings. Spaces for interstitial productivity. Events come first. Structures dissolve afterward.</p>
