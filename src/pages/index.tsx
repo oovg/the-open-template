@@ -8,13 +8,9 @@ import {
 import {
   PageMetadata,
 } from '@/components'
-import Post from '../interfaces/post'
+import { Header } from '@/components/Header'
 
-type Props = {
-  filteredPosts: Post[]
-}
-
-export default function Home({ filteredPosts }: Props) {
+export default function Home() {
   return (
     <>
       <PageMetadata
@@ -23,17 +19,7 @@ export default function Home({ filteredPosts }: Props) {
         image="https://theopenmachine.net/assets/om_substrates2.png"
       />
       <main>
-      <Flex direction="row" alignItems="start" justifyContent="space-between" w="100%" h="80px" p={5}>
-          <Heading
-                color="primary"
-                fontWeight="100"
-                lineHeight="0.9em"
-                fontSize={['xl', null, '2xl']}
-                mb={5}
-              >
-                The Open Machine
-            </Heading>
-        </Flex>
+        <Header />
           
         <Flex direction="column" alignItems="start" justifyContent="space-between" w="100%" h="auto" position="relative">
             <Image src="/assets/om_substrates2.png" alt="The Open Machine" style={{ objectFit: 'cover', objectPosition: 'center center', overflow: "hidden"}}/>
@@ -60,18 +46,34 @@ export default function Home({ filteredPosts }: Props) {
               <Heading color="primary" fontWeight="100" fontSize={['xl', null, '2xl']} mb={5}>Media</Heading>
               <p>The Open Machine publishes artifacts from the frontier—zines, books, posters, booklets. We share information, transmit experience, and document protocol. Things that can be held, collected, and passed along. Ideas that circulate without capture.</p>
           </Flex>
-          <Flex direction="row" alignItems="start" justifyContent="space-between" w="60%" flexWrap="wrap">
+          <Flex direction="row" alignItems="start" justifyContent="space-between" w={['100%', null, '60%']} flexWrap="wrap">
           <Flex direction="column" alignItems="start" w={['100%', null, '50%']} p={5}>
+            <Link href="/earth-computer">
+              <Heading fontSize={['md', null, 'lg']} mb={3}>Ethereum: The Earth Computer</Heading>
+              <Text>Poster - <i>Research, Writing and Design</i></Text>
               <Image src="/assets/Assembly_mock-full.jpg" alt="Ethereum: The Earth Computer" width="100%" height="100%"/>
+            </Link>
             </Flex>
             <Flex direction="column" alignItems="start" w={['100%', null, '50%']} p={5}>
-              <Image src="/assets/EL_Cover-front.jpg" alt="Ethereum Localism" width="100%" height="100%"/>
+              <Link href="/ethereum-localism-book">
+                <Heading fontSize={['md', null, 'lg']} mb={3}>Ethereum Localism: Grounding the Future of Coordination</Heading>
+                <Text>Book - <i>Editing, Design, and Publishing</i></Text>
+                <Image src="/assets/EL_Cover-front.jpg" alt="Ethereum Localism" width="100%" height="100%"/>  
+              </Link>
             </Flex>
             <Flex direction="column" alignItems="start" w={['100%', null, '50%']} p={5}>
-              <Image src="/assets/invertedCity_cover.jpg" alt="Inverted City" width="100%" height="100%"/>
+              <Link href="/inverted-city">
+                <Heading fontSize={['md', null, 'lg']} mb={3}>Inverted City</Heading>
+                <Text>Zine - <i>Writing, Editing, and Publishing</i></Text>
+                <Image src="/assets/invertedCity_cover.jpg" alt="Inverted City" width="100%" height="100%"/>
+              </Link>
             </Flex>
             <Flex direction="column" alignItems="start" w={['100%', null, '50%']} p={5}>
-              <Image src="/assets/FotO_physical-outside.jpg" alt="Friends of the Outside" width="100%" height="100%"/>
+            <Link href="/friends-of-the-outside">
+                <Heading fontSize={['md', null, 'lg']} mb={3}>Friends of the Outside</Heading>
+                <Text>Booklet - <i>Writing, Design, and Publishing</i></Text>
+                <Image src="/assets/FotO_physical-outside.jpg" alt="Friends of the Outside" width="100%" height="100%"/>
+            </Link>
             </Flex>
           </Flex>
         </Flex>
@@ -79,7 +81,8 @@ export default function Home({ filteredPosts }: Props) {
         <Flex direction="row" alignItems="start" justifyContent="space-between" w="100%" p={10} flexWrap="wrap">
           <Flex direction="column" alignItems="start" w={['100%', null, '33%']} justifyContent="space-between" mr={10}>
               <Heading color="primary" fontWeight="100" fontSize={['xl', null, '2xl']} mb={5}>Events</Heading>
-              <p>The Open Machine convenes temporary assemblies where ideas meet bodies and something gets made. Salons, workshops, lecture series, unconferences, gatherings. Spaces for interstitial productivity. Events come first. Structures dissolve afterward.</p>
+              <Text>The Open Machine convenes temporary assemblies where ideas meet bodies and something gets made. Salons, workshops, lecture series, unconferences, gatherings. Spaces for interstitial productivity. Events come first. Structures dissolve afterward.</Text>
+              <Image src="/assets/gfel25_salon.jpg" alt="GFEL 2025 Salon" width="100%" height="100%"/>
           </Flex>
           <Flex direction="column" alignItems="start" justifyContent="space-between" w={['100%', null, '60%']}>
             <Flex direction="column" gap={3} mt={5}>
