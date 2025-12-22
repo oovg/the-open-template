@@ -21,8 +21,8 @@ export default function Home() {
       <main>
         <Header />
           
-        <Flex direction="column" alignItems="start" justifyContent="space-between" w="100%" h="auto" position="relative">
-            <Image src="/assets/om_substrates2.png" alt="The Open Machine" style={{ objectFit: 'cover', objectPosition: 'center center', overflow: "hidden"}}/>
+        <Flex direction="column" alignItems="start" justifyContent="space-between" w="100%" h="calc(100vh - 80px)" position="relative">
+            <Image src="/assets/om_substrates2.png" h="100%" w="100%" alt="The Open Machine" style={{ objectFit: 'cover', objectPosition: 'center center', overflow: "hidden"}}/>
         </Flex>
 
         <Flex direction="column" alignItems="start" justifyContent="space-between" maxW="600px" mx="auto" position="relative" p= {10}>
@@ -136,17 +136,18 @@ export default function Home() {
           </Flex>
           <Flex direction="column" alignItems="start" justifyContent="space-between" w={['100%', null, '60%']}>
             <Flex direction="column" gap={3} mt={5}>
-              <Link href="https://allocapital.io"><Text>Allo Capital</Text></Link>
-              <Link href="https://block.science"><Text>Block.science</Text></Link>
-              <Link href="https://daohaus.club"><Text>DAOhaus</Text></Link>
-              <Link href="https://gitcoin.co"><Text>Gitcoin</Text></Link>
-              <Link href="https://hatsprotocol.xyz"><Text>Hats</Text></Link>
-              <Link href="https://hypercerts.org"><Text>Hypercerts</Text></Link>
-              <Link href="https://metacartel.org"><Text>MetaCartel</Text></Link>
-              <Link href="https://metagov.org"><Text>Metagov</Text></Link>
-              <Link href="https://opencivics.co"><Text>Open Civics</Text></Link>
-              <Link href="https://publicnouns.wtf"><Text>Public Nouns</Text></Link>
-              <Link href="https://raidguild.org"><Text>Raid Guild</Text></Link>
+              <Link href="https://allocapital.io" target="_blank"><Text>Allo Capital</Text></Link>
+              <Link href="https://block.science" target="_blank"><Text>Block.science</Text></Link>
+              <Link href="https://daohaus.club" target="_blank"><Text>DAOhaus</Text></Link>
+              <Link href="https://gitcoin.co" target="_blank"><Text>Gitcoin</Text></Link>
+              <Link href="https://hatsprotocol.xyz" target="_blank"><Text>Hats</Text></Link>
+              <Link href="https://hypercerts.org" target="_blank"><Text>Hypercerts</Text></Link>
+              <Link href="https://metacartel.org" target="_blank"><Text>MetaCartel</Text></Link>
+              <Link href="https://metagov.org" target="_blank"><Text>Metagov</Text></Link>
+              <Link href="https://opencivics.co" target="_blank"><Text>Open Civics</Text></Link>
+              <Link href="https://publicnouns.wtf" target="_blank"><Text>Public Nouns</Text></Link>
+              <Link href="https://raidguild.org" target="_blank"><Text>Raid Guild</Text></Link>
+              <Link href="https://law.stanford.edu/codex-the-stanford-center-for-legal-informatics/" target="_blank"><Text>Stanford Codex</Text></Link>
             </Flex>
           </Flex>
         </Flex>
