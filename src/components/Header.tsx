@@ -189,6 +189,7 @@ export const Header = () => {
         paddingTop="120px"
         overflow="hidden"
         display={['block', null, 'none']}
+        fontFamily="heading"
       >
         <Box as="nav" padding="0 20px" aria-label="Main navigation">
           {menuItems.map((item, index) => (

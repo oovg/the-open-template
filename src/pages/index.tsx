@@ -79,7 +79,7 @@ export default function Home() {
               <Image src="/assets/gfel25_salon.jpg" alt="GFEL 2025 Salon" width="100%" height="100%"/>
           </Flex>
           <Flex direction="column" alignItems="start" justifyContent="space-between" w={['100%', null, '60%']}>
-            <Flex direction="column" gap={3} mt={5}>
+            <Flex direction="column" gap={3} mt={5} fontSize={['sm', null, 'md']}>
               <Text>Gathering - <i>Open Protocols Convene</i>, Boulder, Colorado 2025</Text>
               <Text>Salon - <i>Open Protocols Social</i>, Portland, Oregon 2025</Text>
               <Text>Workshop - <i>Polycentric Equity Swap Game</i>, Devconnect Buenos Aires, Argentina 2025</Text>
@@ -103,25 +103,25 @@ export default function Home() {
               <Heading color="primary" fontWeight="100" fontSize={['xl', null, '2xl']} mb={5}>Research</Heading>
               <Text>The Open Machine conducts research on the spontaneous orders, open protocols, and plural ontologies of the space outside of administrative institutions, and its clashes with an emerging front of social capture, enclosure and control. As anextitution, our goal is to produce practical, materially grounded knowledge-sets that might evolve into open protocols adequate to the new technological landscape.</Text>
           </Flex>
-          <Flex direction="row" alignItems="start" justifyContent="space-between" w="60%" flexWrap="wrap" mt={[5, null, 0]}>
+          <Flex direction="row" alignItems="start" justifyContent="space-between" w={["full", null, "60%"]} flexWrap="wrap" mt={[5, null, 0]}>
           <Flex direction="column" alignItems="start" w={['100%', null, '50%']} p={[0, null, 5]}>
               <Heading fontSize={['md', null, 'lg']} mb={5}>Post-Capitalist Venture Capital</Heading>
               <Text>Commissioned project in collaboration with Open Civics Labs to identify strategies for ethical venture capital that exploit the legitimacy crisis of late stage capitalism and anticipate a post-capitalist transition. Final product forthcoming for Allo Capital.</Text>
             </Flex>
             <Flex direction="column" alignItems="start" w={['100%', null, '50%']} p={[0, null, 5]}>
-              <Heading fontSize={['md', null, 'lg']} mb={5}>Hyperactive Public Goods Funding</Heading>
+              <Heading fontSize={['md', null, 'lg']} mt={[8, null, 0]} mb={5}>Hyperactive Public Goods Funding</Heading>
               <Text>Research project bundling web3 capital allocation mechanisms into a modular apparatus to effectively fund public goods projects from early stage to end-cycle verification. Made possible with the help of Public Nouns.</Text>
             </Flex>
             <Flex direction="column" alignItems="start" w={['100%', null, '50%']} p={[0, null, 5]}>
-              <Heading fontSize={['md', null, 'lg']} mb={5}>Open Protocols Research Group</Heading>
+              <Heading fontSize={['md', null, 'lg']}  mt={[8, null, 0]} mb={5}>Open Protocols Research Group</Heading>
               <Text>Multi-year cohort working in the context of Ethereum Localism to find formal isomorphism between open source web protocols and open protocols of urban cultural spaces. Made possible with funding from Arbitrum Grants and Ethereal Forest.</Text>
             </Flex>
             <Flex direction="column" alignItems="start" w={['100%', null, '50%']} p={[0, null, 5]}>
-              <Heading fontSize={['md', null, 'lg']} mb={5}>Intensive Protocols</Heading>
+              <Heading fontSize={['md', null, 'lg']}  mt={[8, null, 0]} mb={5}>Intensive Protocols</Heading>
               <Text>Ongoing research looking into underground technologies for affective, nondual or nonordinary experience. This project engages neurophenomenology and computational modeling of qualia in order to develop digital renderings of underground assemblages.</Text>
             </Flex>
             <Flex direction="column" alignItems="start" w={['100%', null, '50%']} p={[0, null, 5]}>
-              <Heading fontSize={['md', null, 'lg']} mb={5}>Guild Guild</Heading>
+              <Heading fontSize={['md', null, 'lg']}  mt={[8, null, 0]} mb={5}>Guild Guild</Heading>
               <Text>Ethnographic study of the guilds of the protocol underground, with a focus on protocolization as a means of supporting and maintaining the extitutional clarity of the groups themselves.</Text>
             </Flex>
           </Flex>
@@ -132,27 +132,27 @@ export default function Home() {
               <Heading color="primary" fontWeight="100" fontSize={['xl', null, '2xl']} mb={5}>Values</Heading>
               <Text>Our engagement with the archive and ethnographic study of underground communities alerted us to five principles (or four key values + one major operational principle) that animate the underground. They are as follows:</Text>
           </Flex>
-          <Flex direction="row" alignItems="start" justifyContent="space-between" w="60%" flexWrap="wrap" mt={[5, null, 0]}>
+          <Flex direction="row" alignItems="start" justifyContent="space-between" w={["full", null, "60%"]} flexWrap="wrap" mt={[5, null, 0]}>
           <Flex direction="column" alignItems="start" w={['100%', null, '50%']} p={[0, null, 5]}>
               <Heading fontSize={['md', null, 'lg']} mb={5}>High Agency</Heading>
               <Text>Participants actively shape situations, infrastructures, and outcomes through situated and emergent decision-making. Agency circulates rather than concentrates, expressed through improvisation, responsibility, and the capacity to act without delegated authority.</Text>
             </Flex>
             <Flex direction="column" alignItems="start" w={['100%', null, '50%']} p={[0, null, 5]}>
-              <Heading fontSize={['md', null, 'lg']} mb={5}>Open Aesthetic</Heading>
+              <Heading fontSize={['md', null, 'lg']}  mt={[8, null, 0]} mb={5}>Open Aesthetic</Heading>
               <Text>Aesthetic coherence is dynamic, arising and changing with the gestalt of the network. Subjection to an aesthetic condition is forsaken for a challenge to participate and codetermine a performance.</Text>
             </Flex>
             <Flex direction="column" alignItems="start" w={['100%', null, '50%']} p={[0, null, 5]}>
-              <Heading fontSize={['md', null, 'lg']} mb={5}>Consent Forward</Heading>
+              <Heading fontSize={['md', null, 'lg']}  mt={[8, null, 0]} mb={5}>Consent Forward</Heading>
               <Text>Coordination is grounded in explicit, situated agreements that are continuously renegotiated. Boundaries, roles, and intensities remain legible to participants, enabling trust, experimentation, and mutual care under conditions of risk and transformation.</Text>
             </Flex>
             <Flex direction="column" alignItems="start" w={['100%', null, '50%']} p={[0, null, 5]}>
-              <Heading fontSize={['md', null, 'lg']} mb={5}>Process Oriented</Heading>
+              <Heading fontSize={['md', null, 'lg']} mt={[8, null, 0]} mb={5}>Process Oriented</Heading>
               <Text>Attention is directed toward unfolding, qualitative dynamics rather than quantitative, static outcomes. This means emphasis on intensive experience or "qualia" - affect, epiphany, synchronicity, the nondual, and most importantly the experience of dissolution into larger subjectivities that may be determined by social, material, technological dynamics or (more likely) all of the above.</Text>
             </Flex>
             <Flex direction="column" alignItems="start" w={['100%', null, '100%']} p={[0, null, 5]}>
-              <Heading fontSize={['md', null, 'lg']} mb={5}>Open Protocolized</Heading>
+              <Heading fontSize={['md', null, 'lg']}  mt={[8, null, 0]} mb={5}>Open Protocolized</Heading>
               <Text>Practices crystallize into reusable patterns through a kind of natural selection in the "cold exterior" of the extitutional realm, where practical empiricism and novelty-infatuation reign. Weathered by the exterior, open protocols develop an acute, open empiricism, manifested as (a) availability to appropriation, forking, recombination to whatever material ends, & (b) resistance and circumvention to any system that compromises (a), and (c) compact and compelling enough form to facilitate free & open circulation.</Text>
-              <Text>The underground is a recessive organism, resisting formalization or categorization even as it generates abundant protocols that depend on both of those tactics to persist. We generate this formal account not in order to enclose the underground, but because we our confident in our position that it cannot be enclosed.</Text>
+              <Text mt={8} >The underground is a recessive organism, resisting formalization or categorization even as it generates abundant protocols that depend on both of those tactics to persist. We generate this formal account not in order to enclose the underground, but because we our confident in our position that it cannot be enclosed.</Text>
             </Flex>
           </Flex>
         </Flex>
