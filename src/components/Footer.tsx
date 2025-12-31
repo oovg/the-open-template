@@ -24,7 +24,49 @@ export const Footer = () => {
 
   return (
     <>
-    <Flex direction="row" alignItems="start" w="full" flexWrap="wrap" borderTop="1px solid" borderColor="primary" py={10} px={[5, null, 10]}>
+    <Flex direction="row" alignItems="start" justifyContent="space-between" w="full" flexWrap="wrap" borderTop="1px solid" borderColor="primary" py={10} px={[5, null, 10]}>
+
+    <Flex direction="column" w={['100%', null, '33%']} alignItems={['center', null, 'start']} justifyContent="space-between" mb={[8, null, 0]}>
+        <Heading fontSize={['xl', null, '2xl']} mb={5}>Navigate</Heading>
+        <Flex
+          direction="column"
+          alignItems="start"
+          justifyContent="space-between"
+          gap={3}
+        >
+          {menuItems.map((item) => (
+            <Link
+              key={item.href}
+              href={item.href}
+              color="primary"
+              position="relative"
+              display="inline-block"
+              textDecoration="none"
+              _hover={{ textDecoration: 'none' }}
+              sx={{
+                '&::after': {
+                  content: '""',
+                  position: 'absolute',
+                  bottom: '0',
+                  left: '0',
+                  width: '100%',
+                  height: '2px',
+                  bg: 'primary',
+                  transform: 'scaleX(0)',
+                  transformOrigin: 'left',
+                  transition: 'transform 0.3s ease',
+                },
+                '&:hover::after': {
+                  transform: 'scaleX(1)',
+                },
+              }}
+            >
+              {item.label}
+            </Link>
+          ))}
+        </Flex>
+      </Flex>
+      
       <Flex direction="column" w={['100%', null, '33%']} alignItems={['center', null, 'start']} justifyContent="space-between" mb={[8, null, 0]}>
         <Heading fontSize={['xl', null, '2xl']} mb={5}>Newsletter</Heading>
         <Text mb={4} textAlign={['center', null, 'left']} fontSize="sm">
@@ -79,47 +121,7 @@ export const Footer = () => {
           </Flex>
         </Box>
       </Flex>
-      <Flex direction="column" w={['100%', null, '33%']} alignItems={['center', null, 'start']} justifyContent="space-between" mb={[8, null, 0]}>
-        <Heading fontSize={['xl', null, '2xl']} mb={5}>Navigate</Heading>
-        {/* Desktop Navigation */}
-        <Flex
-          direction="column"
-          alignItems="start"
-          justifyContent="space-between"
-          gap={3}
-        >
-          {menuItems.map((item) => (
-            <Link
-              key={item.href}
-              href={item.href}
-              color="primary"
-              position="relative"
-              display="inline-block"
-              textDecoration="none"
-              _hover={{ textDecoration: 'none' }}
-              sx={{
-                '&::after': {
-                  content: '""',
-                  position: 'absolute',
-                  bottom: '0',
-                  left: '0',
-                  width: '100%',
-                  height: '2px',
-                  bg: 'primary',
-                  transform: 'scaleX(0)',
-                  transformOrigin: 'left',
-                  transition: 'transform 0.3s ease',
-                },
-                '&:hover::after': {
-                  transform: 'scaleX(1)',
-                },
-              }}
-            >
-              {item.label}
-            </Link>
-          ))}
-        </Flex>
-      </Flex>
+     
       <Flex direction="column" w={['100%', null, '33%']} alignItems={['center', null, 'start']} justifyContent="space-between" mb={[8, null, 0]}>
         <Heading fontSize={['xl', null, '2xl']} mb={5}>Contact</Heading>
         <Text textAlign={['center', null, 'left']}>
