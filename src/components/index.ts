@@ -1,5 +1,7 @@
 export * from './DateFormatter'
+export * from './FarcasterIcon'
 export * from './Fonts'
+export * from './XIcon'
 export * from './Footer'
 export * from './Further'
 export * from './Header'

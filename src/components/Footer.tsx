@@ -1,9 +1,10 @@
 import React, { useState } from 'react'
 import { Box, Flex, Heading, Link, Text, Input, Button } from '@chakra-ui/react'
 import { EmailIcon } from '@chakra-ui/icons'
+import { FarcasterIcon, XIcon } from '@/components'
 
 const menuItems = [
-  { label: 'What we do', href: '/#what-we-do' },
+  { label: 'What we do', href: '/#' },
   { label: 'Media', href: '/#media' },
   { label: 'Events', href: '/#events' },
   { label: 'Research', href: '/#research' },
@@ -24,7 +25,7 @@ export const Footer = () => {
 
   return (
     <>
-    <Flex direction="row" alignItems="start" justifyContent="space-between" w="full" flexWrap="wrap" borderTop="1px solid" borderColor="primary" py={10} px={[5, null, 10]}>
+    <Flex direction="row" alignItems="start" justifyContent="space-between" w="full" flexWrap="wrap" borderTop="1px solid" borderColor="midtone" py={10} px={[5, null, 10]}>
 
     <Flex direction="column" w={['100%', null, '33%']} alignItems={['center', null, 'start']} justifyContent="space-between" mb={[8, null, 0]}>
         <Heading fontSize={['xl', null, '2xl']} mb={5}>Navigate</Heading>
@@ -122,14 +123,24 @@ export const Footer = () => {
         </Box>
       </Flex>
      
-      <Flex direction="column" w={['100%', null, '33%']} alignItems={['center', null, 'start']} justifyContent="space-between" mb={[8, null, 0]}>
+      <Flex direction="column" w={['100%', null, '33%']} alignItems={['start', null, 'start']} justifyContent="space-between" mb={[8, null, 0]}>
         <Heading fontSize={['xl', null, '2xl']} mb={5}>Contact</Heading>
-        <Text textAlign={['center', null, 'left']}>
+        <Flex direction="row" gap={3} alignItems="center">
+          <Text>
           <Link href="mailto:theopenmachine@protonmail.com" color="primary" display="inline-flex" alignItems="center" gap={2}>
-            <EmailIcon />
+            <EmailIcon mb={2} />
             theopenmachine@protonmail.com
           </Link>
         </Text>
+        </Flex>
+        <Flex direction="row" gap={3} alignItems="center">
+        <Text>
+          <Link href="https://x.com/theopenmachine" color="primary" display="inline-flex" direction="row" alignItems="center" gap={2}>
+          <XIcon mb={2}/>
+            @theopenmachine
+          </Link>
+        </Text>
+        </Flex>
       </Flex>
     </Flex>
 

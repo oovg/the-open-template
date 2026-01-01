@@ -69,6 +69,8 @@ const overrides = {
     colors: {
       primary: { _light: '#282828', _dark: '#f0fdfa' },
       bg: { _light: '#f0fdfa', _dark: '#000' },
+      muted: { _light: '#3C3C3C', _dark: '#3C3C3C' },
+      midtone: { _light: '#8C8C8C', _dark: '#8C8C8C' },
     },
   },
 }

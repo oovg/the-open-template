@@ -11,7 +11,7 @@ import {
 import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons'
 
 const menuItems = [
-  { label: 'What we do', href: '/#what-we-do' },
+  { label: 'What we do', href: '/#' },
   { label: 'Media', href: '/#media' },
   { label: 'Events', href: '/#events' },
   { label: 'Research', href: '/#research' },
