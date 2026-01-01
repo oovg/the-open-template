@@ -135,8 +135,8 @@ export const Footer = () => {
         </Flex>
         <Flex direction="row" gap={3} alignItems="center">
         <Text>
-          <Link href="https://x.com/theopenmachine" color="primary" display="inline-flex" direction="row" alignItems="center" gap={2}>
-          <XIcon mb={2}/>
+          <Link href="https://x.com/theopenmachine" color="primary" display="inline-flex" alignItems="center" gap={2}>
+            <XIcon mb={2}/>
             @theopenmachine
           </Link>
         </Text>

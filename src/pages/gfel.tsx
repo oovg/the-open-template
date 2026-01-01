@@ -2,7 +2,6 @@ import {
     Flex,
     Heading,
     Image,
-    Link,
     Text,
   } from '@chakra-ui/react'
   import {
@@ -12,7 +11,7 @@ import {
   import { Footer } from '@/components/Footer'
   import { Back } from '@/components/Back'
   
-  export default function Undercapital() {
+  export default function Gfel() {
     return (
       <>
         <PageMetadata
