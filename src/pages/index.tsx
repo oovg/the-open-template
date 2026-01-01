@@ -106,6 +106,14 @@ export default function Home() {
                   image: '/assets/undercapitalZines.png',
                   alt: 'Undercapital cover'
                 },
+                { 
+                  href: '/gfel', 
+                  title: 'GFEL I', 
+                  description: 'Poster',
+                  descriptionItalic: 'Writing & Design',
+                  image: '/assets/gfel_poster.png',
+                  alt: 'gfel poster'
+                },
               ].map((item, i) => (
                 <Box
                   key={i}
