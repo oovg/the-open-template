@@ -108,7 +108,7 @@ export default function Home() {
                 },
                 { 
                   href: '/gfel', 
-                  title: 'GFEL I', 
+                  title: 'GFEL', 
                   description: 'Poster',
                   descriptionItalic: 'Writing & Design',
                   image: '/assets/gfel_poster.png',
@@ -137,8 +137,8 @@ export default function Home() {
                     </Text>
                     <Box
                       w="100%"
-                      h={['50vw', null, '600px']}
-                      maxH="600px"
+                      h={['50vw', null, '800px']}
+                      maxH="800px"
                       overflow="hidden"
                     >
                       <Image 
@@ -192,7 +192,7 @@ export default function Home() {
                 <Box
                   key={i}
                   display="inline-block"
-                  w={['100%', null, '75%']}
+                  w={['100%', null, '60%']}
                   h={['100vh', null, '600px']}
                   maxH="600px"
                   p={2.5}
