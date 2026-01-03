@@ -5,6 +5,7 @@ import {
     Link,
     Text,
   } from '@chakra-ui/react'
+  import { DownloadIcon, ExternalLinkIcon } from '@chakra-ui/icons'
   import {
     PageMetadata,
   } from '@/components'
@@ -37,6 +38,11 @@ import {
                   <Link href="https://zora.co/collect/oeth:0x2d17e1c913a616e30ff267afda30a69d9ad25343" target="_blank"><Text>Buy Now</Text></Link>
                 </Flex>
                 <Text  fontSize={['lg', null, 'xl']}mt={8}>Gonzo-style exploration of the relationship between DAOs and the outside world.</Text>
+                <Flex direction="row" gap={3} mt={5} width="100%">
+                    <Link href="https://zora.co/collect/oeth:0x2d17e1c913a616e30ff267afda30a69d9ad25343" target="_blank"><Text>Buy Now <ExternalLinkIcon mb={1} ml={2}/></Text></Link>
+                    <Text>|</Text>
+                    <Link href="/assets/pdf/Foto.pdf" target="_blank"><Text>Download PDF<DownloadIcon mb={1} ml={2}/></Text></Link>
+                </Flex>
             </Flex>
             <Flex direction="column" alignItems="start" justifyContent="space-between" w={['100%', null, '60%']}>
               <Flex direction="column" gap={3} my={5}>

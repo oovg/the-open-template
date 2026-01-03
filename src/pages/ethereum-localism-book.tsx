@@ -5,6 +5,7 @@ import {
     Link,
     Text,
   } from '@chakra-ui/react'
+  import { DownloadIcon, ExternalLinkIcon } from '@chakra-ui/icons'
   import {
     PageMetadata,
   } from '@/components'
@@ -32,12 +33,12 @@ import {
             <Flex direction="column" alignItems="start" w={['100%', null, '33%']} justifyContent="space-between" mr={10}>
                 <Heading color="primary" fontWeight="100" fontSize={['xl', null, '2xl']} mb={5}>Ethereum Localism: Grounding the Future of Coordination</Heading>
                 <Text>Book - <i>Editing, Design, and Publishing</i></Text>
-                <Flex direction="row" gap={3} mt={5} width="100%">
-                    <Link href="/" target="_blank"><Text>Buy Now</Text></Link>
-                    <Link href="/" target="_blank"><Text>Download PDF</Text></Link>
-                </Flex>
                 <Text  fontSize={['lg', null, 'xl']}mt={8}>A Collection of Essays on the Future of Coordination</Text>
-            
+                <Flex direction="row" gap={3} mt={5} width="100%">
+                    {/* <Link href="https://allocapital.metalabel.com/ethasassembly" target="_blank"><Text>Buy Now <ExternalLinkIcon mb={1} ml={2}/></Text></Link>
+                    <Text>|</Text> */}
+                    <Link href="https://qxvqdga4v2uhlcgh7bvl5m6rukrhmesy6uzingqov76jw5miy3ka.arweave.net/hesBmByuqHWIx_hqvrPRoqJ2Elj1MoaaDq_8m3WIxtQ" target="_blank"><Text>Download PDF<DownloadIcon mb={1} ml={2}/></Text></Link>
+                </Flex>
                 <Flex direction="column" gap={0}>
                     <Text fontSize={['md', null, 'lg']} fontWeight="bold" mt={5}>Contributors</Text>
                     <Text>Michel Bauwens</Text>

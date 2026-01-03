@@ -5,6 +5,7 @@ import {
     Link,
     Text,
   } from '@chakra-ui/react'
+  import { DownloadIcon } from '@chakra-ui/icons'
   import {
     PageMetadata,
   } from '@/components'
@@ -32,10 +33,10 @@ import {
             <Flex direction="column" alignItems="start" w={['100%', null, '33%']} justifyContent="space-between" mr={10}>
                 <Heading color="primary" fontWeight="100" fontSize={['xl', null, '2xl']} mb={5}>Inverted City</Heading>
                 <Text>Zine - <i>Writing, Editing, and Publishing</i></Text>
-                <Flex direction="row" gap={3} mt={5} width="100%">
-                  <Link href="https://app.manifold.xyz/c/invertedcity" target="_blank"><Text>Download PDF</Text></Link>
-                </Flex>
                 <Text  fontSize={['lg', null, 'xl']}mt={8}>A collection of essays on the inversion of the city.</Text>
+                <Flex direction="row" gap={3} mt={5} width="100%">
+                  <Link href="/assets/pdf/invertedCity_digital.pdf" target="_blank"><Text>Download PDF <DownloadIcon mb={1} ml={2}/></Text></Link>
+                </Flex>
             </Flex>
             <Flex direction="column" alignItems="start" justifyContent="space-between" w={['100%', null, '60%']}>
               <Flex direction="column" gap={3} my={5}>
