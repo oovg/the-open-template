@@ -50,15 +50,6 @@ export const Tooltip: React.FC<TooltipProps> = (props) => {
     }
   }, [])
 
-  // Styling props that apply to PopoverContent
-  const contentStyle = {
-    bg,
-    color,
-    fontSize,
-    p,
-    maxW,
-  }
-
   if (isMobile) {
     // On mobile, use Popover (click/tap to open)
     return (
@@ -66,9 +57,11 @@ export const Tooltip: React.FC<TooltipProps> = (props) => {
         <PopoverTrigger>
           {children}
         </PopoverTrigger>
-        <PopoverContent {...contentStyle}>
+        <PopoverContent bg={bg} maxW={maxW}>
           {hasArrow && <PopoverArrow />}
-          <PopoverBody>{label}</PopoverBody>
+          <PopoverBody color={color} fontSize={fontSize} p={p}>
+            {label}
+          </PopoverBody>
         </PopoverContent>
       </Popover>
     )
