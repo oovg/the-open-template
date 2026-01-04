@@ -72,6 +72,11 @@ const overrides = {
       muted: { _light: '#3C3C3C', _dark: '#3C3C3C' },
       midtone: { _light: '#8C8C8C', _dark: '#8C8C8C' },
     },
+    fontSizes: {
+      'sm': '16px',
+      'md': '18px',
+      'lg': '22px',
+    },
   },
 }
 
