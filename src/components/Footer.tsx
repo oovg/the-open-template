@@ -25,9 +25,9 @@ export const Footer = () => {
 
   return (
     <>
-    <Flex direction="row" alignItems="start" justifyContent="space-between" w="full" flexWrap="wrap" borderTop="1px solid" borderColor="midtone" py={10} px={[5, null, 10]}>
+    <Flex direction={["column", null, "row"]} alignItems="start" justifyContent="space-between" w="full" flexWrap="wrap" borderTop="1px solid" borderColor="midtone" py={10} px={[5, null, 10]}>
 
-    <Flex direction="column" w={['100%', null, '33%']} alignItems={['start', null, 'start']} justifyContent="space-between" mb={[8, null, 0]}>
+    <Flex direction="column" w={['100%', null, '33%']} alignItems={['start']} justifyContent="space-between" mb={[8, null, 0]}>
         <Heading fontSize={['xl', null, '2xl']} mb={5}>Navigate</Heading>
         <Flex
           direction="column"
@@ -123,7 +123,7 @@ export const Footer = () => {
         </Box>
       </Flex> */}
      
-      <Flex direction="column" w={['100%', null, '33%']} alignItems={['start', null, 'start']} justifyContent="space-between" mb={[8, null, 0]}>
+      <Flex direction="column" w={['100%', null, '33%']} alignItems='start' justifyContent="space-between" mb={[8, null, 0]}>
         <Heading fontSize={['xl', null, '2xl']} mb={5}>Contact</Heading>
         <Flex direction="row" gap={3} alignItems="center">
           <Text>
@@ -144,9 +144,9 @@ export const Footer = () => {
       </Flex>
     </Flex>
 
-<Flex direction="row" alignItems="center" justifyContent="space-between" w="100%" borderTop="1px solid" borderColor="primary" py={5} px={[5, null, 10]}>
-<Text fontSize="sm">CC BY-NC-SA 4.0 | The Open Machine</Text>
-<Text fontSize="sm">Built from the underground</Text>
+<Flex direction={["column", null, "row"]} alignItems="start" justifyContent="space-between" w="100%" borderTop="1px solid" borderColor="primary" py={5} px={[5, null, 10]}>
+  <Text fontSize="sm">CC BY-NC-SA 4.0 | The Open Machine</Text>
+  <Text fontSize="sm">Built from the underground</Text>
 </Flex>
 
 </>

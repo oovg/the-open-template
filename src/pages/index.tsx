@@ -48,7 +48,7 @@ export default function Home() {
               maxW="320px"
               placement="top"
             >
-              <Box as="span" bg="#e8e8e8" color="bg" px={1} cursor="help" borderBottom="1px dashed" borderColor="bg">protocol underground</Box>
+              <Box as="span" cursor="help" textDecoration="underline" textDecorationStyle="dotted" textUnderlineOffset="5px" borderColor="primary">protocol underground</Box>
             </Tooltip>
           </Text>
           <Text mt={5}>In an age of ascendant
@@ -61,7 +61,7 @@ export default function Home() {
               maxW="320px"
               placement="top"
             >
-              <Box as="span" bg="#e8e8e8" color="bg" px={1} cursor="help" borderBottom="1px dashed" borderColor="bg">
+              <Box as="span" cursor="help" textDecoration="underline" textDecorationStyle="dotted" textUnderlineOffset="5px" borderColor="primary">
                 existential technologies
               </Box>
             </Tooltip>
@@ -75,11 +75,11 @@ export default function Home() {
             maxW="320px"
             placement="top"
           >
-            <Box as="span" bg="#e8e8e8" color="bg" px={1} cursor="help" borderBottom="1px dashed" borderColor="bg">horizontally determined</Box>
+            <Box as="span" textDecoration="underline" textDecorationStyle="dotted" textUnderlineOffset="5px" borderColor="primary">horizontally determined</Box>
           </Tooltip>{' '}nature of the values themselves.</Text>
         </Flex>
 
-        <Flex id="media" direction="row" alignItems="center" justifyContent="center" w="100%" h="100%" p={10} flexWrap="wrap" borderTop={["1px solid"]} borderColor="midtone" py={20}>
+        <Flex id="media" direction="row" alignItems="center" justifyContent="center" w="100%" h="100%" flexWrap="wrap" borderTop={["1px solid"]} borderColor="midtone" py={20}>
           <Flex direction="column" alignItems="center" w={['100%', null, '33%']} justifyContent="center" h="100%" py={10} >
             <Heading color="primary" fontWeight="100" fontSize={['3xl', null, '3xl']} mb={5}>Media</Heading>
           </Flex>
@@ -167,6 +167,7 @@ export default function Home() {
                   display="block"
                   _hover={{ borderColor: "primary" }}
                   h="100%"
+                  css={{ whiteSpace: 'normal' }}
                 >
                   <Heading fontSize={['md', null, 'lg']} mb={3}>{item.title}</Heading>
                   <Text fontSize={['sm', null, 'md']} mb={3}>
@@ -174,7 +175,7 @@ export default function Home() {
                   </Text>
                   <Box
                     w="100%"
-                    h={['50vw', null, '800px']}
+                    h={['360px', null, '800px']}
                     maxH="800px"
                     overflow="hidden"
                   >
@@ -194,7 +195,7 @@ export default function Home() {
           </Box>
         </Flex>
 
-        <Flex id="events" direction="row" alignItems="center" justifyContent="start" w="100%" p={10} flexWrap="wrap" borderTop="1px solid" borderColor="midtone">
+        <Flex id="events" direction="row" alignItems="center" justifyContent="start" w="100%" flexWrap="wrap" borderTop="1px solid" borderColor="midtone">
           <Flex direction="column" alignItems="center" w={['100%', null, '35%']} justifyContent="center" mr={10} h="100%" py={10}>
             <Heading color="primary" fontWeight="100" fontSize={'3xl'} mb={5}>Events</Heading>
           </Flex>
@@ -208,7 +209,7 @@ export default function Home() {
               maxW="320px"
               placement="top"
             >
-              <Box as="span" bg="#e8e8e8" color="bg" px={1} cursor="help" borderBottom="1px dashed" borderColor="bg">lecture</Box>
+              <Box as="span" cursor="help" textDecoration="underline" textDecorationStyle="dotted" textUnderlineOffset="5px" borderColor="primary">lecture</Box>
             </Tooltip>.</Text>
           </Flex>
         </Flex>
@@ -294,7 +295,7 @@ export default function Home() {
               maxW="320px"
               placement="top"
             >
-              <Box as="span" bg="#e8e8e8" color="bg" px={1} cursor="help" borderBottom="1px dashed" borderColor="bg">extitution</Box>
+              <Box as="span" cursor="help" textDecoration="underline" textDecorationStyle="dotted" textUnderlineOffset="5px" borderColor="primary">extitution</Box>
             </Tooltip>, our goal is to produce practical, materially grounded knowledge-sets that might evolve into open protocols adequate to the new technological landscape.</Text>
           </Flex>
           <Flex direction="row" alignItems="start" justifyContent="space-between" w={["full", null, "60%"]} flexWrap="wrap" mt={[5, null, 0]}>
@@ -342,7 +343,7 @@ export default function Home() {
                 maxW="320px"
                 placement="top"
               >
-                <Box as="span" bg="#e8e8e8" color="bg" px={1} cursor="help" borderBottom="1px dashed" borderColor="bg">performance</Box>
+                <Box as="span" cursor="help" textDecoration="underline" textDecorationStyle="dotted" textUnderlineOffset="5px" borderColor="primary">performance</Box>
               </Tooltip>.</Text>
             </Flex>
             <Flex direction="column" alignItems="start" w={['100%', null, '50%']} p={[0, null, 5]}>
