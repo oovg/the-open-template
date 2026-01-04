@@ -29,44 +29,8 @@ export default function Home() {
           <Flex direction="column" alignItems="start" justifyContent="space-between" w={["100%", null, "50%"]}>
             <Image src="/assets/om_substrates-album-new.png" h="100%" w="100%" alt="The Open Machine" />
           </Flex>
-          <Flex direction="column" alignItems="start" justifyContent="center" position="relative" w={["100%", null, "50%"]} h="100%" display={['none', null, 'flex']} p={10}>
-            <Box border="1px solid" borderColor="primary" p={8} m={5}>
-              <Text fontSize="lg" mb={4}><Text as="span" fontWeight="bold">The Open Machine</Text> is a creative outpost for scaling underground values alongside, within and through emerging technologies. We <Text as="span" fontWeight="bold">produce media & events</Text> and <Text as="span" fontWeight="bold">stage research</Text> on the actualization of extitutional social forms in the twenty first century.</Text>
-              <Text fontSize="sm" mb={4}>Institutions (in their dominant form as centralized, administrative bureaucracies) are known to concentrate power, homogenize culture, enshittify technology, obscure empirical conditions in favor of party lines and, <Text as="span" fontWeight="bold">worst of all</Text>, generate cultures of complacency where direct empirical engagement with <Text as="span" fontWeight="bold">reality is sidelined</Text> for the opiate coziness of a protected inside.</Text>
-              <Text fontSize="sm" mb={4}>The Open Machine is premised on an alternative mode of social organization, an emergent programme of values and operational principles we refer to as <Text as="span" fontWeight="bold">the <Tooltip
-                label="This refers to a collective of actors with no shared identity or structure beyond the open protocols that synchronize them in acts of discovery and interparticipation. See 'Sketches for a Theory of the Protocol Underground' for the origins of this term."
-                bg="primary"
-                color="bg"
-                fontSize="sm"
-                p={3}
-                maxW="320px"
-                placement="top"
-              >
-                <Box as="span" cursor="help" textDecoration="underline" textDecorationStyle="dotted" textUnderlineOffset="5px" borderColor="primary">protocol underground</Box>
-              </Tooltip></Text>.</Text>
-              <Text fontSize="sm" mb={4}>In an age of ascendant <Tooltip
-                label="See Bogna Konior 'Existential Technologies' — existentialtech.antikythera.org"
-                bg="primary"
-                color="bg"
-                fontSize="sm"
-                p={3}
-                maxW="320px"
-                placement="top"
-              >
-                <Box as="span" cursor="help" textDecoration="underline" textDecorationStyle="dotted" textUnderlineOffset="5px" borderColor="primary">existential technologies</Box>
-              </Tooltip>, the <Text as="span" fontWeight="bold">emergent principles</Text> of the underground are in a position to scale to dominance as cynical actors and obsolete formulas fall beneath the compounding increase in <Text as="span" fontWeight="bold">degrees of freedom</Text> the new forms provide.</Text>
-              <Text fontSize="sm">The Open Machine is here to midwife that process. Our work is to discover alignment and build coalitions (and lineages) around key <Link href="#values" textDecoration="underline" textDecorationStyle="dotted" textUnderlineOffset="5px" _hover={{ color: "primary" }} fontWeight="bold">underground values</Link>. This also means recognizing the open, public and <Tooltip
-                label="This final claim is a nod to the broader underground sense that intelligence itself is a network phenomena, multiparty discovery in non-coercive process."
-                bg="primary"
-                color="bg"
-                fontSize="sm"
-                p={3}
-                maxW="320px"
-                placement="top"
-              >
-                <Box as="span" textDecoration="underline" textDecorationStyle="dotted" textUnderlineOffset="5px" borderColor="primary">horizontally determined</Box>
-              </Tooltip> nature of the values themselves.</Text>
-            </Box>
+          <Flex direction="column" alignItems="start" justifyContent="space-between" position="relative" w={["100%", null, "50%"]} h="100%" display={['none', null, 'flex']}>
+            <Image src="/assets/albumBack.png" h="100%" w="100%" alt="The Open Machine" />
           </Flex>
         </Flex>
 
