@@ -27,7 +27,7 @@ export const Footer = () => {
     <>
     <Flex direction="row" alignItems="start" justifyContent="space-between" w="full" flexWrap="wrap" borderTop="1px solid" borderColor="midtone" py={10} px={[5, null, 10]}>
 
-    <Flex direction="column" w={['100%', null, '33%']} alignItems={['center', null, 'start']} justifyContent="space-between" mb={[8, null, 0]}>
+    <Flex direction="column" w={['100%', null, '33%']} alignItems={['start', null, 'start']} justifyContent="space-between" mb={[8, null, 0]}>
         <Heading fontSize={['xl', null, '2xl']} mb={5}>Navigate</Heading>
         <Flex
           direction="column"
@@ -68,7 +68,7 @@ export const Footer = () => {
         </Flex>
       </Flex>
       
-      <Flex direction="column" w={['100%', null, '33%']} alignItems={['center', null, 'start']} justifyContent="space-between" mb={[8, null, 0]}>
+      {/* <Flex direction="column" w={['100%', null, '33%']} alignItems={['center', null, 'start']} justifyContent="space-between" mb={[8, null, 0]}>
         <Heading fontSize={['xl', null, '2xl']} mb={5}>Newsletter</Heading>
         <Text mb={4} textAlign={['center', null, 'left']} fontSize="sm">
           Stay updated with our latest media, events, and research.
@@ -121,7 +121,7 @@ export const Footer = () => {
             )}
           </Flex>
         </Box>
-      </Flex>
+      </Flex> */}
      
       <Flex direction="column" w={['100%', null, '33%']} alignItems={['start', null, 'start']} justifyContent="space-between" mb={[8, null, 0]}>
         <Heading fontSize={['xl', null, '2xl']} mb={5}>Contact</Heading>
@@ -145,7 +145,7 @@ export const Footer = () => {
     </Flex>
 
 <Flex direction="row" alignItems="center" justifyContent="space-between" w="100%" borderTop="1px solid" borderColor="primary" py={5} px={[5, null, 10]}>
-<Text fontSize="sm">CC BY-NC-SA 4.0</Text>
+<Text fontSize="sm">CC BY-NC-SA 4.0 | The Open Machine</Text>
 <Text fontSize="sm">Built from the underground</Text>
 </Flex>
 
