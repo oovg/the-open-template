@@ -232,10 +232,10 @@ export default function Home() {
             {[
               { src: '/assets/events/gfel25_salon.jpg', alt: 'GFEL 2025 Salon' },
               { src: '/assets/events/event_1.jpeg', alt: 'Open Machine Event' },
-              { src: '/assets/events/event_4.jpeg', alt: 'Open Machine Evening' },
-              { src: '/assets/events/event_5.jpeg', alt: 'Open Machine Outdoor Session' },
               { src: '/assets/events/event_2.jpeg', alt: 'Open Machine Gathering' },
               { src: '/assets/events/event_3.jpeg', alt: 'Open Machine Workshop' },
+              { src: '/assets/events/event_4.jpeg', alt: 'Open Machine Evening' },
+              { src: '/assets/events/event_5.jpeg', alt: 'Open Machine Outdoor Session' },
             ].map((img, i) => (
               <Box
                 key={i}
