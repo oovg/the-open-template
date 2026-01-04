@@ -79,10 +79,12 @@ export async function getStaticProps({ params }: Params) {
     'imagePath',
   ])
 
+  const dateValue = post.date as string | Date
   return {
     props: {
       post: {
         ...post,
+        date: dateValue instanceof Date ? dateValue.toISOString() : String(dateValue),
       },
     },
   }

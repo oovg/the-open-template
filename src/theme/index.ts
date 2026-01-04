@@ -4,9 +4,18 @@ import { config } from './foundations'
 const overrides = {
   config,
   colors: {},
-  components: {},
+  components: {
+    Link: {
+      baseStyle: {
+        textDecoration: 'none',
+        _hover: {
+          textDecoration: 'underline',
+        },
+      },
+    },
+  },
   fonts: {
-    heading: `'bely-display', serif`,
+    heading: `'polymath-display', sansserif`,
     body: `'adobe-caslon-pro', serif`,
   },
   shadows: {},
@@ -29,18 +38,25 @@ const overrides = {
         padding: '0px',
       },
       a: {
-        textDecoration: 'underline',
-        _hover: { textDecoration: 'none',}
+        textDecoration: 'none',
+        _hover: {
+          textDecoration: 'underline',
+        },
       },
     }),
   },
   textStyles: {
+    h1: {
+      fontSize: ["3xl", null, "6xl"],
+      fontWeight: `"900"`
+    },
     h2: {
       fontSize: ["2xl", null, "4xl"],
-      fontFamily: `'bely-display', serif`
+      fontWeight: `"900"`
     },
     h3: {
       fontSize: ["xl", null, "3xl"],
+      fontWeight: `"900"`
     },
     paragraph: {
       marginBottom: 12,
@@ -52,7 +68,14 @@ const overrides = {
   semanticTokens: {
     colors: {
       primary: { _light: '#282828', _dark: '#f0fdfa' },
-      bg: { _light: '#f0fdfa', _dark: '#282828' },
+      bg: { _light: '#f0fdfa', _dark: '#000' },
+      muted: { _light: '#3C3C3C', _dark: '#3C3C3C' },
+      midtone: { _light: '#8C8C8C', _dark: '#8C8C8C' },
+    },
+    fontSizes: {
+      'sm': '16px',
+      'md': '18px',
+      'lg': '22px',
     },
   },
 }
