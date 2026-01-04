@@ -375,7 +375,7 @@ export default function Home() {
             <Box w={['100%', null, '50%']} p={[2, null, 3]} display="flex">
               <Box border="1px solid" borderColor="primary" p={5} flex="1">
                 <Heading fontSize={['md', null, 'lg']} mb={5}>Open Protocolized</Heading>
-                <Text fontSize="sm">Practices crystallize into reusable patterns through a kind of natural selection in the "cold exterior" of the extitutional realm, where practical empiricism and novelty-infatuation reign. Weathered by the exterior, open protocols develop an acute, open empiricism, manifested as (a) availability to appropriation, forking, recombination to whatever material ends, & (b) resistance and circumvention to any system that compromises (a), and (c) compact and compelling enough form to facilitate free & open circulation.</Text>
+                <Text fontSize="sm">Practices crystallize into reusable patterns through a kind of natural selection in the "cold exterior" of the extitutional realm. Weathered by the exterior, open protocols develop an acute, open empiricism, manifested as (a) availability to appropriation, forking, recombination to whatever material , aesthetic or epistemic ends, (b) resistance to and avoidance of any system that compromises (a), and (c) compact and compelling enough form to facilitate free & open circulation.</Text>
               </Box>
             </Box>
           </Flex>
