@@ -369,7 +369,7 @@ export default function Home() {
             <Box w={['100%', null, '50%']} p={[2, null, 3]}>
               <Box border="1px solid" borderColor="primary" p={5} h="100%">
                 <Heading fontSize={['md', null, 'lg']} mb={5}>Process Oriented</Heading>
-                <Text fontSize="sm">Attention is directed toward unfolding, qualitative dynamics rather than quantitative, static outcomes. This means emphasis on intensive experience or "qualia" - affect, epiphany, synchronicity, the nondual, and most importantly the experience of dissolution into larger subjectivities that may be determined by social, material, technological dynamics or (more likely) all of the above.</Text>
+                <Text fontSize="sm">Attention is directed toward unfolding, qualitative dynamics rather than quantitative, static outcomes. This means emphasis on intensive experience or "qualia" - affect, epiphany, synchronicity, the nondual, and most importantly the experience of dissolution into larger subjectivities.</Text>
               </Box>
             </Box>
             <Box w={['100%', null, '50%']} p={[2, null, 3]}>
