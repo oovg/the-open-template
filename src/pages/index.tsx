@@ -36,7 +36,7 @@ export default function Home() {
 
         <Flex id="what-we-do" direction="column" alignItems="start" justifyContent="space-between" maxW="600px" mx="auto" position="relative" p={10} display={['flex', null, 'none']}>
           <Heading color="primary" fontWeight="100" fontSize={['xl', null, '2xl']} mb={5}>What we do</Heading>
-          <Text fontSize={['lg', null, '2xl']}>The Open Machine is a creative outpost for scaling underground values alongside, within and through emerging technologies. We produce media & events and stage research on the actualization of extitutional social forms in the twenty first century.</Text>
+          <Text fontSize={['lg', null, '2xl']}>The Open Machine is a cultural outpost for scaling underground values alongside, within and through emerging technologies. We produce media & events and stage research on the actualization of extitutional social forms in the twenty first century.</Text>
           <Text mt={5}>Institutions (in their dominant form as centralized, administrative bureaucracies) are known to concentrate power, homogenize culture, enshittify technology, obscure empirical conditions in favor of party lines and, worst of all, generate cultures of complacency where direct empirical engagement with reality is sidelined for the opiate coziness of a protected inside.</Text>
           <Text mt={5}>The Open Machine is premised on an alternative mode of social organization, an emergent programme of values and operational principles we refer to as{' '}
             <Tooltip
