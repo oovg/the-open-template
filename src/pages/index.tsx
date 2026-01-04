@@ -38,7 +38,7 @@ export default function Home() {
           <Heading color="primary" fontWeight="100" fontSize={['xl', null, '2xl']} mb={5}>What we do</Heading>
           <Text fontSize={['lg', null, '2xl']}>The Open Machine is a creative outpost for scaling underground values alongside, within and through emerging technologies. We produce media & events and stage research on the actualization of extitutional social forms in the twenty first century.</Text>
           <Text mt={5}>Institutions (in their dominant form as centralized, administrative bureaucracies) are known to concentrate power, homogenize culture, enshittify technology, obscure empirical conditions in favor of party lines and, worst of all, generate cultures of complacency where direct empirical engagement with reality is sidelined for the opiate coziness of a protected inside.</Text>
-          <Text mt={5}>The Open Machine is premised on an alternative mode of social organization, an emergent programme of values and operational principles we refer to as
+          <Text mt={5}>The Open Machine is premised on an alternative mode of social organization, an emergent programme of values and operational principles we refer to as{' '}
             <Tooltip
               label="This refers to a collective of actors with no shared identity or structure beyond the open protocols that synchronize them in acts of discovery and interparticipation. See 'Sketches for a Theory of the Protocol Underground' for the origins of this term."
               bg="primary"
@@ -51,7 +51,7 @@ export default function Home() {
               <Box as="span" cursor="help" textDecoration="underline" textDecorationStyle="dotted" textUnderlineOffset="5px" borderColor="primary">protocol underground</Box>
             </Tooltip>
           </Text>
-          <Text mt={5}>In an age of ascendant
+          <Text mt={5}>In an age of ascendant{' '}
             <Tooltip
               label="See Bogna Konior 'Existential Technologies' — existentialtech.antikythera.org"
               bg="primary"
@@ -335,7 +335,8 @@ export default function Home() {
         <Flex id="values" direction="row" alignItems="start" justifyContent="space-between" w="100%" p={10} flexWrap="wrap" borderTop="1px solid" borderColor="midtone">
           <Flex direction="column" alignItems="start" w={['100%', null, '33%']} justifyContent="space-between" mr={10}>
             <Heading color="primary" fontWeight="900" fontSize={'3xl'} mb={5}>Values</Heading>
-            <Text>Our engagement with the archive and ethnographic study of underground communities alerted us to five principles (or four key values + one major operational principle) that animate the underground. They are as follows:</Text>
+            <Text>Our engagement with the archive and ethnographic study of underground communities alerted us to five principles (or four key values + one major operational principle) that animate the underground.</Text>
+            <Text mt={3} w="100%" fontSize="md">The underground is a recessive organism, resisting formalization or categorization even as it generates abundant protocols that depend on both of those tactics to persist. We generate this formal account not in order to enclose the underground, but because we our confident in our position that it cannot be enclosed.</Text>
           </Flex>
           <Flex direction="row" alignItems="stretch" justifyContent="space-between" w={["full", null, "60%"]} flexWrap="wrap" mt={[5, null, 0]}>
             <Box w={['100%', null, '50%']} p={[2, null, 3]} display="flex">
@@ -372,14 +373,13 @@ export default function Home() {
                 <Text fontSize="sm">Attention is directed toward unfolding, qualitative dynamics rather than quantitative, static outcomes. This means emphasis on intensive experience or "qualia" - affect, epiphany, synchronicity, the nondual, and most importantly the experience of dissolution into larger subjectivities.</Text>
               </Box>
             </Box>
-            <Box w={['100%', null, '50%']} p={[2, null, 3]} display="flex">
+            <Box w={['100%', null, '100%']} p={[2, null, 3]} display="flex">
               <Box border="1px solid" borderColor="primary" p={5} flex="1">
-                <Heading fontSize={['md', null, 'lg']} mb={5}>Open Protocolized</Heading>
+                <Heading fontSize={['md', null, 'lg']} mb={5}>+ Open Protocolized</Heading>
                 <Text fontSize="sm">Practices crystallize into reusable patterns through a kind of natural selection in the "cold exterior" of the extitutional realm. Weathered by the exterior, open protocols develop an acute, open empiricism, manifested as (a) availability to appropriation, forking, recombination to whatever material , aesthetic or epistemic ends, (b) resistance to and avoidance of any system that compromises (a), and (c) compact and compelling enough form to facilitate free & open circulation.</Text>
               </Box>
             </Box>
           </Flex>
-          <Text mt={8} w="100%" fontSize="md">The underground is a recessive organism, resisting formalization or categorization even as it generates abundant protocols that depend on both of those tactics to persist. We generate this formal account not in order to enclose the underground, but because we our confident in our position that it cannot be enclosed.</Text>
         </Flex>
 
         {/* <Flex direction="row" alignItems="start" justifyContent="space-between" w="100%" p={10} flexWrap="wrap" borderTop="1px solid" borderColor="primary">
