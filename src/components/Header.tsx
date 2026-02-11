@@ -15,7 +15,7 @@ const menuItems = [
   { label: 'Media', href: '/#media' },
   { label: 'Events', href: '/#events' },
   { label: 'Research', href: '/#research' },
-  { label: 'Values', href: '/#values' },
+  { label: 'Process', href: '/#process' },
 ]
 
 export const Header = () => {
