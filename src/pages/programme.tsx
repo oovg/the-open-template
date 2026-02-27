@@ -56,11 +56,15 @@ export default function Programme() {
           <Flex direction="column" w={['100%', null, '60%']} gap={4}>
             <Box border="1px solid" borderColor="primary" p={5}>
               <Heading fontSize={['md', null, 'lg']} mb={2} fontStyle="italic">A History of the Open Protocol Movement</Heading>
-              <Text fontSize="sm">Zine tracing historical predecessors to open source software, situating FOSS, cryptography, and AI within a transhistorical lineage of open protocols extending to proto-medieval information networks.</Text>
+              <Text fontSize="sm">Zine exploring the rise of LLMs and other ML tools from the perspective of Open Machine's immanent philosophy, emphasizing language and code as products of open stigmergic process.</Text>
             </Box>
             <Box border="1px solid" borderColor="primary" p={5}>
               <Heading fontSize={['md', null, 'lg']} mb={2} fontStyle="italic">A Brief History of the Capture and Release of the Internet</Heading>
               <Text fontSize="sm">Zine mapping the arc from the internet's founding conditions through enclosure by power and markets, toward possible futures beyond the decentralization/recentralization cycle.</Text>
+            </Box>
+            <Box border="1px solid" borderColor="primary" p={5}>
+              <Heading fontSize={['md', null, 'lg']} mb={2} fontStyle="italic">AI is Immanent</Heading>
+              <Text fontSize="sm">Zine tracing historical predecessors to open source software, situating FOSS, cryptography, and AI within a transhistorical lineage of open protocols extending to proto-medieval information networks.</Text>
             </Box>
             <Box border="1px solid" borderColor="primary" p={5}>
               <Heading fontSize={['md', null, 'lg']} mb={2} fontStyle="italic">An Anthology of Extitutional Theory and Practice</Heading>
@@ -88,7 +92,7 @@ export default function Programme() {
           <Flex direction="column" w={['100%', null, '60%']} gap={4}>
             <Box border="1px solid" borderColor="primary" p={5}>
               <Heading fontSize={['md', null, 'lg']} mb={2} fontStyle="italic">Open Protocols Convene</Heading>
-              <Text fontSize="sm">Gathering bringing together builders of technological and social protocols for cross-pollination between practitioners who may not yet recognize their shared project.</Text>
+              <Text fontSize="sm">Gathering that brings together builders of technological and social protocols for cross-pollination between practitioners who may not yet recognize their shared project.</Text>
             </Box>
             <Box border="1px solid" borderColor="primary" p={5}>
               <Heading fontSize={['md', null, 'lg']} mb={2} fontStyle="italic">Open Machine Mindfuck Movie Club (Ommmc)</Heading>
@@ -129,6 +133,12 @@ export default function Programme() {
                     Diverse Intelligence program
                   </Link>
                   . Takes analytical frames from new currents in biology to study collective and distributed forms of cognition across organisms and systems, with special attention to the latent spaces they navigate and the coordination patterns they sustain.
+                </Text>
+              </Box>
+              <Box border="1px solid" borderColor="primary" p={5}>
+                <Heading fontSize={['md', null, 'lg']} mb={2}>Knowledge Graph Traversal - UX Research</Heading>
+                <Text fontSize="sm">
+                  Researching how humans and AI agents traverse knowledge graphs to surface new interaction paradigms for sensemaking, trust scoring, and reputation, making complex relational data legible to both people and machines.
                 </Text>
               </Box>
               <Box border="1px solid" borderColor="primary" p={5}>
