@@ -56,7 +56,7 @@ export default function Programme() {
           <Flex direction="column" w={['100%', null, '60%']} gap={4}>
             <Box border="1px solid" borderColor="primary" p={5}>
               <Heading fontSize={['md', null, 'lg']} mb={2} fontStyle="italic">A History of the Open Protocol Movement</Heading>
-              <Text fontSize="sm">Zine exploring the rise of LLMs and other ML tools from the perspective of Open Machine's immanent philosophy, emphasizing language and code as products of open stigmergic process.</Text>
+              <Text fontSize="sm">Zine tracing historical predecessors to open source software, situating FOSS, cryptography, and AI within a transhistorical lineage of open protocols extending to proto-medieval information networks.</Text>
             </Box>
             <Box border="1px solid" borderColor="primary" p={5}>
               <Heading fontSize={['md', null, 'lg']} mb={2} fontStyle="italic">A Brief History of the Capture and Release of the Internet</Heading>
@@ -64,7 +64,7 @@ export default function Programme() {
             </Box>
             <Box border="1px solid" borderColor="primary" p={5}>
               <Heading fontSize={['md', null, 'lg']} mb={2} fontStyle="italic">AI is Immanent</Heading>
-              <Text fontSize="sm">Zine tracing historical predecessors to open source software, situating FOSS, cryptography, and AI within a transhistorical lineage of open protocols extending to proto-medieval information networks.</Text>
+              <Text fontSize="sm">Zine exploring the rise of LLMs and other ML tools from the perspective of Open Machine's immanent philosophy, emphasizing language and code as products of open stigmergic process.</Text>
             </Box>
             <Box border="1px solid" borderColor="primary" p={5}>
               <Heading fontSize={['md', null, 'lg']} mb={2} fontStyle="italic">An Anthology of Extitutional Theory and Practice</Heading>
