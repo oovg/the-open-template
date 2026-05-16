@@ -13,8 +13,15 @@ import {
   SupportProgramme,
 } from '@/components'
 import { Header } from '@/components/Header'
+import Post from '@/interfaces/post'
+import { getAllTransmissions } from '@/lib/api'
+import { formatDate } from '@/lib/date'
 
-export default function Home() {
+type Props = {
+  transmissions: Post[]
+}
+
+export default function Home({ transmissions }: Props) {
 
   return (
     <Flex direction="column" alignItems="start" justifyContent="space-between" w="100vw">
@@ -62,6 +69,74 @@ export default function Home() {
             </Text>
           </Flex>
         </Link>
+
+        <Flex id="transmissions" direction="row" alignItems="center" justifyContent="center" w="100%" h="100%" flexWrap="wrap" borderTop={["1px solid"]} borderColor="midtone" py={20}>
+          <Flex direction="column" alignItems="center" w={['100%', null, '33%']} justifyContent="center" h="100%" py={10} >
+            <Heading color="primary" fontWeight="100" fontSize={['3xl', null, '3xl']} mb={5}>Transmissions</Heading>
+          </Flex>
+          <Flex direction="column" alignItems="start" justifyContent="space-between" w={['100%', null, '60%']} maxW="800px">
+            <Text fontSize={['lg', null, 'xl']} pl={[25, null, 50]} pr={[25, null, 0]} pt={["15px", null, "0px"]} borderLeft={["0px solid", null, "1px solid"]} borderColor="primary">Dispatches, essays, and announcements from The Open Machine.</Text>
+          </Flex>
+        </Flex>
+
+        <Flex direction="column" w={['100vw', null, '100vw']}>
+          <Box
+            w="100%"
+            maxW="100%"
+            overflow="auto"
+            mb={6}
+            mt={[5, null, 10]}
+            css={{
+              whiteSpace: 'nowrap',
+              '&::-webkit-scrollbar': { height: '8px' },
+              '&::-webkit-scrollbar-track': { background: 'transparent' },
+              '&::-webkit-scrollbar-thumb': { background: 'var(--chakra-colors-primary)', borderRadius: '4px' },
+            }}
+          >
+            {transmissions.map((post) => (
+              <Box
+                key={post.slug}
+                display="inline-block"
+                w={['85vw', null, '420px']}
+                verticalAlign="top"
+                p={2.5}
+              >
+                <Link
+                  href={`/transmissions/${post.slug}`}
+                  border="1px solid"
+                  borderColor="muted"
+                  p={3}
+                  display="block"
+                  _hover={{ borderColor: "primary" }}
+                  h="100%"
+                  css={{ whiteSpace: 'normal' }}
+                >
+                  <Box
+                    w="100%"
+                    h={['320px', null, '360px']}
+                    overflow="hidden"
+                    mb={4}
+                  >
+                    <Image
+                      src={post.imagePath}
+                      alt={post.title}
+                      w="100%"
+                      h="100%"
+                      objectFit="cover"
+                      objectPosition="center center"
+                      display="block"
+                    />
+                  </Box>
+                  <Text fontSize={['xs', null, 'sm']} mb={3}>
+                    <i>{formatDate(post.date)}</i>
+                  </Text>
+                  <Heading fontSize={['md', null, 'lg']} mb={3}>{post.title}</Heading>
+                  <Text fontSize={['sm', null, 'md']}>{post.excerpt}</Text>
+                </Link>
+              </Box>
+            ))}
+          </Box>
+        </Flex>
 
         <Flex id="media" direction="row" alignItems="center" justifyContent="center" w="100%" h="100%" flexWrap="wrap" borderTop={["1px solid"]} borderColor="midtone" py={20}>
           <Flex direction="column" alignItems="center" w={['100%', null, '33%']} justifyContent="center" h="100%" py={10} >
@@ -236,6 +311,7 @@ export default function Home() {
 
         <Flex direction="row" alignItems="start" justifyContent="space-between" w={['100%', null, '100%']} flexWrap="wrap">
           <Flex direction="column" gap={3} mt={5} fontSize={['sm', null, 'md']} w={['100%', null, '50%']} p={10}>
+            <Text>Movie Club - <i>Open Machine Mindfuck Movie Club</i>, cyberspace, monthly beginning April 2026</Text>
             <Text>Gathering - <i>Open Protocols Convene</i>, Boulder, Colorado 2025</Text>
             <Text>Salon - <i>Open Protocols Social</i>, Portland, Oregon 2025</Text>
             <Text>Workshop - <i>Polycentric Equity Swap Game</i>, Devconnect Buenos Aires, Argentina 2025</Text>
@@ -472,4 +548,28 @@ export default function Home() {
       </main >
     </Flex >
   )
+}
+
+export async function getStaticProps() {
+  const transmissions = getAllTransmissions([
+    'title',
+    'matter',
+    'slug',
+    'author',
+    'excerpt',
+    'date',
+    'imagePath',
+  ]).map(post => {
+    const dateValue = post.date as string | Date
+    return {
+      ...post,
+      date: dateValue instanceof Date ? dateValue.toISOString() : String(dateValue),
+    }
+  })
+
+  return {
+    props: {
+      transmissions,
+    },
+  }
 }

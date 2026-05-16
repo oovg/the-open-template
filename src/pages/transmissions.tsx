@@ -15,12 +15,12 @@ export default function Surveys ({ filteredPosts }: Props) {
 
   return (
     <>
-      <PageMetadata title="Open Transmissions" description="the open machine is ..." image="https://theopenmachine.net/assets/tOM_unfurl.jpg" />
+      <PageMetadata title="Transmissions" description="The Open Machine blog" image="https://theopenmachine.net/assets/tOM_unfurl.jpg" />
       <main>
         <Header />    
       </main>
       <Flex maxW="720px" mx="auto" gap={6}>
-        <Text textStyle="h2" as="h2" mb={6}>Open Transmissions</Text>
+        <Text textStyle="h2" as="h2" mb={6}>Transmissions</Text>
       </Flex>
       <Flex maxW="720px" mx="auto" direction="column">
         {filteredPosts.map((post) => (
@@ -43,7 +43,6 @@ export async function getStaticProps() {
   ])
 
   const filteredPosts = allPosts
-    .filter(post => post.matter.includes('transmissions'))
     .map(post => {
       const dateValue = post.date as string | Date
       return {

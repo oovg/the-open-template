@@ -3,9 +3,17 @@ import { join } from 'path'
 import matter from 'gray-matter'
 
 const postsDirectory = join(process.cwd(), '/src/_posts')
+const transmissionSlugs = [
+  'open-letter-to-the-ethereum-community-on-the-topic-of-the-protocol-underground.md',
+  'the-continuing-story-of-the-open-machine.md',
+  'open-machine-mindfuck-movie-club.md',
+  'interactive-minds-comms.md',
+  'undercapital-redux.md',
+  '2026-rise-of-the-protocol-underground.md',
+]
 
 export function getPostSlugs() {
-  return fs.readdirSync(postsDirectory)
+  return fs.readdirSync(postsDirectory).filter(fileName => fileName.endsWith('.md'))
 }
 
 export function getPostBySlug(slug: string, fields: string[] = []) {
@@ -47,11 +55,10 @@ export function getAllPosts(fields: string[] = []) {
 }
 
 export function getAllTransmissions(fields: string[] = []) {
-  const slugs = getPostSlugs()
+  const slugs = transmissionSlugs
   const posts = slugs
     .map((slug) => getPostBySlug(slug, fields))
     .filter(post => post.matter === 'transmissions')
-    // sort posts by date in descending order
     .sort((post1, post2) => (post1.date < post2.date ? 1 : -1))
   return posts
 }

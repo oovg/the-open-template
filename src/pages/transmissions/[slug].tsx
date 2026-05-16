@@ -40,7 +40,7 @@ export default function Post({ post }: Props) {
           <Flex maxW="720px" mx="auto" gap={6} align="start">
             <Link href="/transmissions">
               <Text textStyle="h2" as="h2" mb={6}>
-                Open Transmissions
+                Transmissions
               </Text>
             </Link>
           </Flex>
