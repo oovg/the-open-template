@@ -53,6 +53,16 @@ export default function Post({ post }: Props) {
               <i>by</i> {post.author}
             </Text>
           </Box>
+          {post.imagePath && (
+            <Image
+              src={post.imagePath}
+              alt={post.title}
+              w="100%"
+              maxH="400px"
+              objectFit="cover"
+              mb={6}
+            />
+          )}
           <Rule />
           <ReactMarkdown className={style.markdown} remarkPlugins={[remarkGfm]}>
             {post.content}
