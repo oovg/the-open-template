@@ -29,7 +29,7 @@ On this world stage, Ethereum might be the sole vessel for an ethical transition
 
 ---
 
-![[https://github.com/Clinamenic/Open-Mutualism-Guild/blob/v4/9c413m.jpg?raw=true]]
+![](https://github.com/Clinamenic/Open-Mutualism-Guild/blob/v4/9c413m.jpg?raw=true)
 
 ---
 
@@ -43,7 +43,7 @@ Or try Ven & I's favorite mechanics of cognition, David Weinbaum and Viktoras Ve
 
 Identity and cognitive presence are by nature shifting, open-ended, multiscale and unfinished products. The intelligence that seems to make humans distinct is far too unweldy to be contained in that category, making constant reference (as James Bridle has [chronicled](https://jamesbridle.com/books/ways-of-being)) to powers of extended cognition: in fact, it is the very urgency of human intelligence to transcend and proliferate these trans-individual and multiscale boundaries that makes humans humans. We are not human-horse-spear, human-dog-prey, human-caveface-dye, but an intelligence principle which casually de- and re-conforms to these estimations, responding to anyone launching legalistic queries for papers designating the 'actual agencies' involved, "what the fuck is it to you?" [2]
 
-![[https://github.com/Clinamenic/Open-Mutualism-Guild/blob/v4/9c40ac.jpg?raw=true]]
+![](https://github.com/Clinamenic/Open-Mutualism-Guild/blob/v4/9c40ac.jpg?raw=true)
 
 ---
 
@@ -53,7 +53,7 @@ The gut-felt disdain for the administrative institution is, after all, rooted in
 
 What's discouraging is how this awakening has been quickly shoehorned into a new, unapologetic humanism, a reactionary backslide into the most [fear-based](https://www.youtube.com/watch?v=L9FiWz07t2o) and [transparent expressions](https://www.youtube.com/watch?v=R93Jw4bCDj4) of cybernetic denial and human exceptionalism. Erecting absurd statues to billionaire "great men" situated within the vacuums of reality-tv and social media, Silicon valley has picked its side (a snug fit between Hulk Hogan and Dr Phil). They discredit the Statist institutions while preserving the fictional transcendent-sovereign Subject they produced, recooping all of it in a series of masculinist and ultra humanist [theories](https://www.youtube.com/watch?v=mHjvYwLtxbI) of [history](https://www.youtube.com/watch?v=qqHueZNEzig). They are winning because they have a story to tell. But so do we. 
 
-![[https://github.com/Clinamenic/Open-Mutualism-Guild/blob/v4/9c3vs1.jpg?raw=true]]
+![](https://github.com/Clinamenic/Open-Mutualism-Guild/blob/v4/9c3vs1.jpg?raw=true)
 
 ---
 
@@ -87,7 +87,7 @@ I will refrain from speculating on this design horizon - I'm hoping to remedy my
 
 "Nature" is one of the main ornaments used by extractive institutional bodies to dress their actions up in a benign costume. Ethereum's permissive, substance-ontological agnosticism gives it true ethical access to that aesthetic domain. It is, in both senses, an ecological rebuttal to institutional finance/governance/coordination. What fleet of posthuman artists, intoxicated by natural complexity and fascinated by the ethical stakes of the decentralized web are in the wings, waiting to tell that story?
 
-![[https://github.com/Clinamenic/Open-Mutualism-Guild/blob/v4/here-comes-everybody.jpeg?raw=true]]
+![](https://github.com/Clinamenic/Open-Mutualism-Guild/blob/v4/here-comes-everybody.jpeg?raw=true)
 
 ## Make Ethereum Weird
 
@@ -101,7 +101,7 @@ What happens when we are stripped of the sheltered facade of naive realism provi
 
 Undergrounds, like Ethereum, demand high agency, just as history demands maturity. The old States and the new Silicon Valley both pose a historical subject with sovereign dominion over the historical stage. In the ashes of the the ontological shock of the great empirical insights, the burning out of the physical mechanism of Sovereignty and the trauma of the posthuman turn, an infrastructure is ascendant for those who want to be done with the childish and insecure mores of the magical cult of the human. To those mature souls willing to engage the material plane on its own terms, who are willing to inhabit history with eyes wide open, a community of Others await.
 
-![[https://github.com/Clinamenic/Open-Mutualism-Guild/blob/v4/0_0%20copy.png?raw=true]]
+![](https://github.com/Clinamenic/Open-Mutualism-Guild/blob/v4/0_0%20copy.png?raw=true)
 
 ----
 
