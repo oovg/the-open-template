@@ -6,6 +6,7 @@ const postsDirectory = join(process.cwd(), '/src/_posts')
 const transmissionSlugs = [
   'open-letter-to-the-ethereum-community-on-the-topic-of-the-protocol-underground.md',
   'the-continuing-story-of-the-open-machine.md',
+  'immanence-and-emanation.md',
   'open-machine-mindfuck-movie-club.md',
   'interactive-minds-comms.md',
   'undercapital-redux.md',
