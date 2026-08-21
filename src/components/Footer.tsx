@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Box, Flex, Heading, Link, Text, Input, Button } from '@chakra-ui/react'
 import { EmailIcon } from '@chakra-ui/icons'
-import { FarcasterIcon, XIcon } from '@/components'
+import { FarcasterIcon, XIcon, SubstackIcon } from '@/components'
 
 const menuItems = [
   { label: 'Home', href: '/' },
@@ -145,7 +145,15 @@ export const Footer = () => {
         <Flex direction="row" gap={3} alignItems="center">
         <Text>
           <Link href="https://theopenmachine.substack.com/" isExternal color="primary" display="inline-flex" alignItems="center" gap={2}>
+            <SubstackIcon mb={2} />
             Substack
+          </Link>
+        </Text>
+        </Flex>
+        <Flex direction="row" gap={3} alignItems="center">
+        <Text>
+          <Link href="https://openmachine.dfos.com/" isExternal color="primary" display="inline-flex" alignItems="center" gap={2}>
+            DFOS
           </Link>
         </Text>
         </Flex>
