@@ -75,7 +75,7 @@ export const Header = () => {
   }, [isOpen])
 
   return (
-    <Box position="sticky" top="0" zIndex={100} bg="bg">
+    <Box position="sticky" top="0" zIndex={100} bg="bg" w="100%">
       <Flex
         direction="row"
         alignItems="center"
