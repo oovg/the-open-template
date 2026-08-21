@@ -9,7 +9,7 @@ import {
 import {
   PageMetadata,
   Footer,
-  SupportProgramme,
+  DonateBlock,
 } from '@/components'
 import { Header } from '@/components/Header'
 
@@ -40,10 +40,7 @@ export default function Programme() {
           </Box>
         </Flex>
 
-        {/* Support Section */}
-        <Box borderBottom="1px solid" borderColor="midtone">
-          <SupportProgramme />
-        </Box>
+        <DonateBlock />
 
         {/* Media Section */}
         <Flex id="media" direction="row" alignItems="start" justifyContent="space-between" w="100%" p={[5, null, 10]} flexWrap="wrap" borderBottom="1px solid" borderColor="midtone">

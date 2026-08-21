@@ -10,7 +10,7 @@ import {
 import {
   PageMetadata,
   Footer,
-  SupportProgramme,
+  DonateBlock,
 } from '@/components'
 import { Header } from '@/components/Header'
 import Post from '@/interfaces/post'
@@ -541,7 +541,7 @@ export default function Home({ transmissions }: Props) {
           </Flex>
         </Flex> */}
 
-        <SupportProgramme />
+        <DonateBlock />
 
         <Footer />
 
