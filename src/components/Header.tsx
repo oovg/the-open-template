@@ -11,26 +11,48 @@ import {
 import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons'
 
 const menuItems = [
-  { label: 'What we do', href: '/#' },
-  { label: 'Media', href: '/#media' },
-  { label: 'Events', href: '/#events' },
-  { label: 'Research', href: '/#research' },
-  { label: 'Process', href: '/#process' },
+  { label: 'Home', href: '/' },
+  { label: 'Programme', href: '/programme' },
+  { label: 'Outer Mind', href: 'https://mind.theopenmachine.net', isExternal: true },
+  { label: 'Media Shop', href: 'https://media.theopenmachine.net', isExternal: true },
 ]
+
+const linkStyles = {
+  color: 'primary',
+  position: 'relative' as const,
+  display: 'inline-block',
+  textDecoration: 'none',
+  _hover: { textDecoration: 'none' },
+  sx: {
+    '&::after': {
+      content: '""',
+      position: 'absolute',
+      bottom: '0',
+      left: '0',
+      width: '100%',
+      height: '2px',
+      bg: 'primary',
+      transform: 'scaleX(0)',
+      transformOrigin: 'left',
+      transition: 'transform 0.3s ease',
+    },
+    '&:hover::after': {
+      transform: 'scaleX(1)',
+    },
+  },
+}
 
 export const Header = () => {
   const { isOpen, onToggle, onClose } = useDisclosure()
   const { colorMode } = useColorMode()
   const isDark = colorMode === 'dark'
 
-  // Close menu when clicking a link
   const handleLinkClick = () => {
     setTimeout(() => {
       onClose()
     }, 150)
   }
 
-  // Handle escape key
   useEffect(() => {
     const handleEscape = (e: KeyboardEvent) => {
       if (e.key === 'Escape' && isOpen) {
@@ -41,7 +63,6 @@ export const Header = () => {
     return () => document.removeEventListener('keydown', handleEscape)
   }, [isOpen, onClose])
 
-  // Prevent body scroll when menu is open
   useEffect(() => {
     if (isOpen) {
       document.body.style.overflow = 'hidden'
@@ -74,8 +95,8 @@ export const Header = () => {
           lineHeight="1em"
           fontSize={['xl', null, '2xl']}
           as="h1"
-        >          
-        <Link
+        >
+          <Link
             href="/"
             position="relative"
             display="inline-block"
@@ -106,9 +127,9 @@ export const Header = () => {
         {/* Desktop Navigation */}
         <Flex
           direction="row"
-          alignItems="end"
+          alignItems="center"
           justifyContent="space-between"
-          gap={10}
+          gap={8}
           display={['none', null, 'flex']}
           textTransform="uppercase"
           letterSpacing="0.15em"
@@ -119,32 +140,30 @@ export const Header = () => {
             <Link
               key={item.href}
               href={item.href}
-              color="primary"
-              position="relative"
-              display="inline-block"
-              textDecoration="none"
-              _hover={{ textDecoration: 'none' }}
-              sx={{
-                '&::after': {
-                  content: '""',
-                  position: 'absolute',
-                  bottom: '0',
-                  left: '0',
-                  width: '100%',
-                  height: '2px',
-                  bg: 'primary',
-                  transform: 'scaleX(0)',
-                  transformOrigin: 'left',
-                  transition: 'transform 0.3s ease',
-                },
-                '&:hover::after': {
-                  transform: 'scaleX(1)',
-                },
-              }}
+              isExternal={item.isExternal}
+              {...linkStyles}
             >
               {item.label}
             </Link>
           ))}
+          <Link
+            href="/donate"
+            display="inline-block"
+            border="1px solid"
+            borderColor="primary"
+            color="primary"
+            px={4}
+            py={2}
+            textDecoration="none"
+            _hover={{
+              textDecoration: 'none',
+              bg: 'primary',
+              color: 'bg',
+            }}
+            transition="background 0.2s ease, color 0.2s ease"
+          >
+            Donate
+          </Link>
         </Flex>
 
         {/* Mobile Hamburger Button */}
@@ -204,6 +223,7 @@ export const Header = () => {
             >
               <Link
                 href={item.href}
+                isExternal={item.isExternal}
                 display="inline-block"
                 padding="16px 20px"
                 color="primary"
@@ -237,6 +257,36 @@ export const Header = () => {
               </Link>
             </Box>
           ))}
+          <Box
+            mb="5px"
+            opacity={isOpen ? 1 : 0}
+            transform={isOpen ? 'translateY(0)' : 'translateY(20px)'}
+            transition={`opacity 0.3s ease ${menuItems.length * 0.1 + 0.1}s, transform 0.3s ease ${menuItems.length * 0.1 + 0.1}s`}
+            display="flex"
+            justifyContent="flex-end"
+          >
+            <Link
+              href="/donate"
+              display="inline-block"
+              margin="16px 20px"
+              border="1px solid"
+              borderColor="primary"
+              color="primary"
+              px={4}
+              py={2}
+              fontWeight="500"
+              textAlign="right"
+              textDecoration="none"
+              _hover={{
+                textDecoration: 'none',
+                bg: 'primary',
+                color: 'bg',
+              }}
+              onClick={handleLinkClick}
+            >
+              Donate
+            </Link>
+          </Box>
         </Box>
       </Box>
 

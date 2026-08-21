@@ -7,6 +7,7 @@ import { getPostBySlug, getAllPosts } from '../../lib/api'
 import ReactMarkdown from 'react-markdown'
 import style from '../../components/markdown-styles.module.css'
 import remarkGfm from 'remark-gfm'
+import rehypeRaw from 'rehype-raw'
 import { formatDate } from '@/lib/date'
 
 type Props = {
@@ -64,7 +65,11 @@ export default function Post({ post }: Props) {
             />
           )}
           <Rule />
-          <ReactMarkdown className={style.markdown} remarkPlugins={[remarkGfm]}>
+          <ReactMarkdown
+            className={style.markdown}
+            remarkPlugins={[remarkGfm]}
+            rehypePlugins={[rehypeRaw]}
+          >
             {post.content}
           </ReactMarkdown>
         </Flex>

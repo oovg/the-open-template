@@ -71,3 +71,7 @@
   margin: 25px 0;
 }
 
+.markdown [id^="cite-"] {
+  scroll-margin-top: 6rem;
+}
+

@@ -4,11 +4,11 @@ import { EmailIcon } from '@chakra-ui/icons'
 import { FarcasterIcon, XIcon } from '@/components'
 
 const menuItems = [
-  { label: 'What we do', href: '/#' },
-  { label: 'Media', href: '/#media' },
-  { label: 'Events', href: '/#events' },
-  { label: 'Research', href: '/#research' },
-  { label: 'Process', href: '/#process' },
+  { label: 'Home', href: '/' },
+  { label: 'Programme', href: '/programme' },
+  { label: 'Outer Mind', href: 'https://mind.theopenmachine.net', isExternal: true },
+  { label: 'Media Shop', href: 'https://media.theopenmachine.net', isExternal: true },
+  { label: 'Donate', href: '/donate' },
 ]
 
 export const Footer = () => {
@@ -39,6 +39,7 @@ export const Footer = () => {
             <Link
               key={item.href}
               href={item.href}
+              isExternal={item.isExternal}
               color="primary"
               position="relative"
               display="inline-block"
@@ -135,9 +136,16 @@ export const Footer = () => {
         </Flex>
         <Flex direction="row" gap={3} alignItems="center">
         <Text>
-          <Link href="https://x.com/theopenmachine" color="primary" display="inline-flex" alignItems="center" gap={2}>
+          <Link href="https://x.com/theopenmachine" isExternal color="primary" display="inline-flex" alignItems="center" gap={2}>
             <XIcon mb={2}/>
             @theopenmachine
+          </Link>
+        </Text>
+        </Flex>
+        <Flex direction="row" gap={3} alignItems="center">
+        <Text>
+          <Link href="https://theopenmachine.substack.com/" isExternal color="primary" display="inline-flex" alignItems="center" gap={2}>
+            Substack
           </Link>
         </Text>
         </Flex>
