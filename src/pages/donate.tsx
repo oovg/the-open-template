@@ -85,7 +85,7 @@ export default function Donate() {
               , a 501(c)(3) non-profit. Donors to our Open Collective account receive a receipt that allows 50% of their philanthropic contribution to be tax-deductible in participating jurisdictions.
             </Text>
             <Link
-              href="https://opencollective.com/metagov/projects/open-machine"
+              href="https://opencollective.com/metagov/projects/open-machine/donate?interval=oneTime&amount=20&name=&legalName=&email="
               isExternal
               display="inline-block"
               border="1px solid"
