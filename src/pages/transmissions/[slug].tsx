@@ -68,7 +68,7 @@ export default function Post({ post }: Props) {
           <ReactMarkdown
             className={style.markdown}
             remarkPlugins={[remarkGfm]}
-            rehypePlugins={[rehypeRaw]}
+            rehypePlugins={[rehypeRaw as any]}
           >
             {post.content}
           </ReactMarkdown>
