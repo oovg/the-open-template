@@ -14,12 +14,105 @@ import {
 } from '@/components'
 import { Header } from '@/components/Header'
 
-type Status = 'Published' | 'Ongoing' | 'Preparing' | 'Underway' | 'Organizing' | 'Brewing' | 'Planning'
+type Status = 'Published' | 'Ongoing' | 'Convened' | 'Preparing' | 'Underway' | 'Organizing' | 'Brewing' | 'Planning'
+
+type Phase = 'shipped' | 'progress' | 'next'
+
+const phaseOf: Record<Status, Phase> = {
+  Published: 'shipped',
+  Ongoing: 'shipped',
+  Convened: 'shipped',
+  Preparing: 'progress',
+  Underway: 'progress',
+  Organizing: 'progress',
+  Brewing: 'next',
+  Planning: 'next',
+}
+
+const slugify = (s: string) =>
+  s.toLowerCase().replace(/&/g, 'and').replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '')
+
+type GlanceCategory = {
+  id: string
+  label: string
+  summary: string
+  items: { title: string; status: Status }[]
+}
+
+const glance: GlanceCategory[] = [
+  {
+    id: 'media',
+    label: 'Media',
+    summary: '2 essays published · 4 titles preparing to publish · 2 anthologies planned',
+    items: [
+      { title: 'Immanence & Emanation', status: 'Published' },
+      { title: 'Toward a Nomad Web', status: 'Published' },
+      { title: 'Open Machine Notebooks', status: 'Preparing' },
+      { title: 'Metacogsec', status: 'Preparing' },
+      { title: 'Intelligence is Immanent', status: 'Preparing' },
+      { title: 'Extitutional Zine', status: 'Preparing' },
+      { title: 'Extitutional Anthology', status: 'Planning' },
+      { title: 'Altered States of Community', status: 'Planning' },
+    ],
+  },
+  {
+    id: 'events',
+    label: 'Events',
+    summary: '2 monthly series running · Walkaway salon convened · Summit and Playground organizing · 2 gatherings brewing',
+    items: [
+      { title: 'DWeb Meetup', status: 'Ongoing' },
+      { title: 'Open Machine Mindfuck Movie Club', status: 'Ongoing' },
+      { title: 'Walkaway Sociologies', status: 'Convened' },
+      { title: 'Extitutional Summit', status: 'Organizing' },
+      { title: 'Extitutional Playground', status: 'Organizing' },
+      { title: 'Offline Parties', status: 'Brewing' },
+      { title: 'Walkaway Parties', status: 'Brewing' },
+    ],
+  },
+  {
+    id: 'research',
+    label: 'Research',
+    summary: 'Media Shop live as DIPP reference · IES framework published · Ethereum Extitutional, Mauve Zone, and AgentWorld underway',
+    items: [
+      { title: 'Media Shop', status: 'Published' },
+      { title: 'Institutions, Extitutions, and Substrates', status: 'Published' },
+      { title: 'Antikythera AgentWorld', status: 'Underway' },
+      { title: 'Ethereum Extitutional', status: 'Underway' },
+      { title: 'Mauve Zone Project', status: 'Underway' },
+    ],
+  },
+]
+
+const phaseMarkStyles: Record<Phase, { bg?: string; borderStyle: string }> = {
+  shipped: { bg: 'bg', borderStyle: 'solid' },
+  progress: { borderStyle: 'solid' },
+  next: { borderStyle: 'dashed' },
+}
+
+const PhaseMark = ({ phase, size = '18px' }: { phase: Phase; size?: string }) => (
+  <Box
+    as="span"
+    display="inline-block"
+    w={size}
+    h={size}
+    borderWidth="1.5px"
+    borderColor="bg"
+    flexShrink={0}
+    {...phaseMarkStyles[phase]}
+  />
+)
+
+const phaseLabels: Record<Phase, string> = {
+  shipped: 'Shipped / live',
+  progress: 'In progress',
+  next: 'Next',
+}
 
 const StatusBadge = ({ status }: { status: Status }) => {
   const tones: Record<Status, { border: string; label: string }> = {
     Published: { border: 'primary', label: 'Published' },
     Ongoing: { border: 'primary', label: 'Ongoing' },
+    Convened: { border: 'primary', label: 'Convened' },
     Preparing: { border: 'midtone', label: 'Preparing to publish' },
     Underway: { border: 'midtone', label: 'Underway' },
     Organizing: { border: 'midtone', label: 'Organizing' },
@@ -57,7 +150,7 @@ type ItemProps = {
 }
 
 const Item = ({ title, status, children, href, image, imageAlt }: ItemProps) => (
-  <Box border="1px solid" borderColor="primary" p={[4, null, 5]} w="100%">
+  <Box id={slugify(title)} scrollMarginTop="80px" border="1px solid" borderColor="primary" p={[4, null, 5]} w="100%">
     <StatusBadge status={status} />
     <Heading fontSize={['md', null, 'lg']} mb={3} fontStyle="italic">
       {href ? (
@@ -166,7 +259,7 @@ export default function Q32026Update() {
               Over the past quarter The Open Machine has been publishing foundational essays, convening recurring cultural infrastructure in Portland and beyond, and advancing research that turns immanent values into usable media, events, and protocols.
             </Text>
             <Text fontSize={['md', null, 'lg']}>
-              Below is a focused snapshot ofwhat we've shipped, what we're working on, and what we are planning next.
+              Below is a focused snapshot of what we've shipped, what we're working on, and what we are planning next.
             </Text>
           </Box>
         </Flex>
@@ -184,64 +277,63 @@ export default function Q32026Update() {
           <Heading fontWeight="900" fontSize={['2xl', null, '3xl']} mb={5}>
             Q3 2026 at a glance
           </Heading>
-          <Flex direction={['column', null, 'row']} gap={[4, null, 8]} maxW="1000px" flexWrap="wrap">
-            <Box flex="1" minW={['100%', null, '200px']}>
-              <Link
-                href="#media"
-                fontSize="sm"
-                textTransform="uppercase"
-                letterSpacing="0.12em"
-                mb={2}
-                opacity={0.8}
-                display="inline-block"
-                textDecoration="underline"
-                textUnderlineOffset="3px"
-                _hover={{ opacity: 1, textDecoration: 'none' }}
+          <Flex gap={[4, null, 6]} mb={[6, null, 8]} flexWrap="wrap" fontSize="xs" textTransform="uppercase" letterSpacing="0.12em">
+            {(Object.keys(phaseLabels) as Phase[]).map((phase) => {
+              const count = glance.flatMap((c) => c.items).filter((i) => phaseOf[i.status] === phase).length
+              return (
+                <Flex key={phase} alignItems="center" gap={2}>
+                  <PhaseMark phase={phase} size="12px" />
+                  <Text as="span">
+                    {phaseLabels[phase]} · {count}
+                  </Text>
+                </Flex>
+              )
+            })}
+          </Flex>
+          <Flex direction="column" maxW="1000px">
+            {glance.map((category, i) => (
+              <Flex
+                key={category.id}
+                direction={['column', null, 'row']}
+                alignItems={['start', null, 'center']}
+                gap={[2, null, 8]}
+                py={[4, null, 5]}
+                borderTop={i === 0 ? 'none' : '1px solid'}
+                borderColor="bg"
               >
-                Media
-              </Link>
-              <Text fontSize={['md', null, 'lg']}>
-                Two major essays published; four titles in the pipeline for near-term release.
-              </Text>
-            </Box>
-            <Box flex="1" minW={['100%', null, '200px']}>
-              <Link
-                href="#events"
-                fontSize="sm"
-                textTransform="uppercase"
-                letterSpacing="0.12em"
-                mb={2}
-                opacity={0.8}
-                display="inline-block"
-                textDecoration="underline"
-                textUnderlineOffset="3px"
-                _hover={{ opacity: 1, textDecoration: 'none' }}
-              >
-                Events
-              </Link>
-              <Text fontSize={['md', null, 'lg']}>
-                Monthly DWeb and Mindfuck series ongoing; Walkaway salon convened on Salt Spring Island.
-              </Text>
-            </Box>
-            <Box flex="1" minW={['100%', null, '200px']}>
-              <Link
-                href="#research"
-                fontSize="sm"
-                textTransform="uppercase"
-                letterSpacing="0.12em"
-                mb={2}
-                opacity={0.8}
-                display="inline-block"
-                textDecoration="underline"
-                textUnderlineOffset="3px"
-                _hover={{ opacity: 1, textDecoration: 'none' }}
-              >
-                Research
-              </Link>
-              <Text fontSize={['md', null, 'lg']}>
-                Media Shop live as DIPP reference; Ethereum Extitutional, Mauve Zone, and AgentWorld advancing.
-              </Text>
-            </Box>
+                <Link
+                  href={`#${category.id}`}
+                  w={['auto', null, '140px']}
+                  flexShrink={0}
+                  fontSize="sm"
+                  textTransform="uppercase"
+                  letterSpacing="0.12em"
+                  textDecoration="underline"
+                  textUnderlineOffset="3px"
+                  _hover={{ textDecoration: 'none' }}
+                >
+                  {category.label}
+                </Link>
+                <Flex direction="column" gap={2}>
+                  <Flex gap={2} flexWrap="wrap">
+                    {category.items.map((item) => (
+                      <Link
+                        key={item.title}
+                        href={`#${slugify(item.title)}`}
+                        title={`${item.title} — ${item.status}`}
+                        aria-label={`${item.title} — ${item.status}`}
+                        display="inline-flex"
+                        transition="transform 0.15s ease"
+                        _hover={{ transform: 'scale(1.25)' }}
+                      >
+                        <PhaseMark phase={phaseOf[item.status]} />
+                      </Link>
+                    ))}
+                  </Flex>
+                  <Text fontSize={['md', null, 'lg']}>{category.summary}</Text>
+                </Flex>
+              </Flex>
+            ))}
           </Flex>
         </Flex>
 
@@ -342,7 +434,7 @@ export default function Q32026Update() {
 
           <Item
             title="Walkaway Sociologies"
-            status="Published"
+            status="Convened"
             image="/assets/q3-2026/imaginal-house.jpg"
             imageAlt="Imaginal House, Salt Spring Island"
           >
@@ -350,7 +442,7 @@ export default function Q32026Update() {
               <Text as="i">Salon · Imaginal House, Salt Spring Island, BC · Pluto&apos;s Cove series</Text>
             </Text>
             <Text mb={3}>
-              Drawing on Cory Doctorow&apos;s <Text as="i">Walkaway</Text>, we seeded a salon on societies that form when people leave default society — or never joined it — and build collective infrastructure outside institutional and economic normativity. Maroon societies, communes, Burning Man–scale temporary cities, and indigenous societies that held other modes all the along. Walkaway Sociologies mixes fiction, history, and ethnography to study these forms and provoke their emergence in the present.
+              Drawing on Cory Doctorow&apos;s <Text as="i">Walkaway</Text>, we seeded a salon on societies that form when people leave default society — or never joined it — and build collective infrastructure outside institutional and economic normativity. Maroon societies, communes, Burning Man–scale temporary cities, and indigenous societies that held other modes all along. Walkaway Sociologies mixes fiction, history, and ethnography to study these forms and provoke their emergence in the present.
             </Text>
             <Text fontSize="xs" color="midtone">
               Full salon writeup forthcoming.
@@ -366,7 +458,7 @@ export default function Q32026Update() {
             </Text>
           </Item>
 
-          <Item title="Extitutional Playground" status="Brewing">
+          <Item title="Extitutional Playground" status="Organizing">
             <Text mb={3}>
               <Text as="i">Spring · Portland, Oregon</Text>
             </Text>
@@ -406,6 +498,16 @@ export default function Q32026Update() {
             </Text>
             <Text>
               Seeded by conversations at DWeb Camp Cascadia 2026. We are collaborating with Brewster Kahle of the Internet Archive on payment rails and deep-funding mechanics for independent publishing infrastructure.
+            </Text>
+          </Item>
+
+          <Item
+            title="Institutions, Extitutions, and Substrates"
+            status="Published"
+            href="https://om-ies.vercel.app"
+          >
+            <Text>
+              An interactive organizational framework mapping three modes of organization. Institutions are stable, deterministic forms bounded in the actual. Substrates are the unstable, processual field of virtual potential beneath them. Extitutions are meta-stable arrangements that hold enough shape to act while staying open enough to change. Drawing on Deleuze, the framework positions extitutions as mediums between closed institutional minds and open substrates — the joint where organization and individuation co-produce open-ended intelligence.
             </Text>
           </Item>
 
