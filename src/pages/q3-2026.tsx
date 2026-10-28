@@ -43,13 +43,13 @@ const glance: GlanceCategory[] = [
   {
     id: 'media',
     label: 'Media',
-    summary: '2 essays published · 4 titles preparing to publish · 2 anthologies planned',
+    summary: '3 essays published · 3 titles preparing to publish · 2 anthologies planned',
     items: [
       { title: 'Immanence & Emanation', status: 'Published' },
       { title: 'Toward a Nomad Web', status: 'Published' },
+      { title: 'Intelligence is Immanent', status: 'Published' },
       { title: 'Open Machine Notebooks', status: 'Preparing' },
       { title: 'Metacogsec', status: 'Preparing' },
-      { title: 'Intelligence is Immanent', status: 'Preparing' },
       { title: 'Extitutional Zine', status: 'Preparing' },
       { title: 'Extitutional Anthology', status: 'Planning' },
       { title: 'Altered States of Community', status: 'Planning' },
@@ -363,6 +363,16 @@ export default function Q32026Update() {
             </Text>
           </Item>
 
+          <Item
+            title="Intelligence is Immanent"
+            status="Published"
+            href="https://vengist.substack.com/p/intelligence-is-immanent"
+          >
+            <Text>
+              A process model of the becoming of minds, intelligence, and knowledge. Drawing on Simondon, Peirce, Spinoza, Deleuze, Bateson, and Weinbaum&apos;s open-ended intelligence, the essay reframes knowing as immanent individuation across cognitive assemblages — from cells and scenes to markets and forests — and asks what conditions keep epistemic systems healthy, and what enclosure does when it captures them.
+            </Text>
+          </Item>
+
           <Item title="Open Machine Notebooks" status="Preparing">
             <Text>
               A series of web-native interactive experiences that open our working notes on key concepts — extitutional theory, metacogsec, immanent intelligence — exposing not only what we think, but how and where those thoughts take form.
@@ -372,12 +382,6 @@ export default function Q32026Update() {
           <Item title="Metacogsec" status="Preparing">
             <Text>
               A zine on cognitive security: how attention, narrative, and interface design can enclose or expand agency — and what protocols of perception look like when they are built for freedom rather than capture.
-            </Text>
-          </Item>
-
-          <Item title="Intelligence is Immanent" status="Preparing">
-            <Text>
-              Where does knowledge come from, and who is doing the knowing? A journey through Simondon, Peirce, Spinoza, and Deleuze toward a theory of intelligence as something grown together — from cells and scenes to markets and forests — and how it sickens when enclosed or captured.
             </Text>
           </Item>
 
