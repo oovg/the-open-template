@@ -255,11 +255,25 @@ export default function Q32026Update() {
             Q3 2026 Update
           </Heading>
           <Box maxW="900px">
-            <Text fontSize={['lg', null, 'xl']} mb={5}>
-              Over the past quarter The Open Machine has been publishing foundational essays, convening recurring cultural infrastructure in Portland and beyond, and advancing research that turns immanent values into usable media, events, and protocols.
+            <Text fontSize={['md', null, 'lg']} mb={5}>
+              In Q3 this year, with generous funding from the Liberty Ears Foundation, we set out to expand our corpus and series of experiential events. We dove deep into the theoretical underpinnings of our vision of the emerging technology space, publishing three foundational essays:
+            </Text>
+            <Box as="ul" pl={5} mb={5} fontSize={['md', null, 'lg']} sx={{ listStyleType: 'disc' }}>
+              <Box as="li" mb={3}>
+                <Text as="i">Immanence and Emanation: Three Premises on the Eve of the Singularity</Text> outlined the practical stakes of immanent philosophy, bridging scientific paradigms of diverse intelligence with accounts of the cultural underground to envision weird frontiers of digital governance;
+              </Box>
+              <Box as="li" mb={3}>
+                <Text as="i">Toward a Nomad Web</Text> traced the internet&apos;s oscillation between smooth protocol space and striated platform-State, integrating learnings from past decades of enclosure to understand how the internet&apos;s role as a freedom technology can be rediscovered;
+              </Box>
+              <Box as="li" mb={3}>
+                <Text as="i">Intelligence is Immanent</Text> presented a process model of how minds and knowledge form across cognitive assemblages of all kinds, finding hints along the way of the munitions needed to explode the normativity that hinders the capacities of healthy thinking systems.
+              </Box>
+            </Box>
+            <Text fontSize={['md', null, 'lg']} mb={5}>
+              Alongside these three major pieces, we&apos;ve published briefer provocations including <Text as="i">Toward an Extitutional People</Text> and <Text as="i">Toward a Participatory Digital Gnosis</Text>; we&apos;ve started publishing our working research as open notebooks that can act as frameworks for others to borrow from as they navigate the current moment. We extended our reach beyond a primary web3 orientation, connecting more deeply with the DWeb community as we host local DWeb meetups and collaborate on a distributed publishing protocol with The Internet Archive. We&apos;ve taken our thesis on immanent technology to para-academic and psychedelic circles, joined forces with neuroscientists to explore the social modalities of individual neuroplastic states; we&apos;ve held philosophical salons on the Walkaway concept on Salt Spring Island and stewarded a coordinated extitutional response to the overly institutional adoption of Ethereum.
             </Text>
             <Text fontSize={['md', null, 'lg']}>
-              Below is a focused snapshot of what we've shipped, what we're working on, and what we are planning next.
+              In Q4 and beyond into 2027, we look to operationalize these new foundations along three lines of practice. First, the organizational, we plan to refine and publish more frameworks, hold workshops and offer consulting to help organizations become more robust, metastable thinking systems. Second, we aim to build technology that fills the gaps diagnosed in our theory. This will largely take the form of open source specs that serve as working prototypes for parallel communities. Examples include more fleshed out versions of our distributed publishing protocol, of which our Media Shop acts as the current exemplar; MindGraphs modeled as agentic era advancements of the early-internet webring; and open research mediums tailored for non-specialist contribution and ethnographic self report (Erowid 2.0, but with a more expansive focus in governance, economics and phenomenology of technology). The third is scaling up experiential event orchestration. Among these is our coming collaboration with Sensoria and Humans on the Loop: The Mauve Zone Project is an online hackathon for &apos;dissident neurotechnics&apos; that explore participatory and ethical reappropriation of altered state inducing technologies. Other planned events include advancements of our Walkaway Inquiry (already prototyped in Q3 on Salt Spring Island); a local &quot;Psychedelics, Technology and Cognitive Security&quot; night; a two day online talk series on DAOs 2.0; and a coming Extitutional Gathering in Burgundy France embedded within the long-running Feytopia community where extitutional theory first emerged.
             </Text>
           </Box>
         </Flex>
