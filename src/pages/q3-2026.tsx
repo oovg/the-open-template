@@ -43,11 +43,13 @@ const glance: GlanceCategory[] = [
   {
     id: 'media',
     label: 'Media',
-    summary: '3 essays published · 3 titles preparing to publish · 2 anthologies planned',
+    summary: '5 essays published · 3 titles preparing to publish · 2 anthologies planned',
     items: [
       { title: 'Immanence & Emanation', status: 'Published' },
       { title: 'Toward a Nomad Web', status: 'Published' },
       { title: 'Intelligence is Immanent', status: 'Published' },
+      { title: 'Toward a Participatory Digital Gnosis', status: 'Published' },
+      { title: 'Toward an Extitutional People', status: 'Published' },
       { title: 'Open Machine Notebooks', status: 'Preparing' },
       { title: 'Metacogsec', status: 'Preparing' },
       { title: 'Extitutional Zine', status: 'Preparing' },
@@ -58,7 +60,7 @@ const glance: GlanceCategory[] = [
   {
     id: 'events',
     label: 'Events',
-    summary: '2 monthly series running · Walkaway salon convened · Summit and Playground organizing · 2 gatherings brewing',
+    summary: '2 monthly series running · Walkaway salon convened · Summit and Playground organizing · 2 gatherings brewing · DAOs 2.0 planned',
     items: [
       { title: 'DWeb Meetup', status: 'Ongoing' },
       { title: 'Open Machine Mindfuck Movie Club', status: 'Ongoing' },
@@ -66,19 +68,21 @@ const glance: GlanceCategory[] = [
       { title: 'Extitutional Summit', status: 'Organizing' },
       { title: 'Extitutional Playground', status: 'Organizing' },
       { title: 'Offline Parties', status: 'Brewing' },
-      { title: 'Walkaway Parties', status: 'Brewing' },
+      { title: 'Walkaway Gatherings', status: 'Brewing' },
+      { title: 'DAOs 2.0', status: 'Planning' },
     ],
   },
   {
     id: 'research',
     label: 'Research',
-    summary: 'Media Shop live as DIPP reference · IES framework published · Ethereum Extitutional, Mauve Zone, and AgentWorld underway',
+    summary: 'Media Shop live as DIPP reference · IES framework published · Ethereum Extitutional, Mauve Zone, and AgentWorld underway · MindGraphs planned',
     items: [
       { title: 'Media Shop', status: 'Published' },
       { title: 'Institutions, Extitutions, and Substrates', status: 'Published' },
       { title: 'Antikythera AgentWorld', status: 'Underway' },
       { title: 'Ethereum Extitutional', status: 'Underway' },
       { title: 'Mauve Zone Project', status: 'Underway' },
+      { title: 'MindGraphs', status: 'Planning' },
     ],
   },
 ]
@@ -147,29 +151,58 @@ type ItemProps = {
   href?: string
   image?: string
   imageAlt?: string
+  /** Place cover beside copy (published media); default stacks image below */
+  imageBeside?: boolean
 }
 
-const Item = ({ title, status, children, href, image, imageAlt }: ItemProps) => (
+const Item = ({ title, status, children, href, image, imageAlt, imageBeside }: ItemProps) => (
   <Box id={slugify(title)} scrollMarginTop="80px" border="1px solid" borderColor="primary" p={[4, null, 5]} w="100%">
-    <StatusBadge status={status} />
-    <Heading fontSize={['md', null, 'lg']} mb={3} fontStyle="italic">
-      {href ? (
-        <Link
-          href={href}
-          isExternal={href.startsWith('http')}
-          textDecoration="underline"
-          textDecorationStyle="dotted"
-          textUnderlineOffset="4px"
-          _hover={{ color: 'primary' }}
+    <Flex
+      direction={imageBeside && image ? ['column', null, 'row'] : 'column'}
+      gap={imageBeside && image ? [4, null, 5] : 0}
+      alignItems={imageBeside && image ? ['stretch', null, 'start'] : undefined}
+    >
+      {image && imageBeside && (
+        <Box
+          flexShrink={0}
+          w={['112px', null, '140px']}
+          h={['112px', null, '140px']}
+          overflow="hidden"
+          alignSelf="start"
         >
-          {title}
-        </Link>
-      ) : (
-        title
+          <Image
+            src={image}
+            alt={imageAlt || title}
+            w="100%"
+            h="100%"
+            objectFit="cover"
+            objectPosition="center"
+            display="block"
+          />
+        </Box>
       )}
-    </Heading>
-    <Box fontSize="sm">{children}</Box>
-    {image && (
+      <Box flex="1" minW={0}>
+        <StatusBadge status={status} />
+        <Heading fontSize={['md', null, 'lg']} mb={3} fontStyle="italic">
+          {href ? (
+            <Link
+              href={href}
+              isExternal={href.startsWith('http')}
+              textDecoration="underline"
+              textDecorationStyle="dotted"
+              textUnderlineOffset="4px"
+              _hover={{ color: 'primary' }}
+            >
+              {title}
+            </Link>
+          ) : (
+            title
+          )}
+        </Heading>
+        <Box fontSize="sm">{children}</Box>
+      </Box>
+    </Flex>
+    {image && !imageBeside && (
       <Box mt={4} overflow="hidden">
         <Image
           src={image}
@@ -361,6 +394,9 @@ export default function Q32026Update() {
             title="Immanence & Emanation"
             status="Published"
             href="https://media.theopenmachine.net/media/immanence-and-emanation"
+            image="/assets/q3-2026/covers/immanence-and-emanation.jpg"
+            imageAlt="Cover: Immanence and Emanation"
+            imageBeside
           >
             <Text>
               Against the emanationist image of a world ordered around a transcendent hierarchy, this essay lays out three premises for an immanent technology: the plane of immanence, scale-free cognition, and latent space.
@@ -371,6 +407,9 @@ export default function Q32026Update() {
             title="Toward a Nomad Web"
             status="Published"
             href="/transmissions/toward-a-nomad-web"
+            image="/assets/q3-2026/covers/toward-a-nomad-web.jpg"
+            imageAlt="Cover: Toward a Nomad Web"
+            imageBeside
           >
             <Text>
               Grounded in Deleuze & Guattari&apos;s smooth and striated space, this booklet traces the internet from its genesis as a smooth protocol web, through enclosure by the platform-State, to the contemporary resmoothing underway as protocol response — and the conditions under which a nomad web might again become possible.
@@ -381,9 +420,38 @@ export default function Q32026Update() {
             title="Intelligence is Immanent"
             status="Published"
             href="https://vengist.substack.com/p/intelligence-is-immanent"
+            image="/assets/q3-2026/covers/intelligence-is-immanent.jpg"
+            imageAlt="Cover: Intelligence is Immanent"
+            imageBeside
           >
             <Text>
               A process model of the becoming of minds, intelligence, and knowledge. Drawing on Simondon, Peirce, Spinoza, Deleuze, Bateson, and Weinbaum&apos;s open-ended intelligence, the essay reframes knowing as immanent individuation across cognitive assemblages — from cells and scenes to markets and forests — and asks what conditions keep epistemic systems healthy, and what enclosure does when it captures them.
+            </Text>
+          </Item>
+
+          <Item
+            title="Toward a Participatory Digital Gnosis"
+            status="Published"
+            href="https://substack.com/@exeunteth/p-203649812"
+            image="/assets/q3-2026/covers/participatory-digital-gnosis.jpg"
+            imageAlt="Cover: Toward a Participatory Digital Gnosis"
+            imageBeside
+          >
+            <Text>
+              On Distributed Metaprogramming Communities: how dissident cultures of deconditioning and imaginative restructuring — the mauve zone of heightened plasticity — might meet decentralized tools to make participatory digital gnosis possible, against the capture of social technology by control and spectacle.
+            </Text>
+          </Item>
+
+          <Item
+            title="Toward an Extitutional People"
+            status="Published"
+            href="https://substack.com/@exeunteth/p-219044726"
+            image="/assets/q3-2026/covers/extitutional-people.jpg"
+            imageAlt="Cover: Toward an Extitutional People"
+            imageBeside
+          >
+            <Text>
+              Why we are not down to hang: a prescription for extitutional antagonism grounded in craft with empirical stakes, free labor, and stigmergic mediums — locating an extitutional people not in discursive hanging-out, but in the recess of compulsory individuality that is attentive work.
             </Text>
           </Item>
 
@@ -491,9 +559,18 @@ export default function Q32026Update() {
             </Text>
           </Item>
 
-          <Item title="Walkaway Parties" status="Brewing">
+          <Item title="Walkaway Gatherings" status="Brewing">
             <Text>
               Social extensions of the Walkaway Sociologies inquiry — gatherings designed to practice exit, mutual infrastructure, and life outside default society as lived atmosphere rather than abstract critique.
+            </Text>
+          </Item>
+
+          <Item title="DAOs 2.0" status="Planning">
+            <Text mb={3}>
+              <Text as="i">Two-day online talk series</Text>
+            </Text>
+            <Text>
+              A gathering to unfurl the latest thinking around Decentralized Autonomous Organizations — bringing builders, theorists, and practitioners into conversation toward a DAO renaissance beyond the first wave&apos;s institutional and speculative traps.
             </Text>
           </Item>
         </Section>
@@ -563,6 +640,12 @@ export default function Q32026Update() {
           >
             <Text>
               Collaboration with Sensoria — a psychedelic neuroscience organization — on offensive and defensive tactics for cognitive security. Bridging ethnographic underground knowledge with contemporary research on perception, enclosure, and expansion.
+            </Text>
+          </Item>
+
+          <Item title="MindGraphs" status="Planning">
+            <Text>
+              Agentic-era advancements of the early-internet webring — open graph structures for linking minds, media, and research across parallel communities, modeled as working prototypes others can fork and extend. MindGraphs can serve as infrastructure for Open Research Initiatives.
             </Text>
           </Item>
         </Section>
