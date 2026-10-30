@@ -53,6 +53,20 @@ export default function Post({ post }: Props) {
             <Text mt={3}>
               <i>by</i> {post.author}
             </Text>
+            {post.mediaShopSlug && (
+              <Text mt={4} fontSize="sm">
+                <Link
+                  href={`https://media.theopenmachine.net/media/${post.mediaShopSlug}`}
+                  isExternal
+                  textDecoration="underline"
+                  textDecorationStyle="dotted"
+                  textUnderlineOffset="4px"
+                  _hover={{ color: 'primary' }}
+                >
+                  View in Media Shop
+                </Link>
+              </Text>
+            )}
           </Box>
           {post.imagePath && (
             <Image
@@ -92,6 +106,7 @@ export async function getStaticProps({ params }: Params) {
     'author',
     'content',
     'imagePath',
+    'mediaShopSlug',
   ])
 
   const dateValue = post.date as string | Date

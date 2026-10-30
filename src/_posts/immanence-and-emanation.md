@@ -6,6 +6,7 @@ author: 'The Open Machine'
 excerpt: 'The center of our thinking around technology at The Open Machine is the figure of immanence. Against the Emanationist image of cosmic hierarchy, we stake our claim on the groundless ground - the generative field of relation from which intelligence, creativity, and worlds emerge.'
 date: '2026-06-01T00:00:00.000Z'
 imagePath: '/assets/transmissions/immanencetv.png'
+mediaShopSlug: 'immanence-and-emanation'
 ---
 > _daz der mensche durchgange und übergange alle geschaffenheit und alle zîtlicheit und allez wesen und gange in den grunt, der gruntlôs ist._
 > 

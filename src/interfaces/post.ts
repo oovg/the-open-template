@@ -7,6 +7,8 @@ type PostType = {
   excerpt: string
   date: string
   imagePath: string
+  /** Media Shop path segment at media.theopenmachine.net/media/{mediaShopSlug} */
+  mediaShopSlug?: string
 }
 
 export default PostType
