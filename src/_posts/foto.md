@@ -13,6 +13,7 @@ claim won the mantle, there at the dawn of Modernity, as the
 last jester."
 date: "2023-07-28T16:20:04.000Z"
 imagePath: "/assets/transmissions/FoTo_covers.jpg"
+mediaShopSlug: 'friends-of-the-outside'
 ---
 
 # FRIENDS
