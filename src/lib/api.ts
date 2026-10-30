@@ -4,6 +4,7 @@ import matter from 'gray-matter'
 
 const postsDirectory = join(process.cwd(), '/src/_posts')
 const transmissionSlugs = [
+  'intelligence-is-immanent.md',
   'toward-a-nomad-web.md',
   'open-letter-to-the-ethereum-community-on-the-topic-of-the-protocol-underground.md',
   'the-continuing-story-of-the-open-machine.md',

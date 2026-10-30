@@ -1,0 +1,324 @@
+# Intelligence is Immanent
+_A Process Model on the Becoming of Minds, Intelligence, and Knowledge_
+
+![immanent intelligence](../99-meta/assets/immanent-intelligence/ii-cover_0.png)
+
+## I. Open-ended Intelligence and the Individuation of Knowledge
+
+> "The living individual is a system of individuation, an individuating system and a system individuating itself."
+>
+> — Gilbert Simondon, "The Position of the Problem of Ontogenesis" [1]
+
+> "It is only when immanence is no longer immanence to anything other than itself that we can speak of a plane of immanence."
+>
+> — Gilles Deleuze, "Immanence: A Life" [2]
+
+Traditional definitions of intelligence ask what it means to _be_ intelligent. Within this essay I will align with Weaver Weinbaum's theory of _open-ended Intelligence_ [3] to ask what it means to _become_ intelligent. We will take a transdisciplinary route through semiotics, epistemics, biology, phenomenology, and metaphysics to unfurl a practical process model of the becoming of knowledge and intelligence. The concept of _immanence_ describes reality as having no outside influence. All events and effects, including their potentials, occur within it, inherently. Here we frame intelligence as immanent, within the field of virtuality itself, not arising from a transcendental beyond. From this lens, we will wonder what are the conditions that minds are formed in and what is their subjectivity? Where does knowledge come from? How is it produced and exchanged? What is the goal of intelligence (if any)? What conditions produce healthy epistemic systems, and what conditions produce its failures?
+
+The ontological move from being to becoming comes from Simondon [4], who replaces the thing with process, the individual with individuation. This shift has profound effects on how we view the world, from a world made of things to a world of process and radical inter-relation. Through that lens an individual is always in flux, if for no other reason than its environment is always in flux. The individual and its environment are locked in constant reciprocal co-individuation, a multi-scale tango of determining each other continuously. When Darwin [5] found a Madagascar orchid that hid its nectar at the bottom of a foot-long spur, he predicted there _must_ be a moth with a foot-long proboscis to reach it. It took decades, long after Darwin had passed, but the moth, the hawkmoth, was eventually discovered [6] and confirmed to pollinate the orchid. The length was discovered through interaction, a single measurement written on two bodies, each imprinted by the other. Neither the orchid's spur nor the moth's tongue makes sense on their own, but are two readings of one relational process: co-individuation.
+
+Weinbaum smuggles individuation into the theory of intelligence itself. Intelligence, in the ordinary rendering, is goal-oriented, a competence an agent has in solving complex problems in pursuit of a goal. Weinbaum inverts this order, with intelligence viewed as the formative process by which thinking agents are constituted at all, an open-ended and generative system of producing intelligence rather than aimed at pre-determined goals contained within an individual. This process is what produces the thinkers that may later form and hold goals. Intelligence seen this way is individuation from an immanent inside. Knowledge is a tool of an intelligent actor and is neither static nor produced from scratch. It emerges from a dynamical process of individuation, the same as all other things, even the agents themselves.
+
+![open-ended intelligence](../99-meta/assets/immanent-intelligence/open-ended-intelligence.jpg)
+
+If knowledge is individuating within a field of relation, then the image of knowledge as cargo, unchanged throughout its delivery, has to go. That knowledge is transmitted intact runs deep in how we speak, the sense that a thought gets _put into words_, _conveyed_, _taken in_, _downloaded_. Its most rigorous expression is Claude Shannon's information theory [7], which defined information precisely as the reduction of uncertainty across a channel, counted in bits, and set meaning aside on purpose. "These semantic aspects of communication," he wrote, "are irrelevant to the engineering problem." For engineering that was adequate, and remains a clean statement of knowledge as transmitted: a signal leaves a source and arrives at a destination, and the theory cares only about the fidelity of the arrival. But the abstraction is a reduction that exposes a critical omission: that meaning isn't embedded within the signal. What crosses the channel is merely a signification that will be interpreted by another mind upon arrival. Gregory Bateson reframed information as "a difference that makes a difference," [8] and the phrase restores what Shannon set aside, since a difference only makes a difference to something that registers it. Bateson went further still, arguing that intelligence is immanent in any system that processes such differences, an organism, a forest, a family, a society.
+
+What Shannon set aside, C. S. Peirce had made the center of his semiotics [9] nearly half a century before. Meaning isn't carried by a sign but produced in an event of interpretation, which he named the interpretant. A million people may read the same definition of a word and produce a million different meanings of it — out of the associations that form in each unique encounter between diverse minds (interpreters) and signs. A completed form does not traverse the gap between two minds. A signal is generated _in situ_, and then exploded into its parts as it crosses the chasm from one mind to another, where it is received and reconstructed _ex situ_ within another mind. The other mind generates a fresh interpretant on its own side of the encounter. This is knowledge individuating within an _epistemic encounter_, and there are infinite recursive sites of such encounter, together composing a dynamical substrate of evolutionary knowledge production.
+
+Peirce's structure for that production splits the interpretant into three. The _immediate interpretant_ is the meaning a sign makes available before any particular mind interprets, the dictionary sense of a word. The _dynamic interpretant_ is the actual effect produced in one interpreter on one occasion, the differential that the word "home" stirs in someone raised in stability or chaos. And the _final interpretant_ is the meaning that inquiry would settle toward if it were carried far enough, not a starting definition nor any single reading but the horizon a whole community of interpreters builds together in the aggregate. The final interpretant is the complex relating of meaning that keeps local production from dissolving into a haze where every interpretant is as good as any other. It holds open that some interpretants sit nearer than others to where inquiry is heading — the difference between where thinking happens to rest and where it _would_ rest if pushed all the way through to a pluralistic account of meaning.
+
+![semiotic epistemic encounter](../99-meta/assets/immanent-intelligence/epistemic-encounter.jpg)
+
+## II. The Subjectivity of Intelligence
+
+> "The mental world—the mind—the world of information processing—is not limited by the skin."
+>
+> — Gregory Bateson, "Form, Substance, and Difference" [8]
+
+> "I am large, I contain multitudes."
+>
+> — Walt Whitman, "Song of Myself" [10]
+
+If knowledge individuates through encounter, the next question is who does the knowing, and the answer is stranger than "a person." Brian Eno [11] desired a new term when he got fed up with the myth of the lone genius. "Let's forget the idea of 'genius' for a little while," he wrote, "let's think about the whole ecology of ideas that give rise to good new thoughts and good new work." What he found in the geological history of art wasn't isolated brilliance but fertile scenes, full of people, some artists and some collectors and some theorists and some hangers-on, forming an ecology of talent out of which the wonderful work arose. He called it _scenius_. Austin Kleon [12] compressed the ontological move: "genius is an egosystem, scenius is an ecosystem." The individual wasn't dissolved, noting that scenius "doesn't take away from the achievements of those great individuals; it just acknowledges that good work isn't created in a vacuum, and that creativity is always, in some sense, a collaboration, the result of a mind connected to other minds." The ecology of ideas is generated through recursive interpretants.
+
+Genius as the shorthand for high-level knowledge production turns out to be constituted within an associated milieu rather than springing from a transcendental individual. That slots directly into the ontologies of Simondon and Weinbaum. The genius is a snapshot of an individual that is individuating within an environment, and that environment is a scenius, a culture — a petri dish — of associated minds who are themselves metastable and perpetually non-terminal. The site of subjectivity moves from the individual to the scene. Along these lines, a scene can be viewed as a kind of mind, or to use Katherine Hayles's term, a cognitive assemblage [13].
+
+Hayles clearly shows how decisions with real consequences are being made within these cognitive assemblages, faster and at larger scales than any human mind could follow. She cuts cognition loose from consciousness, defining it as the interpreting of information in contexts that connect it with meaning, which lets cognition run in systems that have no inner life at all. An immune system computes without deliberating; a market prices without pondering. In high-frequency trading, algorithms interpret market signals and act on them in microseconds, and when the 2010 flash crash erased close to a trillion dollars of market value in minutes [13], no single trader had chosen it; the assemblage had. The decision happened somewhere, but the somewhere was a system rather than a person. A cognitive assemblage is a nonconscious site of cognition, and the term stretches to cover everything that acts on the cognitive landscape, from scenes to nation-states to egregores like markets or Catwoman. Each assemblage produces sites of interpretation where knowledge individuates, each participates in the cultivation and circulation of knowledge.
+
+![mind production](../99-meta/assets/immanent-intelligence/mind-production.jpg)
+
+Edwin Hutchins found the same thing aboard a Navy ship. In _Cognition in the Wild_ [14] he followed the team that plots a vessel's position as it navigates, and found the cognition spread across bearing-takers, plotters, charts, instruments, and inherited procedures, with no single member holding a totality of knowledge. The ship knew where it was in a way no single sailor could. An egregore knows in the same sense, not by harboring a hidden awareness but by individuating and sustaining knowledge as a system in its own right. Knowing here is consciousness-independent, which enables the model to hold machines, scenes, markets, and myths as knowers rather than mere venues, without demanding that a mind be an individual with a brain behind its eyes.
+
+Once the knower is disambiguated from an individual, the health of a knowing system stops being a question about individual minds and becomes a question about how these assemblages are produced and organized. A new mind, or cognitive assemblage, is produced at each encounter, at every intersection of sign and interpretation. The cells of a human body are minds and create a human mind as they think together. A couple of minds in tight relation can form a _relational mind_. A network of minds can create a _collective mind_. The collective minds of the animal and plant kingdoms can form an _ecosystemic mind_. The planet Earth with all of its biological, geological, conceptual, and machinic minds interacting with one another can be seen as a site of cognition. This theory of mind, where minds are comprised of other minds, enables an infinite and recursive production of minds and forms of intelligence. Each mind is its own interpreter and generates sites of interpretation at every thought, at every level of encounter.
+
+Hayles describes consciousness as a thin, late layer [13] resting on a vast base of nonconscious cognition, most of it happening in our bodies before any thought reaches awareness. When a person decides, they decide from within assemblages that have already done much of the interpreting: the body's own nonconscious processing, the algorithmic feed that selected what they saw this morning, the culture whose grammars shaped what seemed thinkable. Our agency is real, but it's individuating within these larger minds, co-determined by them the way the moth's tongue is co-determined by the orchid's spur. It's fair to ask whether these assemblages actually _know_ anything or merely take part in knowing, whether a market or a myth is a knower or just a site where individual knowers do their thinking. The distinction that settles it is between the interpreter and the interpretant, the site where interpretation happens and the effect produced there. Hold those apart and the question loosens, because a knower on this account isn't defined by having an inner conscious life but by being a site where interpretants are produced and worked into knowledge.
+
+## III. The Goal of Intelligence: A Drive to Cultivate Knowledge
+
+> "Each thing, as far as it can by its own power, strives to persevere in its being."
+>
+> — Spinoza, _Ethics_ 3p6 [15]
+
+> "you must go on, I can't go on, I'll go on"
+>
+> — Samuel Beckett, _The Unnamable_ [16]
+
+What is the goal of intelligence? Weinbaum's answer is that it has none, either from the inside or outside; open-ended intelligence is experimental and generative, with no pre-given target it thinks toward. That seems to leave intelligence directionless, which sits uneasily with the fact that some ways of knowing clearly enrich while others produce rot. A system that collapses into a single frame stops producing anything new. A system that spins out incoherent noise loses the coherence it needs to function and comes apart at the seams. So there's a minimal criterion that isn't imposed from outside, the tendency of individuation to sustain the conditions of further individuation. The resolution is that intelligence has no external goal but does have an internal pre-condition. A process of individuation that destroys the conditions of further individuation ends the cycle.
+
+This is Spinoza's _conatus_ [15], the tendency of a mode to persevere in its being, relocated to the life of a mind. If the goal of life is to keep living, the goal of a mind is to keep thinking. There's no need to posit a direction for the universe or a telos in the plane. The direction is both immanent and local, the difference between individuations that sustain the power to keep individuating and individuations that terminate it. That difference is observable, needs no appeal to anything beyond the system, and it works the same whether the system is a human, a machine, a collectivity, or a concept. Because minds nest inside minds, their conatuses can pull against one another. A platform persists by holding attention, and it will interpret and select on behalf of the people inside it according to its own drive to continue, which need not coincide with theirs. A mind can be sustained by the assemblages it relates to, or be extinguished by them.
+
+Terrence Deacon gives a physical account of how that’s possible. In _Incomplete Nature_ [17] he traces how self-maintaining, end-directed processes emerge from simpler self-organizing dynamics, with no designer and no goal set in advance, their apparent purposiveness arising from the constraints that keep them going. He describes three nested kinds of dynamics. _Homeodynamics_ is matter running down toward equilibrium, the way heat spreads out or a drop of dye diffuses through water. _Morphodynamics_ is order forming by itself when energy keeps flowing through a system, the way oil heated from below organizes into hexagonal convection cells. _Teleodynamics_ is two morphodynamic processes linked so that each sustains the other: in Deacon’s model, one set of molecules speeds up its own production, and those molecules, like the protein pieces of a virus’s outer coat, spontaneously lock together into a hollow container that traps the reaction inside, so that whenever the container breaks open the reaction starts again and rebuilds it. That system persists by maintaining itself, its apparent purpose arising from the constraints that keep it going. A system can behave as though it were purposive without anything outside it having assigned the purpose, and that’s precisely the kind of direction open-ended intelligence describes.
+
+If the goal were simply _more_ — more intelligence, more production, more complexity — then some of the worst epistemic failures could be counted as successes. Incoherent noise and rigid monoculture both produce plenty. Generativity alone can't tell health from sickness. What can is persistent individuation, the system's tendency to sustain its own continuity which sometimes means selecting, refusing, producing less now so that producing remains possible later.
+
+## IV. The Epistemic Fitness of Organizational Models
+
+> "Chaos is not the opposite of rhythm, but the milieu of all milieus."
+>
+> — Deleuze and Guattari, _A Thousand Plateaus_ [18]
+
+If knowledge production is enlivened through encounter, then the organizational model that a community of minds adopts has great effects on its capacity to become intelligent, to become a thinking machine. If a mind persists by sustaining its own capacity to keep individuating knowledge, then how the minds are organized informs how they maintain that capacity. Ross Ashby of the cybernetic tradition sharply phrased it as "only variety can destroy variety" in his Law of Requisite Variety [19]. A system that has to cope with a complex, shifting environment needs internal variety to match, or it loses the ability to respond and falls out of viability. Requisite variety is the structural condition needed for continued individuation, the same claim conatus makes from the inside, now stated from the outside. Variety of the epistemic modes of interpretation and cultivation within a thinking system. Many diverse minds thinking together create many diverse interpretants, sites of interpretation. The universe itself may be seen as a mind, a cognitive assemblage with a conatus of self-preservation, not a site of consciousness but a process where adequate amounts of regularity and variety are immanently selected to support its continued becoming.
+
+Two organizational forms with different tendencies toward becoming illustrate these points. An institution is like a closed mind, full of knowledge to be sure, but as a thinking system it tends to select for regularity over variety, being over becoming. Its drive is to persist but in a way that tends toward convergence — by standardizing flows, affixing roles, compressing the range of what actions can be taken so the whole stays legible and predictable, deterministic. That makes it extremely efficient when the environment holds steady, but terminally brittle when it changes, because it has traded away the variety it would need to absorb a shock. Spoiler alert: the environment is never steady. It is always a complex storm of interactions.
+
+The polar opposite to the institutional form is one that we call substrates [20], which act as pure unbounded intelligence, an open mind. Where an institution may select against variety, substrates select against regularity. As an open mind, a substrate's prowess in cultivating knowledge is superior, due to its sheer proximity to the plane of immanence, swimming in its deep end. However, substrates are necessarily unstable in order to sustain their unboundedness. Information and knowledge may flow freely into them, but forming coherent meaning from those bits is not their strength. Still, the processual mode of substrates serves an integral role in the larger epistemic system at play. They are where the strangest and most novel forms of knowledge and intelligence individuate, then are cultivated and circulated throughout the thinking system.
+
+Sitting between these two forms is a more newly conceptualized form of organization called extitutions [21]. Extitutions strive for metastability [4], by riding the line between being stable and unstable. In their drive to persist, extitutions steer toward metastability, a sense of stable-enough, in order to balance regularity with variety, see-sawing between their capacities of being and becoming. Stability is a death-target; only metastability aligns with the conditions of continued becoming. Metastability is the condition of a system holding more potential than its present form expresses, poised among unresolved tensions so that a small event can set off its transformation. Unlike stable equilibrium, which has nothing left to become, a metastable system is always ready to individuate further. As a medium of epistemic exchange between bounded (closed minds) and unbounded intelligence (open minds), extitutions may be the optimal form to actualize open-ended intelligence. They preserve variety by staying loose, forkable, and porous. They erect light scaffolds in order to hold just enough coherence to persist in their process. Institutions are goal-oriented intelligences, while extitutions thrive on open-ended intelligence, producing knowledge that is coherent-enough to be useful without overly enclosing its process of individuation. Their position can be seen as precarious in the sense that if they step too far toward coherence, they'll climb into institutional self-enclosure and if they tip too far toward variety, they can fall over the edge into chaos, both ends resulting in a termination of the individuation process.
+
+![organization models as thinking systems](../99-meta/assets/immanent-intelligence/organization-models-as-thinking-systems.jpg)
+
+There's a saying in open-source software that "given enough eyeballs, all bugs are shallow" [22]. This works because a large, diverse pool of contributors (minds) matches the variety of potential bugs (problems). Ecosystem biodiversity buffers against shocks like disease or climate swings because some species or genotypes will tolerate what others can't. Institutions are stable and view variety as unnecessary, until it isn't. Substrates are unstable but the most epistemically fertile of organizational forms, a production house of blind variety. Extitutions, with their metastable telos, hold the balance of just enough coherence and openness to represent a local optimum of generalized epistemic fitness. The adaptive immune system doesn't anticipate specific pathogens, but generates trillions of receptor shapes in advance, converging on whichever ones fit, and keeping the result as memory. In Deleuze and Guattari’s terms [18], institutions practice a royal science, reproducing forms already established, while substrates and extitutions keep open the space of a minor science that follows problems wherever they lead.
+
+## V. On the Genesis of Intelligence: Ingression and Egression
+
+> "The virtual is opposed not to the real but to the actual."
+>
+> — Deleuze, _Difference and Repetition_ [23]
+
+> "The universe (which others call the Library) is composed of an indefinite, perhaps infinite number of hexagonal galleries."
+>
+> — Jorge Luis Borges, "The Library of Babel," trans. Andrew Hurley [24]
+
+The account so far has treated knowledge as produced at every encounter, but the harder question is left open: produced _from_ what? Where did knowledge emerge from originally, and from what substrate of information did it begin to scale into ecologies of ideas? For that we descend from semiotics into metaphysics. What effects does thinking have on the thinking system? There has been a long debate within philosophy over whether reality is transcendent or immanent. Transcendence describes a reality that comes to be from the outside, from beyond itself. Immanence holds that reality is held within itself, that there can be no outside. Reality doesn't come from an outside, and it isn't contained within us; we are immanent within it. Possibility space is accessible to every individual form, beneath and within it, in its pre-individual ground, regardless of its own position or memory.
+
+For Spinoza there is one substance [15], and all things are its modes, expressions of a single shared reality rather than creations generated from beyond it. He proposes three kinds of knowledge [15], and the ascent between them runs from effects taken passively, to causes grasped generally, to essences grasped both immanently and singularly, reflecting the immanent intelligence model in miniature. The first kind, _imaginatio_, comes from signs and the senses, and it's inadequate knowledge, fragmentary and passive, the only source of falsity. The second, _ratio_, works through common notions, the properties genuinely shared among things; it's adequate and necessarily true, and mathematics and physics live here. The third, _scientia intuitiva_, is the singular essence of a thing grasped directly through its immanent ground, the universal and the particular held at once. The third kind is best understood as a direction rather than a destination. Even in a static world we couldn't know all the causes of all things, and the world isn't static. What matters is the orientation, knowing a thing through the ground from which it follows rather than by categorizing it under a type above it.
+
+Deleuze inherits Spinoza's frame and radicalizes it into the _plane of immanence_ [25]. The plane isn't a storehouse of already-completed forms but a reservoir of the virtual, real potential not yet actualized into determinate things. Applied to knowledge, the plane is charged with the capacity to actualize knowledge instead of holding pre-built knowledge. A mind draws on that capacity and cultivates something determinate from it, never exhausting the reservoir, and the epistemic exchange among heterogeneous minds feeds back into the plane, so the field thickens as it's worked. Deleuze borrowed _the virtual_ [26] from Henri Bergson, who insisted that time is creative, that each moment of duration produces something that wasn't contained in the one before. Bergson also diagnosed the habit that makes this effect difficult to see. Once something new exists, we project it backward and say it was possible all along, as if it had been waiting on a shelf for its turn, when the possibility was only ever a shadow cast by the real after the fact [27]. This is why Deleuze pays special attention to disambiguating the virtual from the possible. The possible is a finished image waiting to be realized, and resembles what it becomes. The virtual resembles nothing it produces. It’s an open field of differences and tendencies, fully real without yet being actual, and actualizing it is the production of novel forms. A single virtual tendency can be taken up by countless minds and actualized in as many different ways.
+
+That shelf is close to what Michael Levin proposes in his work on _Ingressing Minds_ [28], which is quite radical for biology and the sciences at large, since he argues that genetics alone is insufficient to describe agentic autonomy. In it, he argues for a Platonic, non-physical space of patterns, with physical objects acting as pointers that ingress these forms into the physical world. Knowledge, on this reading, is discovered rather than created, drawn from a latent space that sits apart from the observable universe. He places low-agency patterns like triangles, prime numbers, and pi in that space as pre-existing, eternal, and unchanging forms that minds have only ever discovered through embodiment and reason, and then extends the same status upward to high-agency patterns, to kinds of minds. The virtual is in stark contrast to the Platonic library. Where the library holds completed forms that are ingressed, the virtual holds tensions and tendencies that are resolved, difference that each actualization expresses in its own way. An ingressed form arrives looking like its template, the way a stamp leaves its image in wax. An actualized tendency shares no resemblance to its source, because the form individuates in the encounter that resolves it. Where the library stays the same no matter how many times it’s visited, the virtual is changed in every encounter.
+
+The two views share much in common and seem to predict the same physical world. Both define a broader space of possibility underneath what's observed in actual reality, latent space for Levin and the plane of immanence for Deleuze and company, with non-physical mapping onto virtual and physical onto actual. Levin's own experiments show how closely they run. When he cuts the head off a planarian flatworm, the control worm grows its head back as expected. When he perturbs the worm's bioelectricity, it grows two heads, or even a head shaped like that of a different species [28]. Where does the worm get the information to grow another species' head? Levin posits a Platonic latent space of pre-existing patterns outside reality. Immanence says the worm draws from the shared memory of the plane. Both predict the same actualization, and in both the information doesn't belong to the worm.
+
+The debate is about the mechanism of return, whether there is feedback between what occurs in the actual and the non-actual space beneath it. Levin argues for a unidirectional arrow of causality, from a non-physical latent space into the physical world, through ingression. Immanence holds that there must be co-individuation within the collision of the virtual and the actual, so the arrow goes both ways. Spinoza defined a body by its capacity to affect and be affected, and whatever acts is also acted upon. If ingression names what comes in, _egression_ would name what goes out, and egression isn't mentioned once in the paper. The question would be whether anything egresses back into the space the patterns come from.
+
+![ingression v immanence](../99-meta/assets/immanent-intelligence/ingression-v-immanence.jpg)
+
+The word _ingression_ comes from Alfred North Whitehead [29], where it names one moment inside a larger process he called _concrescence_, from the Latin for “growing together.” For Whitehead the final real things are actual occasions, momentary events of becoming, and concrescence is how each one becomes. An occasion begins by taking in, or _prehending_, the world: the occasions that came before it, and eternal objects, pure potentials like a particular shade of blue. The eternal objects ingress into the occasion and give it definiteness, letting it be this shade and no other. The occasion’s many feelings then grow together into a single, determinate unity, which Whitehead calls its _satisfaction_. Having completed itself, the occasion perishes, but it doesn’t vanish. It passes into what Whitehead calls _objective immortality_, becoming a datum that every later occasion must take in. “The many become one,” he wrote, “and are increased by one.” To hold all this together, Whitehead introduces a God unlike the one of traditional theism. Whitehead's God doesn’t create the world from nothing or govern it by command. It’s one actual entity among others, “not an exception to all metaphysical principles,” as Whitehead put it, but “their chief exemplification.” It has two sides. Its _primordial nature_ holds and orders the eternal objects, offering each new occasion a lure toward what it might become. Its _consequent nature_ receives everything that happens in the world and keeps it, growing as the world grows, which is why Whitehead could call God “the great companion—the fellow-sufferer who understands.” What grows is the actual world and God’s experience of it. The eternal objects stay as they are, eternal and unchanging, while God’s consequent nature receives everything that happens and passes it back into the world as relevance for what comes next. Whitehead shows that ingression and a return can live in the same system, though the return runs through God and never reaches the potentials themselves. The more Platonic version, where fully formed kinds of minds wait in a space that receives nothing back, is one reading of ingression, and it departs from its source by dropping the return altogether.
+
+Brian Massumi [30], a close reader of both Whitehead and Deleuze, helps name what’s at stake in the difference between potential and possibility. A possibility is a variation on what a thing already is, an item pulled from a shelf. Potential is unscripted and only becomes determinate in the event that expresses it. Read this way, Whitehead’s eternal objects are less a library of forms than qualities of potential that take part in events and enter new relations each time they do. Immanence goes one step further, letting the potentials themselves be changed by what they become. It asks the plane itself to do what Whitehead asked of God. Telecommunications offers a vocabulary for the difference in directionality of affect of the virtual on the actual, and vice versa. A simplex channel runs one way, like a radio broadcast. A half-duplex channel runs both ways but in turns, like a walkie-talkie, where each side waits for the other to finish (_over_). A full-duplex channel runs both ways at once, like a telephone call. Ingression is simplex, with patterns arriving and nothing returning. Whitehead's is half-duplex, since each occasion takes in the world, completes itself, and only then becomes material for the occasions that follow. Immanence is full-duplex, the virtual and the actual determining each other amid encounter. Even full duplex falls short in one respect, since on the immanent account minds are continuously producing new channels of exchange, paths of epistemic encounter individuating within the exchange itself.
+
+![telecom vernacular](../99-meta/assets/immanent-intelligence/telecom-vernacular.jpg)
+
+One apparent problem for immanence is stability. How could pi change based on interactions in the material world rather than holding as a universal constant? The immanent answer is that immanence doesn't forbid stability. Pi can _tend_ toward pi in _apparent_ eternity while still arising from virtuality before actualization, in relation with the other elements of the plane. A stable truth can be a consistent tendency of the plane itself rather than an object in a realm above it; Spinoza already showed that necessity needs no separate Platonic heaven. At the low-agency floor, the difference between an eternal object and an immanent invariant may be nearly indecipherable, with little reward if it were deciphered. Everything hangs on what happens when the mathematical case gets carried up the spectrum until minds are as pre-existing as prime numbers. A triangle doesn't appear to accept feedback, to change when the world changes, at least not from our narrow perception of time. Does a mind? If kinds of minds are patterns in the same space as triangles, they'd have to be as fixed and eternal, but a mind that remains unchanged after an encounter is barely recognizable as a mind. So either minds aren't really in that space, or the space is stranger than the mathematics that motivated it.
+
+Levin sees the pressure himself. In his conclusion he asks the obvious question: if our world is impacted by these patterns, where do the patterns themselves come from? On his own terms the honest answer is that they have no origin. They're uncreated, on loan from mathematical Platonism, and asking for their genesis is treated as a category mistake, like asking what year the number seven was manufactured. A space that supplies possibility and is never changed by its actualization has cut the feedback between spaces, and with it any history of its genesis. Here immanent co-determinism may hold the answer that a Platonic framework structurally can't provide. In an immanent ontology there is one space with the virtual and the actual in a feedback loop, co-determining each other at every encounter. What individuates from the plane returns to it and thickens it, so the field the next mind draws from isn't the field the last mind drew from, and a plane that receives feedback from what it actualizes is a plane whose contents can have a genesis. Whether the patterns are found or made remains an open question, but only immanence would say that thinking affects the world it thinks from.
+
+I'm surprised to say that immanence feels like Occam's razor here. It explains the conditions observed in reality without the need to imagine a space or agentic entity beyond reality itself, grasping the whole system as one of codetermination, an upward spiral between virtual possibility and actual reality, rather than two worlds with one outside the other. To be fair, it may be beyond our epistemic toolkit to test either theory empirically, though I have no doubt both will keep trying. Return to the worm. In immanence the information is spread across a vast field of possibility because no individual holds it. The plane isn't within the individual worm; the worm is within the plane. Individuals are expressions of the plane, metastable eddies in its flow, and information and memory, the patterns, aren't contained within any one of them but flow freely throughout it. There's no need for a Platonic space to describe this action. Nature need not be transcendent, existing outside of reality. It seems fine to say Nature is within us, but more accurate to say that we are within Nature, capable of accessing any information in the system that our mind can interpret and put to use.
+
+## VI. Epistemic Fitness and The Failure Modes of Knowing
+
+> "A mistake in speed, rhythm, or harmony would be catastrophic because it would bring back the forces of chaos, destroying both the creator and creation."
+>
+> — Deleuze and Guattari, _A Thousand Plateaus_ [18]
+
+> "Doubt is our product, since it is the best means of competing with the 'body of fact' that exists in the mind of the general public."
+>
+> — Brown & Williamson, "Smoking and Health Proposal," 1969 [31]
+
+The failures of knowing fall along the same axis as the three forms, with institutional convergence at one end, substratic variety at the other, and the extitutional plateau of metastability between them. An epistemic system fails when it falls off that plateau. Climb too far toward coherence and it hardens into institutional self-enclosure, its perspective narrowing until nothing novel can form within its mind. Tip too far toward variety and it dissolves into substratic chaos, scatter-brained, producing plenty that nothing can hold or give purpose. Neither pole is a failure in itself; institutions keep what works and substrates generate what's strange, and a healthy system draws on both. The failure is a whole system collapsing into one point on the axis instead of traversing the gradient _in situ_.
+
+The two ends of the gradient don't express themselves symmetrically. Variety failures reveal themselves as observable chaos and tend to get corrected quickly, because our conditioning for persistence recoils from them. Convergence failures can feel like health from the inside, like consensus, focus, and order, seeming to reduce the cognition needed to understand an environment and so enabling quick, sharp decisions. It _feels_ like we're being efficient, but there's great danger in abstracting away the complexity of variety. Convergence is the more dangerous of the two because it doesn't feel wrong, which makes it harder to reject and adapt to. A healthy epistemic system rejects the modes of individuation that would destroy its own capacity to individuate further, and it rejects them by immanent selection rather than by appeal to any external standard. The warrant comes from the system's conatus, its drive for continuous becoming.
+
+Falling off the plateau isn't the only way to fail. James Surowiecki named the conditions under which a crowd of minds knows more than its individual members [32]: diversity, independence, decentralization, and a way of aggregating judgments into a whole. Read through immanence, these become four conditions of epistemic health, namely variety, coherence, independence in how a system selects, and circulation that lets knowledge move and return to its ground. Each failure is the loss of a condition. And because minds are made of minds, each can bend a single person as readily as a community, a scene, or a platform.
+
+_Over-convergence_ is the loss of variety. Convergence itself is not the illness; it's necessary to draw conclusions, coherent and warranted bits of knowledge made available for epistemic encounter. The failure is convergence that comes too early, before a space has been thoroughly explored. It's a map prematurely drawn, limiting the imaginal exploration of an open territory, a dynamic interpretant mistaken for the final one. Irving Janis found its collective form in groupthink, where a cohesive group's striving for unanimity overrides its motivation to appraise alternatives, as when Kennedy's advisors swallowed their doubts before the Bay of Pigs rather than break the room's consensus [33]. In a single mind it's the need for closure, seizing on an early answer and freezing there [34]. Carried through a whole system, it becomes monoculture, which is unwarranted because it collapses the diversity a system needs to keep producing novelty. A scenius defends against this. As an informal, pluralistic epistemic system without a head, it protects its variety and staves off consensus long enough for new knowledge to individuate, for novelty and genius to emerge.
+
+_Over-variety_ is the loss of coherence, what happens when a system goes wholly substratic, variety with no scaffold to cohere it. It is only ground, fertile as it is, with little means of forming meaningful significations that can circulate. In an individual mind this looks like confabulation, a fluent account with nothing beneath it, which from the inside feels identical to insight. In the collective it's rumor and conspiracy, sensemaking under ambiguity that yields coherent-seeming stories with no warrant. Harry Frankfurt's bullshit [35], speech indifferent to truth, is the variety failure of any system rewarded for output over accuracy. Language models show its machine form as _ungrounded signification_, where the mind has no stake in what it shares. No single mind can tell insight from confabulation within itself, which is why the checking has to happen in circulation among many, the final interpretant.
+
+_Enclosure_ is the loss of independence. The exchange keeps running, but an interest upstream decides what gets seen, ranked, and counted, so minds interpret within a license and produce variations instead of novelty. Hannah Arendt [36] saw that propaganda's deepest aim is less a convinced believer than a person for whom fact and fiction can no longer be told apart. Capture can drive toward convergence, as a single official line does, or weaponize variety, as the tobacco industry did when it declared "doubt is our product" [31] and flooded the field until no consensus could form. It's also how extitutions most often die. The porousness that keeps them adaptive lets a stable interest settle into their scaffold, until the loose form hardens into an institution that still speaks the language of openness.
+
+_Circulation failures_ are the loss of exchange. Ossification is convergence in the return, knowledge sedimenting into dogma too hard to be re-cultivated, re-membered. Enclosure narrows what can circulate, whereas monoculture narrows what can be thought. Knowledge that’s hoarded never returns to the commons, so the field the next mind draws from fails to thicken with new substance. This is an epistemic harm with political stakes, because warrant is produced by knowledge moving through a critical community on its way toward the final interpretant, and withholding starves that movement. The distinction that matters is timing. Holding knowledge in a container while it’s still individuating is a healthy way of cultivating it toward warrant, whereas enclosing knowledge that’s already warranted limits the rest of the system’s ability to make sense and keep individuating. Intellectual property is enclosure raised to a principle, the scarcity psychosis of a system that sees a commons as unclaimed inventory capable of filling a lack. A mind that encloses knowledge to secure a livelihood is acting rationally inside a sick system, and the sickness is the demand that relational, immanent knowledge be cut into ownable parcels as a precondition of circulation.
+
+![axis of epistemic fitness](../99-meta/assets/immanent-intelligence/axis-of-epistemic-fitness.jpg)
+
+Large language models make these stakes concrete. Training one cuts the living commons of writing, art, conversation, and code into tokens and parameters, flattening a culture’s duration into a space that can be owned and sold back to its authors as a metered service. Bergson would call this spatialization [37], which isn’t a sickness in itself, since writing and archives are how culture outlives its own forgetting. The failure comes when the archive is mistaken for the memory and then enclosed, so the minds it was drawn from can no longer cultivate it. Yet the sediment isn’t inert. A generated sentence may mean nothing to the system that produced it and still change the course of a living inquiry, and brought back into encounter, the spatialized archive re-enters duration through use. Whatever we decide about the interpretants of machines, a tool doesn’t need to contain a thinker to alter how thinking moves, which is why who holds the tool matters as much as what the tool knows.
+
+Epistemic fitness, then, is more than the ability to keep producing knowledge. It's the ability to produce meaning and novel epistemic utility, and to persist in that capacity continuously. That meaning should circulate back into the plane of immanence, distributed across all minds so each can pursue intelligence autonomously with the richest substance available to it. A thinking system needs enough convergence to cohere, enough variety to keep producing, and enough independence in its selection that no stable interest decides in advance what counts. Institutions and substrates both belong in that system, one holding coherence with its stability and one generating variety through its instability. Extitutions are the form that holds their potential overages, over-convergence and over-variety, in tension. In this way, extitutional modes of organizing can supply a necessary defensive capability for epistemic systems, helping to ensure that a system does not tend toward over-convergence or over-variety. They are stable enough to persist and unstable enough to receive new ground beneath them.
+
+## VII. The Spiral of Immanent Intelligence
+
+> "These are not three successive moments in an evolution. They are three aspects of a single thing, the Refrain."
+>
+> — Deleuze and Guattari, _A Thousand Plateaus_ [18]
+
+> "I live my life in widening circles / that reach out across the world. / I may not complete this last one / but I will give myself to it."
+>
+> — Rainer Maria Rilke, _Book of Hours_, trans. Anita Barrows and Joanna Macy [38]
+
+From here the shape of a model of immanent intelligence comes into view. It's tempting to draw it as a circle, but a circle would be a short-sighted geometry. A circle loops back to where it began, and immanent intelligence is always creating new sites of interpretation. A mind does not enter the same river twice. The field a mind draws from is affected, so the path of intelligence through time traces a spiral, each turn passing with variable proximity to the last without ever exactly repeating it.
+
+The unit of the model is the encounter. Minds are produced within encounters of difference, when a disparity is met and a resolution desired. Simondon described individuation this way, as the resolution of a tension within a metastable system, and an epistemic encounter is that resolution happening in meaning, knowledge, and intelligence. Every encounter, at any scale, performs four movements at once.
+
+![spiral of immanent intelligence](../99-meta/assets/immanent-intelligence/spiral-of-immanent-intelligence.jpg)
+
+_Ingression_ is the draw _from_ the plane of immanent intelligence, the encounter taking up the virtual charge of the field and the meanings already sedimented there, the immediate interpretants a sign makes available before a mind takes it up.
+
+_Individuation_ is the process that leads to the forming of something determinate, the dynamic interpretant produced in this mind on this occasion, knowledge in its process of becoming. The process is material, agricultural, alchemical, a mind working a medium over time in service of its conatus, its drive to persist in thinking.
+
+_Circulation_ is the mode in which knowledge is exchanged between minds. What's formed moves among other minds, where it's met, tested, and reinterpreted, carried toward the multiplicity of the final interpretant that no single mind could reach alone.
+
+_Egression_ is the mechanism of return. Knowledge sedimenting back _into_ the plane and altering it materially for the next pass of the immanent spiral, the next ingression.
+
+The four moves run full-duplex, as aspects of one event, not necessarily stages in a sequence. The immanent intelligence model holds ingression and adds egression within the same encounter.
+
+Each encounter also produces three things at once. It produces knowledge, an interpretant worked toward meaning. It produces a knower, since every encounter forms or alters a site of interpretation, whether a new relational mind, a shifted scene, or a changed self. And it co-individuates a field with other minds, the plane made different by what egresses into it. Knowledge, knower, and world individuate together. None comes first and none can be held apart from the others.
+
+Over time epistemic encounters trace the spiral. Its pitch is novelty, diverse expressions of the plane, how far each turn departs from the one before. Its direction is the final interpretant and Spinoza's third kind of knowledge, the horizon inquiry leans toward without arriving, knowing a thing through the ground it follows from. What keeps it turning is conatus, the drive of a mind to keep producing the conditions of free thinking, which asks nothing of the spiral except that each turn leave the next one possible.
+
+The spirals nest. Cells spiral within bodies, persons within scenes, scenes within societies, and at the limit, if the universe is itself a mind, the outermost spiral holds all the others. Because each scale has its own conatus, spirals affect and bend one another. The three organizational forms are ways of shaping a spiral's pitch. Institutions tighten it toward a closed circle, keeping what works by repeating it. Substrates loosen it toward scatter, generating what's strange at the cost of coherence. Extitutions hold the metastable pitch between, see-sawing between being and becoming, each swing tightening just enough to hold a form and loosening enough to keep it individuating. The adaptive immune system is a whole spiral in miniature. It generates trillions of receptor shapes in advance, a substratic abundance; it converges on the ones that fit and holds them as memory, in the manner of an institution; and it maintains tolerance, which keeps the whole in a process of becoming.
+
+The failure modes of knowing are deformations of this immanent geometry. Over-convergence flattens the spiral into a circle, the same turn run again and again until the path wears into a rut, which is what monoculture and ossification look like from above. Over-variety unwinds it into turns that carry nothing forward from the last, confabulation and noise. Capture bends its axis toward an attractor outside its own conatus, so the spiral drains toward a single point the way water spins toward a drain, still turning but going nowhere of its own. Circulation failures lift the spiral off the plane. Enclosure within a turn is healthy, knowledge held while it's still becoming. Enclosure that cuts the return starves the field every other spiral draws from.
+
+The questions we opened with can now be answered from within the model. Knowledge comes from the plane, drawn up through encounter, and returns to it, affecting the plane for the next mind. The knower is whatever site an encounter forms, a cell, a person, a ship, a scene, a market, and minds are made of minds all the way up. Intelligence has no goal beyond its own continuation, a spiral that keeps turning and keeps each turn open to becoming a next one. And a system is healthy when its spirals hold their pitch, varied enough to keep producing, coherent enough to be interpreted, free enough to turn on their own axis, and open enough that what they make can shape the ground beneath them. Intelligence belongs to no single mind; it is the spiraling itself, immanent everywhere and always cultivating the individuation of knowledge.
+
+## Epilogue
+
+> "Nature is not a place to visit, it is home—"
+>
+> — Gary Snyder, _The Practice of the Wild_ [39]
+
+Staring into the forest, listening to its various minds exchanging knowledge with each other across radically diverse perceptions of time, I can see that _intelligence is everywhere_. The rain falls wherever it may, crawling along the contours of rocks, testing every seam for the path of least resistance. The rock answers on its own schedule, shedding a few grains of itself every century. Lichen gets there first, a fungus and an alga that long ago agreed to share a body, etching the stone with acids and catching the dust the wind brings. Moss settles into that grit and erects itself into micro forests, sponges that hold the rain and shelter tardigrades. Over centuries, the dampness turns into soil, its bacteria breathing out geosmin, the earthy note in the smell of rain, which draws in springtails that carry the bacteria’s spores to new ground. Fireweed blows in on silk parachutes and paints the open ground magenta. Salmonberry follows, feeding thrushes and bears that scatter its seeds across the slope. Red alder arrives fast and generous, housing bacteria in its roots that pull nitrogen from the air, enriching ground it won’t live long enough to inherit. Douglas fir rises beside it in the open sun, a pioneer that thinks in centuries, wrapping itself in bark thick enough to survive fire.
+
+Beneath the firs, in a shade their own seedlings can’t bear, western hemlock and redcedar begin, the hemlocks often rooting along fallen logs as if the dead had laid down a road for them. Black-tailed deer browse the young cedars hard, wolves keep the deer moving, and the saplings that slip through that negotiation become the next canopy. Underground, fungal threads trade minerals and water for the trees’ sugar in a market no one designed. Bears drag salmon up from the rivers and leave the carcasses among the roots, so that nitrogen born in the ocean ends up in the wood. Bacteria riding the leaves drift skyward and help the rain freeze and fall back onto the forest that raised it. None of them drew the plans. Then a winter storm topples a five-hundred-year-old fir, opening a window of light where waiting hemlocks surge upward, or fire runs through and the surviving old firs reseed the clearing, where fireweed is already rising. The fallen trunk becomes a nursery for centuries more, and lichen and moss begin their work again on the bark, considering, as they always have, what the next forest will need. The forest is an immanent, free-thinking system.
+
+---
+
+### References
+
+[1] Gilbert Simondon, "The Position of the Problem of Ontogenesis," trans. Gregory Flanders, _Parrhesia_ 7 (2009): 4–16, at 7. The opening of _L’individuation psychique et collective_, the companion volume to [4].
+
+[2] Gilles Deleuze, "Immanence: A Life," in _Pure Immanence: Essays on A Life_, trans. Anne Boyman (New York: Zone Books, 2001), 27.
+
+[3] David (Weaver) Weinbaum and Viktoras Veitas, "Open Ended Intelligence: The Individuation of Intelligent Agents," _Journal of Experimental & Theoretical Artificial Intelligence_ 29, no. 2 (2017): 371–396, https://doi.org/10.1080/0952813X.2016.1185748.
+
+[4] Gilbert Simondon, _Individuation in Light of Notions of Form and Information_, trans. Taylor Adkins (Minneapolis: University of Minnesota Press, 2020).
+
+[5] Charles Darwin, _On the Various Contrivances by which British and Foreign Orchids are Fertilised by Insects_ (London: John Murray, 1862).
+
+[6] Walter Rothschild and Karl Jordan, "A Revision of the Lepidopterous Family Sphingidae," _Novitates Zoologicae_ 9, supplement (1903): 32. The description of _Xanthopan morganii praedicta_.
+
+[7] Claude E. Shannon, "A Mathematical Theory of Communication," _Bell System Technical Journal_ 27, no. 3 (1948): 379–423; no. 4 (1948): 623–656.
+
+[8] Gregory Bateson, _Steps to an Ecology of Mind_ (San Francisco: Chandler, 1972). "Form, Substance, and Difference," the Nineteenth Annual Korzybski Memorial Lecture, delivered January 9, 1970.
+
+[9] Charles S. Peirce, _Semiotic and Significs: The Correspondence between Charles S. Peirce and Victoria Lady Welby_, ed. Charles S. Hardwick (Bloomington: Indiana University Press, 1977).
+
+[10] Walt Whitman, "Song of Myself," §51, in _Leaves of Grass_ (Philadelphia: David McKay, 1891–92).
+
+[11] Brian Eno, _A Year with Swollen Appendices_ (London: Faber and Faber, 1996).
+
+[12] Austin Kleon, _Show Your Work! 10 Ways to Share Your Creativity and Get Discovered_ (New York: Workman, 2014).
+
+[13] N. Katherine Hayles, _Unthought: The Power of the Cognitive Nonconscious_ (Chicago: University of Chicago Press, 2017).
+
+[14] Edwin Hutchins, _Cognition in the Wild_ (Cambridge, MA: MIT Press, 1995).
+
+[15] Benedict de Spinoza, _Ethics_, in _The Collected Works of Spinoza_, vol. 1, ed. and trans. Edwin Curley (Princeton, NJ: Princeton University Press, 1985). One substance, pt. 1, prop. 14; three kinds of knowledge, pt. 2, prop. 40, schol. 2; conatus, pt. 3, props. 6–7.
+
+[16] Samuel Beckett, _The Unnamable_, trans. the author (New York: Grove Press, 1958). The closing line; first published as _L’Innommable_ (Paris: Minuit, 1953).
+
+[17] Terrence W. Deacon, _Incomplete Nature: How Mind Emerged from Matter_ (New York: W. W. Norton, 2011).
+
+[18] Gilles Deleuze and Félix Guattari, _A Thousand Plateaus: Capitalism and Schizophrenia_, trans. Brian Massumi (Minneapolis: University of Minnesota Press, 1987). Royal and minor science, plateau 12, "1227: Treatise on Nomadology." The three epigraphs come from plateau 11, "1837: Of the Refrain": §IV, 313; §VI, 311; §VII, on the three aspects of the refrain (page to confirm).
+
+[19] W. Ross Ashby, _An Introduction to Cybernetics_ (London: Chapman & Hall, 1956), chap. 11. "Only variety can destroy variety," §11/7, 207.
+
+[20] Exeunt and Ven Gist, "Friends of the Outside: Control, Substrates, and the Afterlife of DAOs" (Open Machine, July 28, 2023), https://media.theopenmachine.net/media/friends-of-the-outside.
+
+[21] Primavera De Filippi and Marc Santolini, "Extitutional Theory: Modelling Structured Social Dynamics beyond Institutions," _Ephemera: Theory & Politics in Organization_ 23, no. 2 (2023), https://ephemerajournal.org/contribution/extitutional-theory-modelling-structured-social-dynamics-beyond-institutions-0.
+
+[22] Eric S. Raymond, _The Cathedral and the Bazaar: Musings on Linux and Open Source by an Accidental Revolutionary_ (Sebastopol, CA: O'Reilly, 1999). Raymond names the principle Linus's Law.
+
+[23] Gilles Deleuze, _Difference and Repetition_, trans. Paul Patton (New York: Columbia University Press, 1994), 208.
+
+[24] Jorge Luis Borges, "The Library of Babel," in _Collected Fictions_, trans. Andrew Hurley (New York: Viking, 1998).
+
+[25] Gilles Deleuze and Félix Guattari, _What Is Philosophy?_, trans. Hugh Tomlinson and Graham Burchell (New York: Columbia University Press, 1994), chap. 2, "The Plane of Immanence."
+
+[26] Gilles Deleuze, _Bergsonism_, trans. Hugh Tomlinson and Barbara Habberjam (New York: Zone Books, 1988).
+
+[27] Henri Bergson, "The Possible and the Real," in _The Creative Mind_, trans. Mabelle L. Andison (New York: Philosophical Library, 1946).
+
+[28] Michael Levin, "Ingressing Minds: Causal, Non-Physical Patterns In-Form Natural, Synthetic, and Hybrid Embodiments," _Philosophies_ 11, no. 5 (2026): 161, https://doi.org/10.3390/philosophies11050161. The planarian head experiments are recounted there.
+
+[29] Alfred North Whitehead, _Process and Reality: An Essay in Cosmology_, corrected ed., ed. David Ray Griffin and Donald W. Sherburne (New York: Free Press, 1978). "The many become one, and are increased by one," 21; "not an exception to all metaphysical principles … their chief exemplification," 343; "the great companion—the fellow-sufferer who understands," 351.
+
+[30] Brian Massumi, _Parables for the Virtual: Movement, Affect, Sensation_ (Durham, NC: Duke University Press, 2002). On Whitehead specifically, see also _Semblance and Event: Activist Philosophy and the Occurrent Arts_ (Cambridge, MA: MIT Press, 2011).
+
+[31] Brown & Williamson, "Smoking and Health Proposal," 1969, quoted in Naomi Oreskes and Erik M. Conway, _Merchants of Doubt_ (New York: Bloomsbury, 2010).
+
+[32] James Surowiecki, _The Wisdom of Crowds_ (New York: Doubleday, 2004).
+
+[33] Irving L. Janis, _Victims of Groupthink_ (Boston: Houghton Mifflin, 1972).
+
+[34] Arie W. Kruglanski and Donna M. Webster, "Motivated Closing of the Mind: 'Seizing' and 'Freezing,'" _Psychological Review_ 103, no. 2 (1996): 263–283.
+
+[35] Harry G. Frankfurt, _On Bullshit_ (Princeton, NJ: Princeton University Press, 2005).
+
+[36] Hannah Arendt, _The Origins of Totalitarianism_ (New York: Harcourt, Brace, 1951).
+
+[37] Henri Bergson, _Time and Free Will: An Essay on the Immediate Data of Consciousness_, trans. F. L. Pogson (London: George Allen, 1910).
+
+[38] Rainer Maria Rilke, _Rilke's Book of Hours: Love Poems to God_, trans. Anita Barrows and Joanna Macy (New York: Riverhead Books, 1996).
+
+[39] Gary Snyder, _The Practice of the Wild_ (San Francisco: North Point Press, 1990), 7.
+
+
+
+
+---
+
+Notes from Exeunt:
+
+
+
+[less sure about "split" comment above: the conversation is super present within our milieu and imo needs to be engaged head on. If it's not , it places this piece out of dialogue with the Levin, Whiteheadians, Deleuzians that are writing today. Essentially, if this piece is climaxing at its address of Levin, it might as well be written as a response to Segall, who has covered this topic to a ridiculous extent and is writing his most pointed work on it in the last month or two]
+
+https://davidbraunstein.substack.com/p/the-door-is-made-while-it-opens
+
+https://link.springer.com/article/10.1007/s12304-023-09550-x
+
+Segall on whitehead and levin (latter direct convo with Levin)
+https://footnotes2plato.substack.com/p/whitehead-on-the-ingression-of-novel
+https://footnotes2plato.substack.com/p/dialogue-with-michael-levin
+
+Segall, 7 days ago (!)
+https://footnotes2plato.substack.com/p/the-work-of-becoming-otherwise
+
+"Prehension is akin to eating data, digesting it into oneself even as one is transformed by it."
+
+Levin directly engaging process philosophy
+https://pubmed.ncbi.nlm.nih.gov/39874620/
+https://pubmed.ncbi.nlm.nih.gov/41795389/
+https://thoughtforms.life/platonism-process-philosophy-and-more-tim-jackson-and-robert-prentner/
+
+---
+
+The tool need not contain a thinker to alter thinking.
+
+"Concepts are like multiple waves, rising and falling, but the plane of immanence is the single wave that rolls them up and unrolls them."
+
+"The plane envelops infinite movements that pass back and forth through it, but concepts are the infinite speeds of finite movements that, in each cqase, passs only through their own components."
+
+"the plane of immanence is not a concept that is or can be thought but rather the image of thought, the image thought gives itself of what it means to think, to make use of thought, to find one's bearings in thought."
+
